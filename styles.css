@@ -8,6 +8,7 @@ body {
     width: 300%;
     margin: 0;
     overflow: scroll;
+    position: absolute;
 }
 
 /* ---------- SKY ---------- */
@@ -32,6 +33,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    z-index: 1;
 }
 
 .bb1, .bb2, .bb3, .bb4,
@@ -39,6 +41,7 @@ body {
 .bb9, .bb10, .bb11, .bb12 {
     width: 5%;
     height: 97%;
+    border: 0;
 }
 
 /* --- BB1 and BB9 --- */
@@ -311,7 +314,310 @@ body {
 
 /* ---------- MIDDLE GROUND BUILDINGS ---------- */
 
+.middle-ground-buildings {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    z-index: 2;
+}
 
+.mb1, .mb2, .mb3, .mb4, .mb5, .mb6, .mb7, .mb8,
+.mb9, .mb10, .mb11, .mb12, .mb13, .mb14, .mb15, .mb16,
+.mb17, .mb18, .mb19, .mb20, .mb21, .mb22, .mb23, .mb24 {
+    width: 4.2%;
+    height: 97%;
+    border: 0;
+}
+
+/* --- MB1 and MB17 --- */
+
+.mb1, .mb17 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb1a, .mb17a {
+    height: 70%;
+    width: 100%;
+}
+
+.mb1b, .mb17b {
+    height: 1%;
+    width: 100%;
+}
+
+/* --- MB2 and MB18 --- */
+
+.mb2, .mb18 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb2a, .mb18a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb2b, .mb18b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB3 and MB19 --- */
+
+.mb3, .mb19 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb3a, .mb19a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb3b, .mb19b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB4 and MB20 --- */
+
+.mb4, .mb20 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb4a, .mb20a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb4b, .mb20b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB5 and MB21 --- */
+
+.mb5, .mb21 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb5a, .mb21a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb5b, .mb21b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB6 and MB22 --- */
+
+.mb6, .mb22 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb6a, .mb22a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb6b, .mb22b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB7 and MB23 --- */
+
+.mb7, .mb23 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb7a, .mb23a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb7b, .mb23b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB8 and MB24 --- */
+
+.mb8, .mb24 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb8a, .mb24a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb8b, .mb24b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB9 --- */
+
+.mb9 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb9a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb9b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB10 --- */
+
+.mb10 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb10a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb10b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB11 --- */
+
+.mb11 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb11a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb11b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB12 --- */
+
+.mb12 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb12a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb12b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB13 --- */
+
+.mb13 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb13a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb13b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB14 --- */
+
+.mb14 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb14a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb14b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB15 --- */
+
+.mb15 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb15a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb15b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- MB16 --- */
+
+.mb16 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mb16a {
+    height: 70%;
+    width: 80%;
+}
+
+.mb16b {
+    height: 1%;
+    width: 80%;
+}
 
 /* ---------- FOREGROUND BUILDINGS ---------- */
 
@@ -339,4 +645,15 @@ body {
 .others-1 {
     height: 100%;
     width: 100%;
+}
+
+/* ---------- ABSOLUTE POSITION ---------- */
+
+.sky,
+.city,
+.background-buildings,
+.middle-ground-buildings,
+.foreground-buildings,
+.foreground {
+    position: absolute;
 }
