@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+    border: solid black 1px;
+}
+
+body {
+    height: 100vh;
+    width: 300%;
+    margin: 0;
+    overflow: scroll;
+}
+
+/* ---------- SKY ---------- */
+
+.sky {
+    height: 100%;
+    width: 100%;
+}
+
+/* ---------- CITY ---------- */
+
+.city {
+    height: 97%;
+    width: 100%;
+}
+
+/* ---------- BACKGROUND BUILDINGS ---------- */
+
+.background-buildings {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.bb1, .bb2, .bb3, .bb4,
+.bb5, .bb6, .bb7, .bb8,
+.bb9, .bb10, .bb11, .bb12 {
+    width: 5%;
+    height: 97%;
+}
+
+/* --- BB1 and BB9 --- */
+
+.bb1, .bb9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bb1a, .bb9a {
+    height: 12%;
+    width: 5%;
+}
+
+.bb1b, .bb9b {
+    height: 1%;
+    width: 50%;
+}
+
+.bb1c, .bb9c {
+    height: 1%;
+    width: 50%;
+}
+
+.bb1d, .bb9d {
+    height: 1%;
+    width: 70%;
+}
+
+.bb1e, .bb9e {
+    height: 4%;
+    width: 70%;
+    /* - OTHERS-1 - */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* - OTHERS-1 - */
+}
+
+.bb1f, .bb9f {
+    height: 1%;
+    width: 80%;
+}
+
+.bb1g, .bb9g {
+    height: 75%;
+    width: 80%;
+    /* - WINDOWS-1 - */
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    gap: 2%;
+    padding: 3%;
+    /* - WINDOWS-1 - */
+}
+
+.bb1h, .bb9h {
+    height: 1%;
+    width: 100%;
+}
+
+.bb1i, .bb9i {
+    height: 4%;
+    width: 100%;
+    /* - OTHERS-1 - */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* - OTHERS-1 - */
+}
+
+/* --- BB2 and BB10 --- */
+
+.bb2, .bb10 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.bb2a, .bb10a {
+    height: 70%;
+    width: 80%;
+    /* - WINDOWS-1 - */
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    gap: 2%;
+    padding: 3%;
+    /* - WINDOWS-1 - */
+}
+
+.bb2b, .bb10b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- BB3 and BB11 --- */
+
+.bb3, .bb11 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.bb3a, .bb11a {
+    height: 60%;
+    width: 80%;
+    /* - WINDOWS-1 - */
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(28, 1fr);
+    gap: 2%;
+    padding: 3%;
+    /* - WINDOWS-1 - */
+}
+
+.bb3b, .bb11b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- BB4 and BB12 --- */
+
+.bb4, .bb12 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.bb4a, .bb12a {
+    height: 65%;
+    width: 80%;
+    /* - WINDOWS-1 - */
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    gap: 2%;
+    padding: 3%;
+    /* - WINDOWS-1 - */
+}
+
+.bb4b, .bb12b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- BB5 --- */
+
+.bb5 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.bb5a {
+    height: 75%;
+    width: 80%;
+    /* - WINDOWS-1 - */
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    gap: 2%;
+    padding: 3%;
+    /* - WINDOWS-1 - */
+}
+
+.bb5b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- BB6 --- */
+
+.bb6 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.bb6a {
+    height: 90%;
+    width: 80%;
+    /* - WINDOWS-1 - */
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(35, 1fr);
+    gap: 2%;
+    padding: 3%;
+    /* - WINDOWS-1 - */
+}
+
+.bb6b {
+    height: 1%;
+    width: 80%;
+}
+
+/* --- BB7 --- */
+
+.bb7 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.bb7a {
+    height: 60%;
+    width: 80%;
+    /* - WINDOWS-1 - */
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    gap: 2%;
+    padding: 3%;
+    /* - WINDOWS-1 - */
+}
+
+.bb7b {
+    height: 1%;
+    width: 80%;
+}
+
+.bb7c {
+    height: 2.5%;
+    width: 40%;
+    /* - OTHERS-1 - */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* - OTHERS-1 - */
+}
+
+.bb7d {
+    height: 1%;
+    width: 40%;
+}
+
+.bb7e {
+    height: 15%;
+    width: 5%;
+}
+
+/* --- BB8 --- */
+
+.bb8 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.bb8a {
+    height: 50%;
+    width: 80%;
+    /* - WINDOWS-1 - */
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    gap: 2%;
+    padding: 3%;
+    /* - WINDOWS-1 - */
+}
+
+.bb8b {
+    height: 1%;
+    width: 80%;
+}
+
+/* ---------- MIDDLE GROUND BUILDINGS ---------- */
+
+
+
+/* ---------- FOREGROUND BUILDINGS ---------- */
+
+
+
+/* ---------- FOREGROUND ---------- */
+
+
+
+/* ---------- WINDOWS ---------- */
+
+.windows-1 {
+    height: 100%;
+    width: 100%;
+}
+
+/* ---------- ANTENNAS ---------- */
+
+.antennas {
+
+}
+
+/* ---------- OTHERS ---------- */
+
+.others-1 {
+    height: 100%;
+    width: 100%;
+}
