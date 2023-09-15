@@ -5,7 +5,7 @@
 
 body {
     height: 100vh;
-    width: 300%;
+    width: 300vw;
     margin: 0;
     overflow: scroll;
     position: absolute;
@@ -33,15 +33,15 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    z-index: 1;
 }
 
 .bb1, .bb2, .bb3, .bb4,
 .bb5, .bb6, .bb7, .bb8,
 .bb9, .bb10, .bb11, .bb12 {
-    width: 5%;
-    height: 97%;
+    width: 4%;
+    height: 98%;
     border: 0;
+    z-index: 1;
 }
 
 /* --- BB1 and BB9 --- */
@@ -141,6 +141,11 @@ body {
     width: 80%;
 }
 
+.bb2c, .bb10c {
+    height: 1%;
+    width: 60%;
+}
+
 /* --- BB3 and BB11 --- */
 
 .bb3, .bb11 {
@@ -175,7 +180,7 @@ body {
 }
 
 .bb4a, .bb12a {
-    height: 65%;
+    height: 70%;
     width: 80%;
     /* - WINDOWS-1 - */
     display: grid;
@@ -200,7 +205,7 @@ body {
 }
 
 .bb5a {
-    height: 75%;
+    height: 80%;
     width: 80%;
     /* - WINDOWS-1 - */
     display: grid;
@@ -296,7 +301,7 @@ body {
 }
 
 .bb8a {
-    height: 50%;
+    height: 60%;
     width: 80%;
     /* - WINDOWS-1 - */
     display: grid;
@@ -320,15 +325,15 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    z-index: 2;
 }
 
 .mb1, .mb2, .mb3, .mb4, .mb5, .mb6, .mb7, .mb8,
 .mb9, .mb10, .mb11, .mb12, .mb13, .mb14, .mb15, .mb16,
 .mb17, .mb18, .mb19, .mb20, .mb21, .mb22, .mb23, .mb24 {
-    width: 4.2%;
+    width: 4%;
     height: 97%;
     border: 0;
+    z-index: 2;
 }
 
 /* --- MB1 and MB17 --- */
@@ -340,13 +345,30 @@ body {
 }
 
 .mb1a, .mb17a {
-    height: 70%;
-    width: 100%;
+    height: 60%;
+    width: 80%;
 }
 
 .mb1b, .mb17b {
     height: 1%;
-    width: 100%;
+    width: 80%;
+}
+
+.mb1c, .mb17c {
+    height: 1%;
+    width: 60%;
+}
+
+.mb1d, .mb17d {
+    height: 1%;
+    width: 60%;
+}
+
+.mb1e, .mb17e {
+    height: 4%;
+    width: 60%;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 100%, 0% 100%);
+    background-color: grey;
 }
 
 /* --- MB2 and MB18 --- */
@@ -358,13 +380,23 @@ body {
 }
 
 .mb2a, .mb18a {
-    height: 70%;
+    height: 50%;
     width: 80%;
 }
 
 .mb2b, .mb18b {
     height: 1%;
     width: 80%;
+}
+
+.mb2c, .mb18c {
+    height: 2%;
+    width: 60%;
+}
+
+.mb2d, .mb18d {
+    height: 1%;
+    width: 60%;
 }
 
 /* --- MB3 and MB19 --- */
@@ -376,7 +408,7 @@ body {
 }
 
 .mb3a, .mb19a {
-    height: 70%;
+    height: 60%;
     width: 80%;
 }
 
@@ -394,13 +426,30 @@ body {
 }
 
 .mb4a, .mb20a {
-    height: 70%;
+    height: 40%;
     width: 80%;
 }
 
 .mb4b, .mb20b {
     height: 1%;
     width: 80%;
+}
+
+.mb4c, .mb20c {
+    height: 1%;
+    width: 40%;
+}
+
+.mb4d, .mb20d {
+    height: 2%;
+    width: 40%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.mb4e, .mb20e {
+    height: 5%;
+    width: 5%;
 }
 
 /* --- MB5 and MB21 --- */
@@ -421,6 +470,21 @@ body {
     width: 80%;
 }
 
+.mb5c, .mb21c {
+    height: 1%;
+    width: 40%;
+}
+
+.mb5d, .mb21d {
+    height: 1%;
+    width: 40%;
+}
+
+.mb5e, .mb21e {
+    height: 10%;
+    width: 5%;
+}
+
 /* --- MB6 and MB22 --- */
 
 .mb6, .mb22 {
@@ -430,7 +494,7 @@ body {
 }
 
 .mb6a, .mb22a {
-    height: 70%;
+    height: 50%;
     width: 80%;
 }
 
@@ -448,7 +512,7 @@ body {
 }
 
 .mb7a, .mb23a {
-    height: 70%;
+    height: 60%;
     width: 80%;
 }
 
@@ -466,7 +530,7 @@ body {
 }
 
 .mb8a, .mb24a {
-    height: 70%;
+    height: 40%;
     width: 80%;
 }
 
@@ -484,7 +548,7 @@ body {
 }
 
 .mb9a {
-    height: 70%;
+    height: 60%;
     width: 80%;
 }
 
@@ -520,7 +584,7 @@ body {
 }
 
 .mb11a {
-    height: 70%;
+    height: 60%;
     width: 80%;
 }
 
@@ -556,7 +620,7 @@ body {
 }
 
 .mb13a {
-    height: 70%;
+    height: 40%;
     width: 80%;
 }
 
@@ -574,7 +638,7 @@ body {
 }
 
 .mb14a {
-    height: 70%;
+    height: 50%;
     width: 80%;
 }
 
@@ -610,7 +674,7 @@ body {
 }
 
 .mb16a {
-    height: 70%;
+    height: 50%;
     width: 80%;
 }
 
