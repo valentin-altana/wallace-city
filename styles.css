@@ -89,7 +89,7 @@ body {
 }
 
 .bb1g, .bb9g {
-    height: 75%;
+    height: 80%;
     width: 80%;
     /* - WINDOWS-1 - */
     display: grid;
@@ -146,6 +146,16 @@ body {
     width: 60%;
 }
 
+.bb2d, .bb10d {
+    height: 4%;
+    width: 40%;
+}
+
+.bb2e, .bb10e {
+    height: 1%;
+    width: 40%;
+}
+
 /* --- BB3 and BB11 --- */
 
 .bb3, .bb11 {
@@ -155,7 +165,7 @@ body {
 }
 
 .bb3a, .bb11a {
-    height: 60%;
+    height: 75%;
     width: 80%;
     /* - WINDOWS-1 - */
     display: grid;
@@ -180,7 +190,7 @@ body {
 }
 
 .bb4a, .bb12a {
-    height: 70%;
+    height: 65%;
     width: 80%;
     /* - WINDOWS-1 - */
     display: grid;
@@ -230,7 +240,7 @@ body {
 }
 
 .bb6a {
-    height: 90%;
+    height: 95%;
     width: 80%;
     /* - WINDOWS-1 - */
     display: grid;
@@ -288,7 +298,7 @@ body {
 }
 
 .bb7e {
-    height: 15%;
+    height: 10%;
     width: 5%;
 }
 
@@ -355,7 +365,7 @@ body {
 }
 
 .mb1c, .mb17c {
-    height: 1%;
+    height: 2%;
     width: 60%;
 }
 
@@ -365,9 +375,9 @@ body {
 }
 
 .mb1e, .mb17e {
-    height: 4%;
+    height: 2%;
     width: 60%;
-    clip-path: polygon(30% 0%, 70% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
     background-color: grey;
 }
 
@@ -503,6 +513,35 @@ body {
     width: 80%;
 }
 
+.mb6c, .mb22c {
+    height: 2%;
+    width: 60%;
+}
+
+.mb6d, .mb22d {
+    height: 1%;
+    width: 60%;
+}
+
+.mb6e, .mb22e {
+    height: 2%;
+    width: 60%;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    background-color: grey;
+}
+
+.mb6f, .mb22f {
+    height: 5%;
+    width: 30%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+
+.mb6g, .mb22g {
+    height: 10%;
+    width: 5%;
+}
+
 /* --- MB7 and MB23 --- */
 
 .mb7, .mb23 {
@@ -530,13 +569,70 @@ body {
 }
 
 .mb8a, .mb24a {
-    height: 40%;
-    width: 80%;
+    height: 5%;
+    width: 75%;
 }
 
 .mb8b, .mb24b {
     height: 1%;
     width: 80%;
+}
+
+.mb8c, .mb24c {
+    height: 5%;
+    width: 75%;
+}
+
+.mb8d, .mb24d {
+    height: 1%;
+    width: 80%;
+}
+
+.mb8e, .mb24e {
+    height: 5%;
+    width: 75%;
+}
+
+.mb8f, .mb24f {
+    height: 1%;
+    width: 80%;
+}
+
+.mb8g, .mb24g {
+    height: 5%;
+    width: 75%;
+}
+
+.mb8h, .mb24h {
+    height: 1%;
+    width: 80%;
+}
+
+.mb8i, .mb24i {
+    height: 5%;
+    width: 75%;
+}
+
+.mb8j, .mb24j {
+    height: 1%;
+    width: 80%;
+}
+
+.mb8k, .mb24k {
+    height: 2%;
+    width: 70%;
+}
+
+.mb8l, .mb24l {
+    height: 1%;
+    width: 70%;
+}
+
+.mb8m, .mb24m {
+    height: 2%;
+    width: 70%;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    background-color: grey;
 }
 
 /* --- MB9 --- */
@@ -602,7 +698,7 @@ body {
 }
 
 .mb12a {
-    height: 70%;
+    height: 80%;
     width: 80%;
 }
 
