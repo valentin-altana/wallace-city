@@ -11,21 +11,21 @@ body {
     position: absolute;
 }
 
-/* ---------- SKY ---------- */
+/* ----     SKY     ----    ----    ----    ----    ----    ---- */
 
 .sky {
     height: 100%;
     width: 100%;
 }
 
-/* ---------- CITY ---------- */
+/* ----     CITY    ----    ----    ----    ----    ----    ---- */
 
 .city {
     height: 97%;
     width: 100%;
 }
 
-/* ---------- BACKGROUND BUILDINGS ---------- */
+/* ----     BACKGROUND BUILDINGS    ----    ----    ----    ---- */
 
 .background-buildings {
     height: 100%;
@@ -48,47 +48,11 @@ body {
 
 .bb1, .bb9 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
 }
 
 .bb1a, .bb9a {
-    height: 12%;
-    width: 5%;
-}
-
-.bb1b, .bb9b {
-    height: 1%;
-    width: 50%;
-}
-
-.bb1c, .bb9c {
-    height: 1%;
-    width: 50%;
-}
-
-.bb1d, .bb9d {
-    height: 1%;
-    width: 70%;
-}
-
-.bb1e, .bb9e {
-    height: 4%;
-    width: 70%;
-    /* - OTHERS-1 - */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* - OTHERS-1 - */
-}
-
-.bb1f, .bb9f {
-    height: 1%;
-    width: 80%;
-}
-
-.bb1g, .bb9g {
     height: 80%;
     width: 80%;
     /* - WINDOWS-1 - */
@@ -100,20 +64,35 @@ body {
     /* - WINDOWS-1 - */
 }
 
-.bb1h, .bb9h {
+.bb1b, .bb9b {
     height: 1%;
-    width: 100%;
+    width: 80%;
 }
 
-.bb1i, .bb9i {
+.bb1c, .bb9c {
     height: 4%;
-    width: 100%;
+    width: 60%;
     /* - OTHERS-1 - */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     padding: 2.5%;
     /* - OTHERS-1 - */
+}
+
+.bb1d, .bb9d {
+    height: 1%;
+    width: 60%;
+}
+
+.bb1e, .bb9e {
+    height: 1%;
+    width: 40%;
+}
+
+.bb1f, .bb9f {
+    height: 10%;
+    width: 5%;
 }
 
 /* --- BB2 and BB10 --- */
@@ -327,7 +306,7 @@ body {
     width: 80%;
 }
 
-/* ---------- MIDDLE GROUND BUILDINGS ---------- */
+/* ----     MIDDLE GROUND BUILDINGS ----    ----    ----    ---- */
 
 .middle-ground-buildings {
     height: 100%;
@@ -538,7 +517,7 @@ body {
 }
 
 .mb6g, .mb22g {
-    height: 10%;
+    height: 5%;
     width: 5%;
 }
 
@@ -779,35 +758,35 @@ body {
     width: 80%;
 }
 
-/* ---------- FOREGROUND BUILDINGS ---------- */
+/* ----     FOREGROUND BUILDINGS    ----    ----    ----    ---- */
 
 
 
-/* ---------- FOREGROUND ---------- */
+/* ----     FOREGROUND      ----    ----    ----    ----    ---- */
 
 
 
-/* ---------- WINDOWS ---------- */
+/* ----     WINDOWS         ----    ----    ----    ----    ---- */
 
 .windows-1 {
     height: 100%;
     width: 100%;
 }
 
-/* ---------- ANTENNAS ---------- */
+/* ----     ANTENNAS        ----    ----    ----    ----    ---- */
 
 .antennas {
 
 }
 
-/* ---------- OTHERS ---------- */
+/* ----     OTHERS  ----    ----    ----    ----    ----    ---- */
 
 .others-1 {
     height: 100%;
     width: 100%;
 }
 
-/* ---------- ABSOLUTE POSITION ---------- */
+/* ----     ABSOLUTE POSITION       ----    ----    ----    ---- */
 
 .sky,
 .city,
