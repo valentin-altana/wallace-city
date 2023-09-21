@@ -91,6 +91,11 @@ body {
 }
 
 .bb1f, .bb9f {
+    height: 2%;
+    width: 20%;
+}
+
+.bb1g, .bb9g {
     height: 10%;
     width: 5%;
 }
@@ -126,7 +131,7 @@ body {
 }
 
 .bb2d, .bb10d {
-    height: 4%;
+    height: 2%;
     width: 40%;
 }
 
@@ -158,6 +163,16 @@ body {
 .bb3b, .bb11b {
     height: 1%;
     width: 80%;
+}
+
+.bb3c, .bb11c {
+    height: 2%;
+    width: 60%;
+}
+
+.bb3d, .bb11d {
+    height: 1%;
+    width: 60%;
 }
 
 /* --- BB4 and BB12 --- */
@@ -208,6 +223,28 @@ body {
 .bb5b {
     height: 1%;
     width: 80%;
+}
+
+.bb5c {
+    height: 2%;
+    width: 40%;
+}
+
+.bb5d {
+    height: 1%;
+    width: 40%;
+}
+
+.bb5e {
+    height: 2%;
+    width: 40%;
+    clip-path: polygon(45% 0%, 55% 0%, 100% 100%, 0% 100%);
+    background-color: grey;
+}
+
+.bb5f {
+    height: 10%;
+    width: 5%;
 }
 
 /* --- BB6 --- */
@@ -335,27 +372,27 @@ body {
 
 .mb1a, .mb17a {
     height: 60%;
-    width: 80%;
+    width: 100%;
 }
 
 .mb1b, .mb17b {
     height: 1%;
-    width: 80%;
+    width: 100%;
 }
 
 .mb1c, .mb17c {
     height: 2%;
-    width: 60%;
+    width: 80%;
 }
 
 .mb1d, .mb17d {
     height: 1%;
-    width: 60%;
+    width: 80%;
 }
 
 .mb1e, .mb17e {
     height: 2%;
-    width: 60%;
+    width: 80%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
     background-color: grey;
 }
@@ -466,7 +503,7 @@ body {
 
 .mb5d, .mb21d {
     height: 1%;
-    width: 40%;
+    width: 20%;
 }
 
 .mb5e, .mb21e {
@@ -632,6 +669,28 @@ body {
     width: 80%;
 }
 
+.mb9c {
+    height: 1%;
+    width: 60%;
+}
+
+.mb9d {
+    height: 2%;
+    width: 40%;
+}
+
+.mb9e {
+    height: 1%;
+    width: 40%;
+}
+
+.mb9f {
+    height: 2%;
+    width: 40%;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    background-color: grey;
+}
+
 /* --- MB10 --- */
 
 .mb10 {
@@ -677,13 +736,70 @@ body {
 }
 
 .mb12a {
-    height: 80%;
-    width: 80%;
+    height: 30%;
+    width: 100%;
 }
 
 .mb12b {
     height: 1%;
+    width: 100%;
+}
+
+.mb12c {
+    height: 4%;
+    width: 100%;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    background-color: grey;
+}
+
+.mb12d {
+    height: 5%;
     width: 80%;
+}
+
+.mb12e {
+    height: 1%;
+    width: 85%;
+}
+
+.mb12f {
+    height: 5%;
+    width: 80%;
+}
+
+.mb12g {
+    height: 1%;
+    width: 85%;
+}
+
+.mb12h {
+    height: 5%;
+    width: 80%;
+}
+
+.mb12i {
+    height: 1%;
+    width: 85%;
+}
+
+.mb12j {
+    height: 5%;
+    width: 80%;
+}
+
+.mb12k {
+    height: 1%;
+    width: 85%;
+}
+
+.mb12l {
+    height: 2%;
+    width: 60%;
+}
+
+.mb12m {
+    height: 1%;
+    width: 60%;
 }
 
 /* --- MB13 --- */
