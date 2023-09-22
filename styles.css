@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box;
     border: solid black 1px;
+    overflow: hidden;
 }
 
 body {
     height: 100vh;
     width: 300vw;
     margin: 0;
-    overflow: scroll;
     position: absolute;
 }
 
@@ -19,30 +19,34 @@ body {
     display: flex;
 }
 
+/* ----     MOON    ----    ----    ----    ----    ----    ---- */
+
 .moon {
     height: 100%;
     width: 100%;
     display: flex;
+    position: fixed;
     border: 0;
 }
 
 .moon-position {
     height: 100%;
-    width: 15%;
+    width: 20%;
     display: flex;
+    border: 0;
 }
 
 .circle-moon {
-    height: 30.573%;
-    width: 40%;
+    height: 25%;
+    width: 73.875%;
     border-radius: 50%;
-    margin-top: 1%;
-    margin-left: 1%;
+    margin-top: 2%;
+    margin-left: 2%;
     display: flex;
 }
 
 .moon-light {
-
+    border: 0;
 }
 
 /* ----     CITY    ----    ----    ----    ----    ----    ---- */
@@ -50,6 +54,7 @@ body {
 .city {
     height: 97%;
     width: 100%;
+    animation: scroll 60s linear infinite;
     display: flex;
 }
 
@@ -69,7 +74,6 @@ body {
     width: 4%;
     height: 98%;
     border: 0;
-    z-index: 1;
 }
 
 /* --- BB1 and BB9 --- */
@@ -397,7 +401,6 @@ body {
     width: 4%;
     height: 97%;
     border: 0;
-    z-index: 2;
 }
 
 /* --- MB1 and MB17 --- */
@@ -1085,4 +1088,15 @@ body {
 .foreground-buildings,
 .foreground {
     position: absolute;
+}
+
+/* ----     SCROLL          ----    ----    ----    ----    ---- */
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0vw);
+    }
+    100% {
+        transform: translateX(-66.67%);
+    }
 }
