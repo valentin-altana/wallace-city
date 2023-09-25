@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     border: solid black 1px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body {
@@ -54,7 +54,7 @@ body {
 .city {
     height: 97%;
     width: 100%;
-    animation: scroll 60s linear infinite;
+    /* animation: scroll 60s linear infinite; */
     display: flex;
 }
 
@@ -488,40 +488,40 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
-    height: 3%;
+    height: 10%;
     width: 100%;
     border: 0;
 }
 
 .mb3c1, .mb19c1 {
-    height: 100%;
+    height: 30%;
     width: 20%;
     border: 0;
 }
 
 .mb3c1a, .mb19c1a {
-    height: 40%;
+    height: 30%;
     width: 100%;
 }
 
 .mb3c1b, .mb19c1b {
-    height: 60%;
+    height: 70%;
     width: 100%;
 }
 
 .mb3c2, .mb19c2 {
-    height: 100%;
+    height: 30%;
     width: 20%;
     border: 0;
 }
 
 .mb3c2a, .mb19c2a {
-    height: 40%;
+    height: 30%;
     width: 100%;
 }
 
 .mb3c2b, .mb19c2b {
-    height: 60%;
+    height: 70%;
     width: 100%;
 }
 
@@ -658,6 +658,53 @@ body {
     width: 100%;
 }
 
+.mb7c, .mb23c {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: 10%;
+    width: 100%;
+    border: 0;
+}
+
+.mb7c1, .mb23c1 {
+    height: 100%;
+    width: 20%;
+    border: 0;
+}
+
+.mb7c1a, .mb23c1a {
+    height: 50%;
+    width: 25%;
+    margin-left: 37.5%;
+}
+
+.mb7c1b, .mb23c1b {
+    height: 10%;
+    width: 100%;
+}
+
+.mb7c1c, .mb23c1c {
+    height: 40%;
+    width: 100%;
+}
+
+.mb7c2, .mb23c2 {
+    height: 30%;
+    width: 20%;
+    border: 0;
+}
+
+.mb7c2a, .mb23c2a {
+    height: 30%;
+    width: 100%;
+}
+
+.mb7c2b, .mb23c2b {
+    height: 70%;
+    width: 100%;
+}
+
 /* --- MB8 and MB24 --- */
 
 .mb8, .mb24 {
@@ -668,52 +715,52 @@ body {
 
 .mb8a, .mb24a {
     height: 5%;
-    width: 75%;
+    width: 95%;
 }
 
 .mb8b, .mb24b {
     height: 1%;
-    width: 80%;
+    width: 100%;
 }
 
 .mb8c, .mb24c {
     height: 5%;
-    width: 75%;
+    width: 95%;
 }
 
 .mb8d, .mb24d {
     height: 1%;
-    width: 80%;
+    width: 100%;
 }
 
 .mb8e, .mb24e {
     height: 5%;
-    width: 75%;
+    width: 95%;
 }
 
 .mb8f, .mb24f {
     height: 1%;
-    width: 80%;
+    width: 100%;
 }
 
 .mb8g, .mb24g {
     height: 5%;
-    width: 75%;
+    width: 95%;
 }
 
 .mb8h, .mb24h {
     height: 1%;
-    width: 80%;
+    width: 100%;
 }
 
 .mb8i, .mb24i {
     height: 5%;
-    width: 75%;
+    width: 95%;
 }
 
 .mb8j, .mb24j {
     height: 1%;
-    width: 80%;
+    width: 100%;
 }
 
 .mb8k, .mb24k {
@@ -929,7 +976,7 @@ body {
 
 .mb12e {
     height: 1%;
-    width: 85%;
+    width: 80%;
 }
 
 .mb12f {
@@ -939,7 +986,7 @@ body {
 
 .mb12g {
     height: 1%;
-    width: 85%;
+    width: 80%;
 }
 
 .mb12h {
@@ -949,7 +996,7 @@ body {
 
 .mb12i {
     height: 1%;
-    width: 85%;
+    width: 80%;
 }
 
 .mb12j {
@@ -959,7 +1006,7 @@ body {
 
 .mb12k {
     height: 1%;
-    width: 85%;
+    width: 80%;
 }
 
 .mb12l {
