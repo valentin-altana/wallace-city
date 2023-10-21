@@ -234,6 +234,16 @@ body {
     border: 0;
 }
 
+.bb4c2a, .bb12c2a {
+    height: 30%;
+    width: 100%;
+}
+
+.bb4c2b, .bb12c2b {
+    height: 70%;
+    width: 100%;
+}
+
 /* --- BB5 --- */
 
 .bb5 {
@@ -1076,15 +1086,6 @@ body {
     background-color: grey;
 }
 
-.mb14c1 {
-    height: 83.59%;
-    width: 37.525%;
-    border-radius: 50%;
-    margin-top: 4.61%;
-    margin-left: 32.1%;
-    background-color: white;
-}
-
 .mb14d {
     height: 1%;
     width: 64%;
@@ -1108,6 +1109,16 @@ body {
     width: 80%;
 }
 
+.mb15c {
+    height: 2%;
+    width: 40%;
+}
+
+.mb15d {
+    height: 1%;
+    width: 40%;
+}
+
 /* --- MB16 --- */
 
 .mb16 {
@@ -1124,6 +1135,47 @@ body {
 .mb16b {
     height: 1%;
     width: 80%;
+}
+
+.mb16c {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: 10%;
+    width: 100%;
+    border: 0;
+}
+
+.mb16c1 {
+    height: 30%;
+    width: 20%;
+    border: 0;
+}
+
+.mb16c1a {
+    height: 30%;
+    width: 100%;
+}
+
+.mb16c1b {
+    height: 70%;
+    width: 100%;
+}
+
+.mb16c2 {
+    height: 30%;
+    width: 20%;
+    border: 0;
+}
+
+.mb16c2a {
+    height: 30%;
+    width: 100%;
+}
+
+.mb16c2b {
+    height: 70%;
+    width: 100%;
 }
 
 /* ----     FOREGROUND BUILDINGS    ----    ----    ----    ---- */
