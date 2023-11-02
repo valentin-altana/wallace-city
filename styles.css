@@ -92,6 +92,12 @@ body {
 .bb9c {
     height: 2.5%;
     width: 60%;
+    /* OTHERS-1 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-1 */
 }
 
 .bb1d,
@@ -113,7 +119,7 @@ body {
     /* ANTENNAS */
     height: 10%;
     width: 10%;
-    clip-path: polygon(50% 0%, 100% 80%, 100% 100%, 0 100%, 0 80%);
+    clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
     background-color: black;
     /* ANTENNAS */
 }
@@ -156,8 +162,8 @@ body {
 
 .bb2c,
 .bb10c {
-    height: 2.5%;
-    width: 100%;
+    height: 3%;
+    width: 80%;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -167,18 +173,16 @@ body {
 .bb2c1,
 .bb10c1 {
     /* RED LIGHT */
-    height: 80%;
-    width: 8.28%;
-    margin-left: 5%;
+    height: 66.4%;
+    width: 10.3%;
     /* RED LIGHT */
 }
 
 .bb2c2,
 .bb10c2 {
     /* RED LIGHT */
-    height: 80%;
-    width: 8.28%;
-    margin-right: 5%;
+    height: 66.4%;
+    width: 10.3%;
     /* RED LIGHT */
 }
 
@@ -214,6 +218,12 @@ body {
 .bb11c {
     height: 2.5%;
     width: 40%;
+    /* OTHERS-1 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-1 */
 }
 
 
@@ -238,7 +248,7 @@ body {
     /* ANTENNAS */
     height: 10%;
     width: 5%;
-    clip-path: polygon(50% 0%, 100% 80%, 100% 100%, 0 100%, 0 80%);
+    clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
     background-color: black;
     /* ANTENNAS */
 }
@@ -279,6 +289,53 @@ body {
     width: 80%;
 }
 
+.bb4c,
+.bb12c {
+    height: 2.5%;
+    width: 40%;
+    /* OTHERS-1 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-1 */
+}
+
+
+.bb4d,
+.bb12d {
+    height: 1%;
+    width: 40%;
+}
+
+.bb4e,
+.bb12e {
+    /* ANTENNAS */
+    height: 5%;
+    width: 25%;
+    clip-path: polygon(75% 50%, 0 100%, 35% 0, 65% 0, 100% 100%, 25% 50%, 80% 75%, 65% 30%, 55% 100%, 45% 100%, 35% 30%, 20% 75%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.bb4f,
+.bb12f {
+    /* ANTENNAS */
+    height: 10%;
+    width: 5%;
+    clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.bb4g,
+.bb12g {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    /* RED LIGHT */
+}
+
 /* BB5 */
 
 .bb5 {
@@ -307,6 +364,12 @@ body {
 .bb5c {
     height: 2.5%;
     width: 40%;
+    /* OTHERS-1 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-1 */
 }
 
 .bb5d {
@@ -325,7 +388,7 @@ body {
     /* ANTENNAS */
     height: 10%;
     width: 5%;
-    clip-path: polygon(50% 0%, 100% 80%, 100% 100%, 0 100%, 0 80%);
+    clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
     background-color: black;
     /* ANTENNAS */
 }
@@ -360,6 +423,29 @@ body {
 .bb6b {
     height: 1%;
     width: 80%;
+}
+
+.bb6c {
+    height: 3%;
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.bb6c1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 10.3%;
+    /* RED LIGHT */
+}
+
+.bb6c2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 10.3%;
+    /* RED LIGHT */
 }
 
 /* BB7 */
@@ -416,7 +502,7 @@ body {
     /* ANTENNAS */
     height: 10%;
     width: 5%;
-    clip-path: polygon(50% 0%, 100% 80%, 100% 100%, 0 100%, 0 80%);
+    clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
     background-color: black;
     /* ANTENNAS */
 }
@@ -464,6 +550,22 @@ body {
     width: 40%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+}
+
+.bb8e {
+    /* ANTENNAS */
+    height: 10%;
+    width: 5%;
+    clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.bb8f {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    /* RED LIGHT */
 }
 
 /* MIDDLE GROUND BUILDINGS */
@@ -530,6 +632,12 @@ body {
 .mb17c {
     height: 2.5%;
     width: 60%;
+    /* OTHERS-2 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-2 */
 }
 
 .mb1d,
@@ -544,6 +652,34 @@ body {
     width: 60%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
     background-color: grey;
+}
+
+.mb1f,
+.mb17f {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.mb1f1,
+.mb17f1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-left: 26%;
+    /* RED LIGHT */
+}
+
+.mb1f2,
+.mb17f2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-right: 26%;
+    /* RED LIGHT */
 }
 
 /* MB2 and MB18 */
@@ -571,12 +707,46 @@ body {
 .mb18c {
     height: 2.5%;
     width: 60%;
+    /* OTHERS-2 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-2 */
 }
 
 .mb2d,
 .mb18d {
     height: 1%;
     width: 60%;
+}
+
+.mb2e,
+.mb18e {
+    /* ANTENNAS */
+    height: 5%;
+    width: 25%;
+    clip-path: polygon(75% 50%, 0 100%, 35% 0, 65% 0, 100% 100%, 25% 50%, 80% 75%, 65% 30%, 55% 100%, 45% 100%, 35% 30%, 20% 75%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.mb2f,
+.mb18f {
+    /* ANTENNAS */
+    height: 10%;
+    width: 5%;
+    clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.mb2g,
+.mb18g {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    /* RED LIGHT */
 }
 
 /* MB3 and MB19 */
@@ -598,6 +768,32 @@ body {
 .mb19b {
     height: 1%;
     width: 100%;
+}
+
+.mb3c,
+.mb19c {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.mb3c1,
+.mb19c1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    /* RED LIGHT */
+}
+
+.mb3c2,
+.mb19c2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    /* RED LIGHT */
 }
 
 /* MB4 and MB20 */
@@ -635,6 +831,24 @@ body {
     border-top-right-radius: 50%;
 }
 
+.mb4e,
+.mb20e {
+    /* ANTENNAS */
+    height: 5%;
+    width: 5%;
+    clip-path: polygon(0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 70% 100%, 40% 80%, 70% 60%, 50% 50%, 30% 60%, 60% 80%, 30% 100%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.mb4f,
+.mb20f {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    /* RED LIGHT */
+}
+
 /* MB5 and MB21 */
 
 .mb5,
@@ -654,6 +868,32 @@ body {
 .mb21b {
     height: 1%;
     width: 100%;
+}
+
+.mb5c,
+.mb21c {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.mb5c1,
+.mb21c1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    /* RED LIGHT */
+}
+
+.mb5c2,
+.mb21c2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    /* RED LIGHT */
 }
 
 /* MB6 and MB22 */
@@ -681,6 +921,12 @@ body {
 .mb22c {
     height: 2.5%;
     width: 60%;
+    /* OTHERS-2 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-2 */
 }
 
 .mb6d,
@@ -703,6 +949,24 @@ body {
     width: 30%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+}
+
+.mb6g,
+.mb22g {
+    /* ANTENNAS */
+    height: 5%;
+    width: 5%;
+    clip-path: polygon(0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 70% 100%, 40% 80%, 70% 60%, 50% 50%, 30% 60%, 60% 80%, 30% 100%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.mb6h,
+.mb22h {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    /* RED LIGHT */
 }
 
 /* MB7 and MB23 */
@@ -803,6 +1067,12 @@ body {
 .mb24k {
     height: 2.5%;
     width: 60%;
+    /* OTHERS-2 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-2 */
 }
 
 .mb8l,
@@ -817,6 +1087,34 @@ body {
     width: 60%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
     background-color: grey;
+}
+
+.mb8n,
+.mb24n {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.mb8n1,
+.mb24n1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-left: 26%;
+    /* RED LIGHT */
+}
+
+.mb8n2,
+.mb24n2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-right: 26%;
+    /* RED LIGHT */
 }
 
 /* MB9 */
@@ -840,6 +1138,12 @@ body {
 .mb9c {
     height: 2.5%;
     width: 60%;
+    /* OTHERS-2 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-2 */
 }
 
 .mb9d {
@@ -850,6 +1154,12 @@ body {
 .mb9e {
     height: 2.5%;
     width: 40%;
+    /* OTHERS-2 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-2 */
 }
 
 .mb9f {
@@ -862,6 +1172,31 @@ body {
     width: 40%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
     background-color: grey;
+}
+
+.mb9h {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.mb9h1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-left: 34%;
+    /* RED LIGHT */
+}
+
+.mb9h2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-right: 34%;
+    /* RED LIGHT */
 }
 
 /* MB10 */
@@ -945,12 +1280,46 @@ body {
     height: 2.5%;
     width: 40%;
     margin-right: 30%;
+    /* OTHERS-2 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-2 */
 }
 
 .mb10m {
     height: 1%;
     width: 40%;
     margin-right: 30%;
+}
+
+.mb10n {
+    /* ANTENNAS */
+    height: 5%;
+    width: 25%;
+    margin-right: 30%;
+    clip-path: polygon(75% 50%, 0 100%, 35% 0, 65% 0, 100% 100%, 25% 50%, 80% 75%, 65% 30%, 55% 100%, 45% 100%, 35% 30%, 20% 75%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.mb10o {
+    /* ANTENNAS */
+    height: 10%;
+    width: 5%;
+    margin-right: 30%;
+    clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.mb10p {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    margin-right: 30%;
+    /* RED LIGHT */
 }
 
 /* MB11 */
@@ -984,11 +1353,42 @@ body {
 .mb11e {
     height: 2.5%;
     width: 60%;
+    /* OTHERS-2 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-2 */
 }
 
 .mb11f {
     height: 1%;
     width: 60%;
+}
+
+.mb11g {
+    /* ANTENNAS */
+    height: 5%;
+    width: 30%;
+    clip-path: polygon(35% 0, 0 100%, 50% 70%, 20% 75%, 30% 50%, 25% 100%, 35% 65%, 45% 45%, 30% 40%, 35% 30%, 40% 20%, 50% 100%, 60% 20%, 65% 30%, 70% 40%, 55% 45%, 65% 65%, 75% 100%, 70% 50%, 80% 75%, 50% 70%, 100% 100%, 65% 0);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.mb11h {
+    /* ANTENNAS */
+    height: 10%;
+    width: 5%;
+    clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.mb11i {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    /* RED LIGHT */
 }
 
 /* MB12 */
@@ -1059,6 +1459,12 @@ body {
 .mb12l {
     height: 2.5%;
     width: 60%;
+    /* OTHERS-2 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-2 */
 }
 
 .mb12m {
@@ -1071,6 +1477,31 @@ body {
     width: 60%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
     background-color: grey;
+}
+
+.mb12o {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.mb12o1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-left: 26%;
+    /* RED LIGHT */
+}
+
+.mb12o2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-right: 26%;
+    /* RED LIGHT */
 }
 
 /* MB13 */
@@ -1094,11 +1525,42 @@ body {
 .mb13c {
     height: 2.5%;
     width: 60%;
+    /* OTHERS-2 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-2 */
 }
 
 .mb13d {
     height: 1%;
     width: 60%;
+}
+
+.mb13e {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.mb13e1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-left: 20%;
+    /* RED LIGHT */
+}
+
+.mb13e2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-right: 20%;
+    /* RED LIGHT */
 }
 
 /* MB14 */
@@ -1131,6 +1593,31 @@ body {
     width: 64%;
 }
 
+.mb14e {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.mb14e1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-left: 18%;
+    /* RED LIGHT */
+}
+
+.mb14e2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-right: 18%;
+    /* RED LIGHT */
+}
+
 /* MB15 */
 
 .mb15 {
@@ -1150,13 +1637,26 @@ body {
 }
 
 .mb15c {
-    height: 2.5%;
-    width: 40%;
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
 }
 
-.mb15d {
-    height: 1%;
-    width: 40%;
+.mb15c1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    /* RED LIGHT */
+}
+
+.mb15c2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    /* RED LIGHT */
 }
 
 /* MB16 */
@@ -1175,6 +1675,31 @@ body {
 .mb16b {
     height: 1%;
     width: 80%;
+}
+
+.mb16c {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.mb16c1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-left: 10%;
+    /* RED LIGHT */
+}
+
+.mb16c2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-right: 10%;
+    /* RED LIGHT */
 }
 
 /* FOREGROUND BUILDINGS */
@@ -1225,13 +1750,13 @@ body {
 .fb1a,
 .fb15a {
     height: 25%;
-    width: 80%;
+    width: 60%;
 }
 
 .fb1b,
 .fb15b {
     height: 1%;
-    width: 80%;
+    width: 60%;
 }
 
 /* FB2 and FB16 */
@@ -1246,13 +1771,13 @@ body {
 .fb2a,
 .fb16a {
     height: 35%;
-    width: 80%;
+    width: 60%;
 }
 
 .fb2b,
 .fb16b {
     height: 1%;
-    width: 80%;
+    width: 60%;
 }
 
 /* FB3 and FB17 */
@@ -1276,6 +1801,48 @@ body {
     width: 80%;
 }
 
+.fb3c,
+.fb17c {
+    height: 2.5%;
+    width: 60%;
+    /* OTHERS-3 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-3 */
+}
+
+.fb3d,
+.fb17d {
+    height: 1%;
+    width: 60%;
+}
+
+.fb3e,
+.fb17e {
+    height: 1%;
+    width: 20%;
+}
+
+.fb3f,
+.fb17f {
+    /* ANTENNAS */
+    height: 5%;
+    width: 5%;
+    clip-path: polygon(0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 70% 100%, 40% 80%, 70% 60%, 50% 50%, 30% 60%, 60% 80%, 30% 100%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.fb3g,
+.fb17g {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    /* RED LIGHT */
+}
+
 /* FB4 and FB18 */
 
 .fb4,
@@ -1297,6 +1864,26 @@ body {
     width: 80%;
 }
 
+.fb4c,
+.fb18c {
+    height: 2.5%;
+    width: 80%;
+}
+
+.fb4d,
+.fb18d {
+    height: 1%;
+    width: 80%;
+}
+
+.fb4e,
+.fb18e {
+    height: 5%;
+    width: 80%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: grey;
+}
+
 /* FB5 and FB19 */
 
 .fb5,
@@ -1308,14 +1895,14 @@ body {
 
 .fb5a,
 .fb19a {
-    height: 25%;
-    width: 80%;
+    height: 20%;
+    width: 60%;
 }
 
 .fb5b,
 .fb19b {
     height: 1%;
-    width: 80%;
+    width: 60%;
 }
 
 /* FB6 and FB20 */
@@ -1329,7 +1916,7 @@ body {
 
 .fb6a,
 .fb20a {
-    height: 35%;
+    height: 40%;
     width: 80%;
 }
 
@@ -1337,6 +1924,48 @@ body {
 .fb20b {
     height: 1%;
     width: 80%;
+}
+
+.fb6c,
+.fb20c {
+    height: 2.5%;
+    width: 60%;
+    /* OTHERS-3 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-3 */
+}
+
+.fb6d,
+.fb20d {
+    height: 1%;
+    width: 60%;
+}
+
+.fb6e,
+.fb20e {
+    height: 1%;
+    width: 20%;
+}
+
+.fb6f,
+.fb20f {
+    /* ANTENNAS */
+    height: 5%;
+    width: 5%;
+    clip-path: polygon(0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 70% 100%, 40% 80%, 70% 60%, 50% 50%, 30% 60%, 60% 80%, 30% 100%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.fb6g,
+.fb20g {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    /* RED LIGHT */
 }
 
 /* FB7 and FB21 */
@@ -1351,13 +1980,21 @@ body {
 .fb7a,
 .fb21a {
     height: 15%;
-    width: 80%;
+    width: 60%;
 }
 
 .fb7b,
 .fb21b {
     height: 1%;
-    width: 80%;
+    width: 60%;
+}
+
+.fb7c,
+.fb21c {
+    height: 5%;
+    width: 60%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: grey;
 }
 
 /* FB8 */
@@ -1504,6 +2141,16 @@ body {
 /* OTHERS */
 
 .others-1 {
+    height: 100%;
+    width: 100%;
+}
+
+.others-2 {
+    height: 100%;
+    width: 100%;
+}
+
+.others-3 {
     height: 100%;
     width: 100%;
 }
