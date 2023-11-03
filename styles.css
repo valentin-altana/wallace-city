@@ -1759,6 +1759,12 @@ body {
     width: 60%;
 }
 
+.fb1c,
+.fb15c {
+    height: 1%;
+    width: 40%;
+}
+
 /* FB2 and FB16 */
 
 .fb2,
@@ -1778,6 +1784,12 @@ body {
 .fb16b {
     height: 1%;
     width: 60%;
+}
+
+.fb2c,
+.fb16c {
+    height: 1%;
+    width: 40%;
 }
 
 /* FB3 and FB17 */
@@ -1884,6 +1896,14 @@ body {
     background-color: grey;
 }
 
+.fb4f,
+.fb18f {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    /* RED LIGHT */
+}
+
 /* FB5 and FB19 */
 
 .fb5,
@@ -1903,6 +1923,12 @@ body {
 .fb19b {
     height: 1%;
     width: 60%;
+}
+
+.fb5c,
+.fb19c {
+    height: 1%;
+    width: 40%;
 }
 
 /* FB6 and FB20 */
@@ -2015,6 +2041,37 @@ body {
     width: 80%;
 }
 
+.fb8c {
+    height: 2.5%;
+    width: 60%;
+}
+
+.fb8d {
+    height: 1%;
+    width: 60%;
+}
+
+.fb8e {
+    height: 1%;
+    width: 20%;
+}
+
+.fb8f {
+    /* ANTENNAS */
+    height: 5%;
+    width: 5%;
+    clip-path: polygon(0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 70% 100%, 40% 80%, 70% 60%, 50% 50%, 30% 60%, 60% 80%, 30% 100%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.fb8g {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    /* RED LIGHT */
+}
+
 /* FB9 */
 
 .fb9 {
@@ -2042,13 +2099,18 @@ body {
 }
 
 .fb10a {
-    height: 35%;
-    width: 80%;
+    height: 25%;
+    width: 60%;
 }
 
 .fb10b {
     height: 1%;
-    width: 80%;
+    width: 60%;
+}
+
+.fb10c {
+    height: 1%;
+    width: 40%;
 }
 
 /* FB11 */
@@ -2079,12 +2141,17 @@ body {
 
 .fb12a {
     height: 35%;
-    width: 80%;
+    width: 60%;
 }
 
 .fb12b {
     height: 1%;
-    width: 80%;
+    width: 60%;
+}
+
+.fb12c {
+    height: 1%;
+    width: 40%;
 }
 
 /* FB13 */
@@ -2105,6 +2172,38 @@ body {
     width: 80%;
 }
 
+.fb13c {
+    height: 5%;
+    width: 80%;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    background-color: grey;
+}
+
+.fb13d {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.fb13d1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-left: 18%;
+    /* RED LIGHT */
+}
+
+.fb13d2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-right: 18%;
+    /* RED LIGHT */
+}
+
 /* FB14 */
 
 .fb14 {
@@ -2121,6 +2220,37 @@ body {
 .fb14b {
     height: 1%;
     width: 80%;
+}
+
+.fb14c {
+    height: 2.5%;
+    width: 60%;
+}
+
+.fb14d {
+    height: 1%;
+    width: 60%;
+}
+
+.fb14e {
+    height: 1%;
+    width: 20%;
+}
+
+.fb14f {
+    /* ANTENNAS */
+    height: 5%;
+    width: 5%;
+    clip-path: polygon(0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 70% 100%, 40% 80%, 70% 60%, 50% 50%, 30% 60%, 60% 80%, 30% 100%);
+    background-color: black;
+    /* ANTENNAS */
+}
+
+.fb14g {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    /* RED LIGHT */
 }
 
 /* FOREGROUND */
