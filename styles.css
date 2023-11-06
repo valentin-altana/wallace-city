@@ -1788,8 +1788,38 @@ body {
 
 .fb2c,
 .fb16c {
-    height: 1%;
-    width: 40%;
+    height: 2.5%;
+    width: 60%;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    background-color: grey;
+}
+
+.fb2d,
+.fb16d {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.fb2d1,
+.fb16d1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-left: 26%;
+    /* RED LIGHT */
+}
+
+.fb2d2,
+.fb16d2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-right: 26%;
+    /* RED LIGHT */
 }
 
 /* FB3 and FB17 */
@@ -1927,8 +1957,38 @@ body {
 
 .fb5c,
 .fb19c {
-    height: 1%;
-    width: 40%;
+    height: 2.5%;
+    width: 60%;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    background-color: grey;
+}
+
+.fb5d,
+.fb19d {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 0;
+}
+
+.fb5d1,
+.fb19d1 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-left: 26%;
+    /* RED LIGHT */
+}
+
+.fb5d2,
+.fb19d2 {
+    /* RED LIGHT */
+    height: 66.4%;
+    width: 8.24%;
+    margin-right: 26%;
+    /* RED LIGHT */
 }
 
 /* FB6 and FB20 */
@@ -2044,6 +2104,12 @@ body {
 .fb8c {
     height: 2.5%;
     width: 60%;
+    /* OTHERS-3 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-3 */
 }
 
 .fb8d {
@@ -2225,6 +2291,12 @@ body {
 .fb14c {
     height: 2.5%;
     width: 60%;
+    /* OTHERS-3 */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2.5%;
+    /* OTHERS-3 */
 }
 
 .fb14d {
