@@ -1306,7 +1306,7 @@ body {
 
 .mb10o {
     /* ANTENNAS */
-    height:5%;
+    height: 5%;
     width: 5%;
     margin-right: 30%;
     clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
@@ -2370,6 +2370,7 @@ body {
 .casl11a {
     height: 10%;
     width: 100%;
+    border: 0;
 }
 
 /* STREET LIGHTS */
@@ -2378,6 +2379,56 @@ body {
 .casl11b {
     height: 10%;
     width: 100%;
+    border: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.casl1b1,
+.casl11b1,
+.casl1b2,
+.casl11b2,
+.casl1b3,
+.casl11b3,
+.casl1b4,
+.casl11b4,
+.casl1b5,
+.casl11b5,
+.casl1b6,
+.casl11b6,
+.casl1b7,
+.casl11b7,
+.casl1b8,
+.casl11b8,
+.casl1b9,
+.casl11b9,
+.casl1b10,
+.casl11b10,
+.casl1b11,
+.casl11b11,
+.casl1b12,
+.casl11b12,
+.casl1b13,
+.casl11b13,
+.casl1b14,
+.casl11b14,
+.casl1b15,
+.casl11b15,
+.casl1b16,
+.casl11b16,
+.casl1b17,
+.casl11b17,
+.casl1b18,
+.casl11b18,
+.casl1b19,
+.casl11b19,
+.casl1b20,
+.casl11b20 {
+    height: 100%;
+    width: 2.535%;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
 }
 
 /* CARS AND STREET LIGHTS 2 AND 12 */
@@ -2395,6 +2446,7 @@ body {
 .casl12a {
     height: 10%;
     width: 100%;
+    border: 0;
 }
 
 /* STREET LIGHTS */
@@ -2403,6 +2455,56 @@ body {
 .casl12b {
     height: 10%;
     width: 100%;
+    border: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.casl2b1,
+.casl12b1,
+.casl2b2,
+.casl12b2,
+.casl2b3,
+.casl12b3,
+.casl2b4,
+.casl12b4,
+.casl2b5,
+.casl12b5,
+.casl2b6,
+.casl12b6,
+.casl2b7,
+.casl12b7,
+.casl2b8,
+.casl12b8,
+.casl2b9,
+.casl12b9,
+.casl2b10,
+.casl12b10,
+.casl2b11,
+.casl12b11,
+.casl2b12,
+.casl12b12,
+.casl2b13,
+.casl12b13,
+.casl2b14,
+.casl12b14,
+.casl2b15,
+.casl12b15,
+.casl2b16,
+.casl12b16,
+.casl2b17,
+.casl12b17,
+.casl2b18,
+.casl12b18,
+.casl2b19,
+.casl12b19,
+.casl2b20,
+.casl12b20 {
+    height: 100%;
+    width: 2.535%;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
 }
 
 /* CARS AND STREET LIGHTS 3 AND 13 */
@@ -2420,6 +2522,7 @@ body {
 .casl13a {
     height: 10%;
     width: 100%;
+    border: 0;
 }
 
 /* STREET LIGHTS */
@@ -2428,6 +2531,56 @@ body {
 .casl13b {
     height: 10%;
     width: 100%;
+    border: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.casl3b1,
+.casl13b1,
+.casl3b2,
+.casl13b2,
+.casl3b3,
+.casl13b3,
+.casl3b4,
+.casl13b4,
+.casl3b5,
+.casl13b5,
+.casl3b6,
+.casl13b6,
+.casl3b7,
+.casl13b7,
+.casl3b8,
+.casl13b8,
+.casl3b9,
+.casl13b9,
+.casl3b10,
+.casl13b10,
+.casl3b11,
+.casl13b11,
+.casl3b12,
+.casl13b12,
+.casl3b13,
+.casl13b13,
+.casl3b14,
+.casl13b14,
+.casl3b15,
+.casl13b15,
+.casl3b16,
+.casl13b16,
+.casl3b17,
+.casl13b17,
+.casl3b18,
+.casl13b18,
+.casl3b19,
+.casl13b19,
+.casl3b20,
+.casl13b20 {
+    height: 100%;
+    width: 2.535%;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
 }
 
 /* CARS AND STREET LIGHTS 4 AND 14 */
@@ -2445,6 +2598,7 @@ body {
 .casl14a {
     height: 10%;
     width: 100%;
+    border: 0;
 }
 
 /* STREET LIGHTS */
@@ -2453,6 +2607,56 @@ body {
 .casl14b {
     height: 10%;
     width: 100%;
+    border: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.casl4b1,
+.casl14b1,
+.casl4b2,
+.casl14b2,
+.casl4b3,
+.casl14b3,
+.casl4b4,
+.casl14b4,
+.casl4b5,
+.casl14b5,
+.casl4b6,
+.casl14b6,
+.casl4b7,
+.casl14b7,
+.casl4b8,
+.casl14b8,
+.casl4b9,
+.casl14b9,
+.casl4b10,
+.casl14b10,
+.casl4b11,
+.casl14b11,
+.casl4b12,
+.casl14b12,
+.casl4b13,
+.casl14b13,
+.casl4b14,
+.casl14b14,
+.casl4b15,
+.casl14b15,
+.casl4b16,
+.casl14b16,
+.casl4b17,
+.casl14b17,
+.casl4b18,
+.casl14b18,
+.casl4b19,
+.casl14b19,
+.casl4b20,
+.casl14b20 {
+    height: 100%;
+    width: 2.535%;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
 }
 
 /* CARS AND STREET LIGHTS 5 AND 15 */
@@ -2470,6 +2674,7 @@ body {
 .casl15a {
     height: 10%;
     width: 100%;
+    border: 0;
 }
 
 /* STREET LIGHTS */
@@ -2478,6 +2683,56 @@ body {
 .casl15b {
     height: 10%;
     width: 100%;
+    border: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.casl5b1,
+.casl15b1,
+.casl5b2,
+.casl15b2,
+.casl5b3,
+.casl15b3,
+.casl5b4,
+.casl15b4,
+.casl5b5,
+.casl15b5,
+.casl5b6,
+.casl15b6,
+.casl5b7,
+.casl15b7,
+.casl5b8,
+.casl15b8,
+.casl5b9,
+.casl15b9,
+.casl5b10,
+.casl15b10,
+.casl5b11,
+.casl15b11,
+.casl5b12,
+.casl15b12,
+.casl5b13,
+.casl15b13,
+.casl5b14,
+.casl15b14,
+.casl5b15,
+.casl15b15,
+.casl5b16,
+.casl15b16,
+.casl5b17,
+.casl15b17,
+.casl5b18,
+.casl15b18,
+.casl5b19,
+.casl15b19,
+.casl5b20,
+.casl15b20 {
+    height: 100%;
+    width: 2.535%;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
 }
 
 /* CARS AND STREET LIGHTS 6 */
@@ -2493,6 +2748,7 @@ body {
 .casl6a {
     height: 10%;
     width: 100%;
+    border: 0;
 }
 
 /* STREET LIGHTS */
@@ -2500,6 +2756,36 @@ body {
 .casl6b {
     height: 10%;
     width: 100%;
+    border: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.casl6b1,
+.casl6b2,
+.casl6b3,
+.casl6b4,
+.casl6b5,
+.casl6b6,
+.casl6b7,
+.casl6b8,
+.casl6b9,
+.casl6b10,
+.casl6b11,
+.casl6b12,
+.casl6b13,
+.casl6b14,
+.casl6b15,
+.casl6b16,
+.casl6b17,
+.casl6b18,
+.casl6b19,
+.casl6b20 {
+    height: 100%;
+    width: 2.535%;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
 }
 
 /* CARS AND STREET LIGHTS 7 */
@@ -2515,6 +2801,7 @@ body {
 .casl7a {
     height: 10%;
     width: 100%;
+    border: 0;
 }
 
 /* STREET LIGHTS */
@@ -2522,6 +2809,36 @@ body {
 .casl7b {
     height: 10%;
     width: 100%;
+    border: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.casl7b1,
+.casl7b2,
+.casl7b3,
+.casl7b4,
+.casl7b5,
+.casl7b6,
+.casl7b7,
+.casl7b8,
+.casl7b9,
+.casl7b10,
+.casl7b11,
+.casl7b12,
+.casl7b13,
+.casl7b14,
+.casl7b15,
+.casl7b16,
+.casl7b17,
+.casl7b18,
+.casl7b19,
+.casl7b20 {
+    height: 100%;
+    width: 2.535%;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
 }
 
 /* CARS AND STREET LIGHTS 8 */
@@ -2537,6 +2854,7 @@ body {
 .casl8a {
     height: 10%;
     width: 100%;
+    border: 0;
 }
 
 /* STREET LIGHTS */
@@ -2544,6 +2862,36 @@ body {
 .casl8b {
     height: 10%;
     width: 100%;
+    border: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.casl8b1,
+.casl8b2,
+.casl8b3,
+.casl8b4,
+.casl8b5,
+.casl8b6,
+.casl8b7,
+.casl8b8,
+.casl8b9,
+.casl8b10,
+.casl8b11,
+.casl8b12,
+.casl8b13,
+.casl8b14,
+.casl8b15,
+.casl8b16,
+.casl8b17,
+.casl8b18,
+.casl8b19,
+.casl8b20 {
+    height: 100%;
+    width: 2.535%;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
 }
 
 /* CARS AND STREET LIGHTS 9 */
@@ -2559,6 +2907,7 @@ body {
 .casl9a {
     height: 10%;
     width: 100%;
+    border: 0;
 }
 
 /* STREET LIGHTS */
@@ -2566,6 +2915,36 @@ body {
 .casl9b {
     height: 10%;
     width: 100%;
+    border: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.casl9b1,
+.casl9b2,
+.casl9b3,
+.casl9b4,
+.casl9b5,
+.casl9b6,
+.casl9b7,
+.casl9b8,
+.casl9b9,
+.casl9b10,
+.casl9b11,
+.casl9b12,
+.casl9b13,
+.casl9b14,
+.casl9b15,
+.casl9b16,
+.casl9b17,
+.casl9b18,
+.casl9b19,
+.casl9b20 {
+    height: 100%;
+    width: 2.535%;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
 }
 
 /* CARS AND STREET LIGHTS 10 */
@@ -2581,6 +2960,7 @@ body {
 .casl10a {
     height: 10%;
     width: 100%;
+    border: 0;
 }
 
 /* STREET LIGHTS */
@@ -2588,6 +2968,36 @@ body {
 .casl10b {
     height: 10%;
     width: 100%;
+    border: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.casl10b1,
+.casl10b2,
+.casl10b3,
+.casl10b4,
+.casl10b5,
+.casl10b6,
+.casl10b7,
+.casl10b8,
+.casl10b9,
+.casl10b10,
+.casl10b11,
+.casl10b12,
+.casl10b13,
+.casl10b14,
+.casl10b15,
+.casl10b16,
+.casl10b17,
+.casl10b18,
+.casl10b19,
+.casl10b20 {
+    height: 100%;
+    width: 2.535%;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
 }
 
 /* WINDOWS */
