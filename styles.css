@@ -2327,7 +2327,268 @@ body {
 
 /* FOREGROUND */
 
+.foreground {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
 
+.casl1,
+.casl2,
+.casl3,
+.casl4,
+.casl5,
+.casl6,
+.casl7,
+.casl8,
+.casl9,
+.casl10,
+.casl11,
+.casl12,
+.casl13,
+.casl14,
+.casl15 {
+    width: 20vw;
+    height: 10%;
+    border: 0;
+}
+
+/* CARS AND STREET LIGHTS 1 AND 11 */
+
+.casl1,
+.casl11 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* CARS */
+
+.casl1a,
+.casl11a {
+    height: 10%;
+    width: 100%;
+}
+
+/* STREET LIGHTS */
+
+.casl1b,
+.casl11b {
+    height: 10%;
+    width: 100%;
+}
+
+/* CARS AND STREET LIGHTS 2 AND 12 */
+
+.casl2,
+.casl12 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* CARS */
+
+.casl2a,
+.casl12a {
+    height: 10%;
+    width: 100%;
+}
+
+/* STREET LIGHTS */
+
+.casl2b,
+.casl12b {
+    height: 10%;
+    width: 100%;
+}
+
+/* CARS AND STREET LIGHTS 3 AND 13 */
+
+.casl3,
+.casl13 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* CARS */
+
+.casl3a,
+.casl13a {
+    height: 10%;
+    width: 100%;
+}
+
+/* STREET LIGHTS */
+
+.casl3b,
+.casl13b {
+    height: 10%;
+    width: 100%;
+}
+
+/* CARS AND STREET LIGHTS 4 AND 14 */
+
+.casl4,
+.casl14 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* CARS */
+
+.casl4a,
+.casl14a {
+    height: 10%;
+    width: 100%;
+}
+
+/* STREET LIGHTS */
+
+.casl4b,
+.casl14b {
+    height: 10%;
+    width: 100%;
+}
+
+/* CARS AND STREET LIGHTS 5 AND 15 */
+
+.casl5,
+.casl15 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* CARS */
+
+.casl5a,
+.casl15a {
+    height: 10%;
+    width: 100%;
+}
+
+/* STREET LIGHTS */
+
+.casl5b,
+.casl15b {
+    height: 10%;
+    width: 100%;
+}
+
+/* CARS AND STREET LIGHTS 6 */
+
+.casl6 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* CARS */
+
+.casl6a {
+    height: 10%;
+    width: 100%;
+}
+
+/* STREET LIGHTS */
+
+.casl6b {
+    height: 10%;
+    width: 100%;
+}
+
+/* CARS AND STREET LIGHTS 7 */
+
+.casl7 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* CARS */
+
+.casl7a {
+    height: 10%;
+    width: 100%;
+}
+
+/* STREET LIGHTS */
+
+.casl7b {
+    height: 10%;
+    width: 100%;
+}
+
+/* CARS AND STREET LIGHTS 8 */
+
+.casl8 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* CARS */
+
+.casl8a {
+    height: 10%;
+    width: 100%;
+}
+
+/* STREET LIGHTS */
+
+.casl8b {
+    height: 10%;
+    width: 100%;
+}
+
+/* CARS AND STREET LIGHTS 9 */
+
+.casl9 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* CARS */
+
+.casl9a {
+    height: 10%;
+    width: 100%;
+}
+
+/* STREET LIGHTS */
+
+.casl9b {
+    height: 10%;
+    width: 100%;
+}
+
+/* CARS AND STREET LIGHTS 10 */
+
+.casl10 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* CARS */
+
+.casl10a {
+    height: 10%;
+    width: 100%;
+}
+
+/* STREET LIGHTS */
+
+.casl10b {
+    height: 10%;
+    width: 100%;
+}
 
 /* WINDOWS */
 
