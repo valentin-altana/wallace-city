@@ -2357,7 +2357,14 @@ body {
 
 /* CL1 and CL2 */
 
-.cl1,
+.cl1 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
 .cl2 {
     height: 100%;
     width: 50%;
@@ -2368,7 +2375,14 @@ body {
 
 /* CL3 and CL4 */
 
-.cl3,
+.cl3 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
 .cl4 {
     height: 100%;
     width: 50%;
@@ -2379,7 +2393,14 @@ body {
 
 /* CL5 and CL6 */
 
-.cl5,
+.cl5 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
 .cl6 {
     height: 100%;
     width: 50%;
@@ -2390,7 +2411,14 @@ body {
 
 /* CL7 and CL8 */
 
-.cl7,
+.cl7 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
 .cl8 {
     height: 100%;
     width: 50%;
@@ -2401,8 +2429,105 @@ body {
 
 /* CL9 and CL10 */
 
-.cl9,
+.cl9 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
 .cl10 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* CL11 and CL12 */
+
+.cl11 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+.cl12 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* CL13 and CL14 */
+
+.cl13 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+.cl14 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* CL15 and CL16 */
+
+.cl15 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+.cl16 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* CL17 and CL18 */
+
+.cl17 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+.cl18 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* CL19 and CL20 */
+
+.cl19 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+.cl20 {
     height: 100%;
     width: 50%;
     border: 0;
@@ -2430,6 +2555,106 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+}
+
+/* SL1 */
+
+.sl1 {
+    height: 100%;
+    width: 0.169%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* SL2 */
+
+.sl2 {
+    height: 100%;
+    width: 0.169%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* SL3 */
+
+.sl3 {
+    height: 100%;
+    width: 0.169%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* SL4 */
+
+.sl4 {
+    height: 100%;
+    width: 0.169%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* SL5 */
+
+.sl5 {
+    height: 100%;
+    width: 0.169%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* SL6 */
+
+.sl6 {
+    height: 100%;
+    width: 0.169%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* SL7 */
+
+.sl7 {
+    height: 100%;
+    width: 0.169%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* SL8 */
+
+.sl8 {
+    height: 100%;
+    width: 0.169%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* SL9 */
+
+.sl9 {
+    height: 100%;
+    width: 0.169%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* SL10 */
+
+.sl10 {
+    height: 100%;
+    width: 0.169%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
 }
 
 /* WINDOWS */
