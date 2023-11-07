@@ -2331,44 +2331,14 @@ body {
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
-.casl1,
-.casl2,
-.casl3,
-.casl4,
-.casl5,
-.casl6,
-.casl7,
-.casl8,
-.casl9,
-.casl10,
-.casl11,
-.casl12,
-.casl13,
-.casl14,
-.casl15 {
-    width: 20vw;
-    height: 10%;
-    border: 0;
-}
-
-/* CARS AND STREET LIGHTS 1 AND 11 */
-
-.casl1,
-.casl11 {
-    display: flex;
     flex-direction: column-reverse;
     align-items: center;
 }
 
 /* CARS */
 
-.casl1a,
-.casl11a {
-    height: 10%;
+.cars {
+    height: 1%;
     width: 100%;
     border: 0;
     display: flex;
@@ -2376,86 +2346,19 @@ body {
     justify-content: space-around;
 }
 
-.casl1a1,
-.casl11a1,
-.casl1a2,
-.casl11a2,
-.casl1a3,
-.casl11a3,
-.casl1a4,
-.casl11a4,
-.casl1a5,
-.casl11a5,
-.casl1a6,
-.casl11a6,
-.casl1a7,
-.casl11a7,
-.casl1a8,
-.casl11a8,
-.casl1a9,
-.casl11a9,
-.casl1a10,
-.casl11a10,
-.casl1a11,
-.casl11a11,
-.casl1a12,
-.casl11a12,
-.casl1a13,
-.casl11a13,
-.casl1a14,
-.casl11a14,
-.casl1a15,
-.casl11a15,
-.casl1a16,
-.casl11a16,
-.casl1a17,
-.casl11a17,
-.casl1a18,
-.casl11a18 {
+.cars-lights {
     height: 100%;
-    width: 5.07%;
+    width: 0.338%;
     border: 0;
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.casl1a1a,
-.casl11a1a,
-.casl1a2a,
-.casl11a2a,
-.casl1a3a,
-.casl11a3a,
-.casl1a4a,
-.casl11a4a,
-.casl1a5a,
-.casl11a5a,
-.casl1a6a,
-.casl11a6a,
-.casl1a7a,
-.casl11a7a,
-.casl1a8a,
-.casl11a8a,
-.casl1a9a,
-.casl11a9a,
-.casl1a10a,
-.casl11a10a,
-.casl1a11a,
-.casl11a11a,
-.casl1a12a,
-.casl11a12a,
-.casl1a13a,
-.casl11a13a,
-.casl1a14a,
-.casl11a14a,
-.casl1a15a,
-.casl11a15a,
-.casl1a16a,
-.casl11a16a,
-.casl1a17a,
-.casl11a17a,
-.casl1a18a,
-.casl11a18a {
+/* CL1 and CL2 */
+
+.cl1,
+.cl2 {
     height: 100%;
     width: 50%;
     border: 0;
@@ -2463,42 +2366,43 @@ body {
     background-color: black;
 }
 
-.casl1a1b,
-.casl11a1b,
-.casl1a2b,
-.casl11a2b,
-.casl1a3b,
-.casl11a3b,
-.casl1a4b,
-.casl11a4b,
-.casl1a5b,
-.casl11a5b,
-.casl1a6b,
-.casl11a6b,
-.casl1a7b,
-.casl11a7b,
-.casl1a8b,
-.casl11a8b,
-.casl1a9b,
-.casl11a9b,
-.casl1a10b,
-.casl11a10b,
-.casl1a11b,
-.casl11a11b,
-.casl1a12b,
-.casl11a12b,
-.casl1a13b,
-.casl11a13b,
-.casl1a14b,
-.casl11a14b,
-.casl1a15b,
-.casl11a15b,
-.casl1a16b,
-.casl11a16b,
-.casl1a17b,
-.casl11a17b,
-.casl1a18b,
-.casl11a18b {
+/* CL3 and CL4 */
+
+.cl3,
+.cl4 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* CL5 and CL6 */
+
+.cl5,
+.cl6 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* CL7 and CL8 */
+
+.cl7,
+.cl8 {
+    height: 100%;
+    width: 50%;
+    border: 0;
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+}
+
+/* CL9 and CL10 */
+
+.cl9,
+.cl10 {
     height: 100%;
     width: 50%;
     border: 0;
@@ -2508,18 +2412,8 @@ body {
 
 /* SPACE BETWEEN */
 
-.space-between-1,
-.space-between-11 {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* STREET LIGHTS */
-
-.casl1b,
-.casl11b {
-    height: 10%;
+.space-between {
+    height: 0.7%;
     width: 100%;
     border: 0;
     display: flex;
@@ -2527,687 +2421,15 @@ body {
     justify-content: space-around;
 }
 
-.casl1b1,
-.casl11b1,
-.casl1b2,
-.casl11b2,
-.casl1b3,
-.casl11b3,
-.casl1b4,
-.casl11b4,
-.casl1b5,
-.casl11b5,
-.casl1b6,
-.casl11b6,
-.casl1b7,
-.casl11b7,
-.casl1b8,
-.casl11b8,
-.casl1b9,
-.casl11b9,
-.casl1b10,
-.casl11b10,
-.casl1b11,
-.casl11b11,
-.casl1b12,
-.casl11b12,
-.casl1b13,
-.casl11b13,
-.casl1b14,
-.casl11b14,
-.casl1b15,
-.casl11b15,
-.casl1b16,
-.casl11b16,
-.casl1b17,
-.casl11b17,
-.casl1b18,
-.casl11b18,
-.casl1b19,
-.casl11b19,
-.casl1b20,
-.casl11b20 {
-    height: 100%;
-    width: 2.535%;
-    clip-path: circle(50% at 50% 50%);
-    background-color: black;
-}
-
-/* CARS AND STREET LIGHTS 2 AND 12 */
-
-.casl2,
-.casl12 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-
-/* CARS */
-
-.casl2a,
-.casl12a {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* SPACE BETWEEN */
-
-.space-between-2,
-.space-between-12 {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
 /* STREET LIGHTS */
 
-.casl2b,
-.casl12b {
-    height: 10%;
+.street-lights {
+    height: 1%;
     width: 100%;
     border: 0;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-}
-
-.casl2b1,
-.casl12b1,
-.casl2b2,
-.casl12b2,
-.casl2b3,
-.casl12b3,
-.casl2b4,
-.casl12b4,
-.casl2b5,
-.casl12b5,
-.casl2b6,
-.casl12b6,
-.casl2b7,
-.casl12b7,
-.casl2b8,
-.casl12b8,
-.casl2b9,
-.casl12b9,
-.casl2b10,
-.casl12b10,
-.casl2b11,
-.casl12b11,
-.casl2b12,
-.casl12b12,
-.casl2b13,
-.casl12b13,
-.casl2b14,
-.casl12b14,
-.casl2b15,
-.casl12b15,
-.casl2b16,
-.casl12b16,
-.casl2b17,
-.casl12b17,
-.casl2b18,
-.casl12b18,
-.casl2b19,
-.casl12b19,
-.casl2b20,
-.casl12b20 {
-    height: 100%;
-    width: 2.535%;
-    clip-path: circle(50% at 50% 50%);
-    background-color: black;
-}
-
-/* CARS AND STREET LIGHTS 3 AND 13 */
-
-.casl3,
-.casl13 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-
-/* CARS */
-
-.casl3a,
-.casl13a {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* SPACE BETWEEN */
-
-.space-between-3,
-.space-between-13 {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* STREET LIGHTS */
-
-.casl3b,
-.casl13b {
-    height: 10%;
-    width: 100%;
-    border: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.casl3b1,
-.casl13b1,
-.casl3b2,
-.casl13b2,
-.casl3b3,
-.casl13b3,
-.casl3b4,
-.casl13b4,
-.casl3b5,
-.casl13b5,
-.casl3b6,
-.casl13b6,
-.casl3b7,
-.casl13b7,
-.casl3b8,
-.casl13b8,
-.casl3b9,
-.casl13b9,
-.casl3b10,
-.casl13b10,
-.casl3b11,
-.casl13b11,
-.casl3b12,
-.casl13b12,
-.casl3b13,
-.casl13b13,
-.casl3b14,
-.casl13b14,
-.casl3b15,
-.casl13b15,
-.casl3b16,
-.casl13b16,
-.casl3b17,
-.casl13b17,
-.casl3b18,
-.casl13b18,
-.casl3b19,
-.casl13b19,
-.casl3b20,
-.casl13b20 {
-    height: 100%;
-    width: 2.535%;
-    clip-path: circle(50% at 50% 50%);
-    background-color: black;
-}
-
-/* CARS AND STREET LIGHTS 4 AND 14 */
-
-.casl4,
-.casl14 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-
-/* CARS */
-
-.casl4a,
-.casl14a {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* SPACE BETWEEN */
-
-.space-between-4,
-.space-between-14 {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* STREET LIGHTS */
-
-.casl4b,
-.casl14b {
-    height: 10%;
-    width: 100%;
-    border: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.casl4b1,
-.casl14b1,
-.casl4b2,
-.casl14b2,
-.casl4b3,
-.casl14b3,
-.casl4b4,
-.casl14b4,
-.casl4b5,
-.casl14b5,
-.casl4b6,
-.casl14b6,
-.casl4b7,
-.casl14b7,
-.casl4b8,
-.casl14b8,
-.casl4b9,
-.casl14b9,
-.casl4b10,
-.casl14b10,
-.casl4b11,
-.casl14b11,
-.casl4b12,
-.casl14b12,
-.casl4b13,
-.casl14b13,
-.casl4b14,
-.casl14b14,
-.casl4b15,
-.casl14b15,
-.casl4b16,
-.casl14b16,
-.casl4b17,
-.casl14b17,
-.casl4b18,
-.casl14b18,
-.casl4b19,
-.casl14b19,
-.casl4b20,
-.casl14b20 {
-    height: 100%;
-    width: 2.535%;
-    clip-path: circle(50% at 50% 50%);
-    background-color: black;
-}
-
-/* CARS AND STREET LIGHTS 5 AND 15 */
-
-.casl5,
-.casl15 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-
-/* CARS */
-
-.casl5a,
-.casl15a {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* SPACE BETWEEN */
-
-.space-between-5,
-.space-between-15 {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* STREET LIGHTS */
-
-.casl5b,
-.casl15b {
-    height: 10%;
-    width: 100%;
-    border: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.casl5b1,
-.casl15b1,
-.casl5b2,
-.casl15b2,
-.casl5b3,
-.casl15b3,
-.casl5b4,
-.casl15b4,
-.casl5b5,
-.casl15b5,
-.casl5b6,
-.casl15b6,
-.casl5b7,
-.casl15b7,
-.casl5b8,
-.casl15b8,
-.casl5b9,
-.casl15b9,
-.casl5b10,
-.casl15b10,
-.casl5b11,
-.casl15b11,
-.casl5b12,
-.casl15b12,
-.casl5b13,
-.casl15b13,
-.casl5b14,
-.casl15b14,
-.casl5b15,
-.casl15b15,
-.casl5b16,
-.casl15b16,
-.casl5b17,
-.casl15b17,
-.casl5b18,
-.casl15b18,
-.casl5b19,
-.casl15b19,
-.casl5b20,
-.casl15b20 {
-    height: 100%;
-    width: 2.535%;
-    clip-path: circle(50% at 50% 50%);
-    background-color: black;
-}
-
-/* CARS AND STREET LIGHTS 6 */
-
-.casl6 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-
-/* CARS */
-
-.casl6a {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* SPACE BETWEEN */
-
-.space-between-6 {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* STREET LIGHTS */
-
-.casl6b {
-    height: 10%;
-    width: 100%;
-    border: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.casl6b1,
-.casl6b2,
-.casl6b3,
-.casl6b4,
-.casl6b5,
-.casl6b6,
-.casl6b7,
-.casl6b8,
-.casl6b9,
-.casl6b10,
-.casl6b11,
-.casl6b12,
-.casl6b13,
-.casl6b14,
-.casl6b15,
-.casl6b16,
-.casl6b17,
-.casl6b18,
-.casl6b19,
-.casl6b20 {
-    height: 100%;
-    width: 2.535%;
-    clip-path: circle(50% at 50% 50%);
-    background-color: black;
-}
-
-/* CARS AND STREET LIGHTS 7 */
-
-.casl7 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-
-/* CARS */
-
-.casl7a {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-.space-between-7 {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* STREET LIGHTS */
-
-.casl7b {
-    height: 10%;
-    width: 100%;
-    border: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.casl7b1,
-.casl7b2,
-.casl7b3,
-.casl7b4,
-.casl7b5,
-.casl7b6,
-.casl7b7,
-.casl7b8,
-.casl7b9,
-.casl7b10,
-.casl7b11,
-.casl7b12,
-.casl7b13,
-.casl7b14,
-.casl7b15,
-.casl7b16,
-.casl7b17,
-.casl7b18,
-.casl7b19,
-.casl7b20 {
-    height: 100%;
-    width: 2.535%;
-    clip-path: circle(50% at 50% 50%);
-    background-color: black;
-}
-
-/* CARS AND STREET LIGHTS 8 */
-
-.casl8 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-
-/* CARS */
-
-.casl8a {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-.space-between-8 {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* STREET LIGHTS */
-
-.casl8b {
-    height: 10%;
-    width: 100%;
-    border: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.casl8b1,
-.casl8b2,
-.casl8b3,
-.casl8b4,
-.casl8b5,
-.casl8b6,
-.casl8b7,
-.casl8b8,
-.casl8b9,
-.casl8b10,
-.casl8b11,
-.casl8b12,
-.casl8b13,
-.casl8b14,
-.casl8b15,
-.casl8b16,
-.casl8b17,
-.casl8b18,
-.casl8b19,
-.casl8b20 {
-    height: 100%;
-    width: 2.535%;
-    clip-path: circle(50% at 50% 50%);
-    background-color: black;
-}
-
-/* CARS AND STREET LIGHTS 9 */
-
-.casl9 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-
-/* CARS */
-
-.casl9a {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-.space-between-9 {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* STREET LIGHTS */
-
-.casl9b {
-    height: 10%;
-    width: 100%;
-    border: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.casl9b1,
-.casl9b2,
-.casl9b3,
-.casl9b4,
-.casl9b5,
-.casl9b6,
-.casl9b7,
-.casl9b8,
-.casl9b9,
-.casl9b10,
-.casl9b11,
-.casl9b12,
-.casl9b13,
-.casl9b14,
-.casl9b15,
-.casl9b16,
-.casl9b17,
-.casl9b18,
-.casl9b19,
-.casl9b20 {
-    height: 100%;
-    width: 2.535%;
-    clip-path: circle(50% at 50% 50%);
-    background-color: black;
-}
-
-/* CARS AND STREET LIGHTS 10 */
-
-.casl10 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-
-/* CARS */
-
-.casl10a {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-.space-between-10 {
-    height: 10%;
-    width: 100%;
-    border: 0;
-}
-
-/* STREET LIGHTS */
-
-.casl10b {
-    height: 10%;
-    width: 100%;
-    border: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.casl10b1,
-.casl10b2,
-.casl10b3,
-.casl10b4,
-.casl10b5,
-.casl10b6,
-.casl10b7,
-.casl10b8,
-.casl10b9,
-.casl10b10,
-.casl10b11,
-.casl10b12,
-.casl10b13,
-.casl10b14,
-.casl10b15,
-.casl10b16,
-.casl10b17,
-.casl10b18,
-.casl10b19,
-.casl10b20 {
-    height: 100%;
-    width: 2.535%;
-    clip-path: circle(50% at 50% 50%);
-    background-color: black;
 }
 
 /* WINDOWS */
@@ -3218,6 +2440,10 @@ body {
 }
 
 /* ANTENNAS */
+
+
+
+/* RED LIGHTS */
 
 
 
