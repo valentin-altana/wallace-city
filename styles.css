@@ -2,7 +2,7 @@
     box-sizing: border-box;
     border: solid black 1px;
     /* overflow: hidden; */
-    /* border: 0; */
+    border: 0;
 }
 
 body {
@@ -15,13 +15,30 @@ body {
     position: absolute;
 }
 
+/* WALLACE CITY */
+
+.wallace-city {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
 /* SKY */
 
 .sky {
     height: 100%;
     width: 100%;
     display: flex;
+}
+
+/* MOON */
+
+.moon {
+    height: 100%;
+    width: 100%;
+    display: flex;
     position: fixed;
+    background: radial-gradient(closest-corner circle at 15% 20%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 15%, rgba(0, 0, 100, 1) 20%, rgba(0, 0, 30, 1) 100%);
 }
 
 /* CITY */
@@ -29,8 +46,8 @@ body {
 .city {
     height: 97%;
     width: 100%;
-    /* animation: scroll 60s linear infinite; */
     display: flex;
+    /* animation: scroll 60s linear infinite; */
 }
 
 /* BACKGROUND BUILDINGS */
@@ -57,7 +74,6 @@ body {
 .bb12 {
     width: 4%;
     height: 98%;
-    border: 0;
 }
 
 /* BB1 and BB9 */
@@ -73,25 +89,21 @@ body {
 .bb9a {
     height: 75%;
     width: 80%;
-    /* WINDOWS-1 */
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(30, 1fr);
-    gap: 2%;
-    padding: 3%;
-    /* WINDOWS-1 */
+    background: rgb(12, 12, 12);
 }
 
 .bb1b,
 .bb9b {
     height: 1%;
     width: 80%;
+    background: rgb(20, 20, 20);
 }
 
 .bb1c,
 .bb9c {
     height: 2.5%;
     width: 60%;
+    background: rgb(12, 12, 12);
     /* OTHERS-1 */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -104,6 +116,7 @@ body {
 .bb9d {
     height: 1%;
     width: 60%;
+    background: rgb(20, 20, 20);
 }
 
 .bb1e,
@@ -120,7 +133,6 @@ body {
     height: 10%;
     width: 12.5%;
     clip-path: polygon(50% 25%, 45% 40%, 65% 55%, 40% 65%, 70% 70%, 35% 75%, 35% 80%, 75% 85%, 35% 90%, 35% 100%, 20% 100%, 20% 90%, 0 100%, 20% 80%, 20% 70%, 50% 0, 80% 70%, 80% 80%, 100% 100%, 80% 90%, 80% 100%, 65% 100%, 65% 90%, 25% 85%, 65% 80%, 65% 75%, 30% 70%, 60% 65%, 35% 55%, 55% 40%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -129,6 +141,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -145,19 +159,14 @@ body {
 .bb10a {
     height: 70%;
     width: 80%;
-    /* WINDOWS-1 */
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(30, 1fr);
-    gap: 2%;
-    padding: 3%;
-    /* WINDOWS-1 */
+    background: rgb(12, 12, 12);
 }
 
 .bb2b,
 .bb10b {
     height: 1%;
     width: 80%;
+    background: rgb(20, 20, 20);
 }
 
 .bb2c,
@@ -167,7 +176,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .bb2c1,
@@ -175,6 +183,8 @@ body {
     /* RED LIGHT */
     height: 66.4%;
     width: 10.3%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -183,6 +193,8 @@ body {
     /* RED LIGHT */
     height: 66.4%;
     width: 10.3%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -199,25 +211,21 @@ body {
 .bb11a {
     height: 60%;
     width: 80%;
-    /* WINDOWS-1 */
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(28, 1fr);
-    gap: 2%;
-    padding: 3%;
-    /* WINDOWS-1 */
+    background: rgb(12, 12, 12);
 }
 
 .bb3b,
 .bb11b {
     height: 1%;
     width: 80%;
+    background: rgb(20, 20, 20);
 }
 
 .bb3c,
 .bb11c {
     height: 2.5%;
     width: 40%;
+    background: rgb(12, 12, 12);
     /* OTHERS-1 */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -231,6 +239,7 @@ body {
 .bb11d {
     height: 1%;
     width: 40%;
+    background: rgb(20, 20, 20);
 }
 
 .bb3e,
@@ -239,7 +248,6 @@ body {
     height: 2.5%;
     width: 20%;
     clip-path: polygon(35% 0, 0 100%, 50% 70%, 20% 75%, 30% 50%, 25% 100%, 35% 65%, 45% 45%, 30% 40%, 35% 30%, 40% 20%, 50% 100%, 60% 20%, 65% 30%, 70% 40%, 55% 45%, 65% 65%, 75% 100%, 70% 50%, 80% 75%, 50% 70%, 100% 100%, 65% 0);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -249,7 +257,6 @@ body {
     height: 5%;
     width: 5%;
     clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -258,6 +265,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -274,25 +283,21 @@ body {
 .bb12a {
     height: 65%;
     width: 80%;
-    /* WINDOWS-1 */
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(30, 1fr);
-    gap: 2%;
-    padding: 3%;
-    /* WINDOWS-1 */
+    background: rgb(12, 12, 12);
 }
 
 .bb4b,
 .bb12b {
     height: 1%;
     width: 80%;
+    background: rgb(20, 20, 20);
 }
 
 .bb4c,
 .bb12c {
     height: 2.5%;
     width: 40%;
+    background: rgb(12, 12, 12);
     /* OTHERS-1 */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -306,6 +311,7 @@ body {
 .bb12d {
     height: 1%;
     width: 40%;
+    background: rgb(20, 20, 20);
 }
 
 .bb4e,
@@ -314,7 +320,6 @@ body {
     height: 2.5%;
     width: 20%;
     clip-path: polygon(75% 50%, 0 100%, 35% 0, 65% 0, 100% 100%, 25% 50%, 80% 75%, 65% 30%, 55% 100%, 45% 100%, 35% 30%, 20% 75%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -324,7 +329,6 @@ body {
     height: 5%;
     width: 5%;
     clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -333,6 +337,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -347,23 +353,19 @@ body {
 .bb5a {
     height: 80%;
     width: 80%;
-    /* WINDOWS-1 */
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(30, 1fr);
-    gap: 2%;
-    padding: 3%;
-    /* WINDOWS-1 */
+    background: rgb(12, 12, 12);
 }
 
 .bb5b {
     height: 1%;
     width: 80%;
+    background: rgb(20, 20, 20);
 }
 
 .bb5c {
     height: 2.5%;
     width: 40%;
+    background: rgb(12, 12, 12);
     /* OTHERS-1 */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -375,13 +377,14 @@ body {
 .bb5d {
     height: 1%;
     width: 40%;
+    background: rgb(20, 20, 20);
 }
 
 .bb5e {
     height: 2%;
     width: 40%;
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background-color: black;
 }
 
 .bb5f {
@@ -389,7 +392,6 @@ body {
     height: 7.5%;
     width: 5%;
     clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -397,6 +399,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -411,18 +415,13 @@ body {
 .bb6a {
     height: 95%;
     width: 80%;
-    /* WINDOWS-1 */
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(35, 1fr);
-    gap: 2%;
-    padding: 3%;
-    /* WINDOWS-1 */
+    background: rgb(12, 12, 12);
 }
 
 .bb6b {
     height: 1%;
     width: 80%;
+    background: rgb(20, 20, 20);
 }
 
 .bb6c {
@@ -431,13 +430,14 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .bb6c1 {
     /* RED LIGHT */
     height: 66.4%;
     width: 10.3%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -445,6 +445,8 @@ body {
     /* RED LIGHT */
     height: 66.4%;
     width: 10.3%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -459,23 +461,19 @@ body {
 .bb7a {
     height: 65%;
     width: 80%;
-    /* WINDOWS-1 */
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(30, 1fr);
-    gap: 2%;
-    padding: 3%;
-    /* WINDOWS-1 */
+    background: rgb(12, 12, 12);
 }
 
 .bb7b {
     height: 1%;
     width: 80%;
+    background: rgb(20, 20, 20);
 }
 
 .bb7c {
     height: 2.5%;
     width: 40%;
+    background: rgb(12, 12, 12);
     /* OTHERS-1 */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -487,6 +485,7 @@ body {
 .bb7d {
     height: 1%;
     width: 40%;
+    background: rgb(20, 20, 20);
 }
 
 .bb7e {
@@ -494,7 +493,6 @@ body {
     height: 2.5%;
     width: 20%;
     clip-path: polygon(75% 50%, 0 100%, 35% 0, 65% 0, 100% 100%, 25% 50%, 80% 75%, 65% 30%, 55% 100%, 45% 100%, 35% 30%, 20% 75%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -503,7 +501,6 @@ body {
     height: 5%;
     width: 5%;
     clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -511,6 +508,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -526,23 +525,19 @@ body {
 .bb8a {
     height: 75%;
     width: 80%;
-    /* WINDOWS-1 */
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(25, 1fr);
-    gap: 2%;
-    padding: 3%;
-    /* WINDOWS-1 */
+    background: rgb(12, 12, 12);
 }
 
 .bb8b {
     height: 1%;
     width: 80%;
+    background: rgb(20, 20, 20);
 }
 
 .bb8c {
     height: 1%;
     width: 60%;
+    background: rgb(12, 12, 12);
 }
 
 .bb8d {
@@ -550,6 +545,7 @@ body {
     width: 40%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+    background: rgb(20, 20, 20);
 }
 
 .bb8e {
@@ -557,7 +553,6 @@ body {
     height: 7.5%;
     width: 5%;
     clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -565,6 +560,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -604,7 +601,6 @@ body {
 .mb24 {
     width: 4%;
     height: 98%;
-    border: 0;
 }
 
 /* MB1 and MB17 */
@@ -661,7 +657,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .mb1f1,
@@ -670,6 +665,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-left: 26%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -679,6 +676,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-right: 26%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -727,7 +726,6 @@ body {
     height: 2.5%;
     width: 20%;
     clip-path: polygon(75% 50%, 0 100%, 35% 0, 65% 0, 100% 100%, 25% 50%, 80% 75%, 65% 30%, 55% 100%, 45% 100%, 35% 30%, 20% 75%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -737,7 +735,6 @@ body {
     height: 5%;
     width: 5%;
     clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -746,6 +743,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -777,7 +776,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .mb3c1,
@@ -785,6 +783,8 @@ body {
     /* RED LIGHT */
     height: 66.4%;
     width: 8.24%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -793,6 +793,8 @@ body {
     /* RED LIGHT */
     height: 66.4%;
     width: 8.24%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -837,7 +839,6 @@ body {
     height: 5%;
     width: 5%;
     clip-path: polygon(0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 70% 100%, 40% 80%, 70% 60%, 50% 50%, 30% 60%, 60% 80%, 30% 100%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -846,6 +847,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -877,7 +880,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .mb5c1,
@@ -885,6 +887,8 @@ body {
     /* RED LIGHT */
     height: 66.4%;
     width: 8.24%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -893,6 +897,8 @@ body {
     /* RED LIGHT */
     height: 66.4%;
     width: 8.24%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -957,7 +963,6 @@ body {
     height: 5%;
     width: 5%;
     clip-path: polygon(0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 70% 100%, 40% 80%, 70% 60%, 50% 50%, 30% 60%, 60% 80%, 30% 100%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -966,6 +971,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1096,7 +1103,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .mb8n1,
@@ -1105,6 +1111,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-left: 26%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1114,6 +1122,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-right: 26%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1180,7 +1190,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .mb9h1 {
@@ -1188,6 +1197,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-left: 34%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1196,6 +1207,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-right: 34%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1300,7 +1313,6 @@ body {
     width: 20%;
     margin-right: 30%;
     clip-path: polygon(75% 50%, 0 100%, 35% 0, 65% 0, 100% 100%, 25% 50%, 80% 75%, 65% 30%, 55% 100%, 45% 100%, 35% 30%, 20% 75%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -1310,7 +1322,6 @@ body {
     width: 5%;
     margin-right: 30%;
     clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -1319,6 +1330,8 @@ body {
     height: 2%;
     width: 8.28%;
     margin-right: 30%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1371,7 +1384,6 @@ body {
     height: 2.5%;
     width: 20%;
     clip-path: polygon(35% 0, 0 100%, 50% 70%, 20% 75%, 30% 50%, 25% 100%, 35% 65%, 45% 45%, 30% 40%, 35% 30%, 40% 20%, 50% 100%, 60% 20%, 65% 30%, 70% 40%, 55% 45%, 65% 65%, 75% 100%, 70% 50%, 80% 75%, 50% 70%, 100% 100%, 65% 0);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -1380,7 +1392,6 @@ body {
     height: 5%;
     width: 5%;
     clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -1388,6 +1399,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1485,7 +1498,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .mb12o1 {
@@ -1493,6 +1505,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-left: 26%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1501,6 +1515,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-right: 26%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1544,7 +1560,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .mb13e1 {
@@ -1552,6 +1567,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-left: 20%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1560,6 +1577,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-right: 20%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1599,7 +1618,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .mb14e1 {
@@ -1607,6 +1625,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-left: 18%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1615,6 +1635,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-right: 18%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1642,13 +1664,14 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .mb15c1 {
     /* RED LIGHT */
     height: 66.4%;
     width: 8.24%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1656,6 +1679,8 @@ body {
     /* RED LIGHT */
     height: 66.4%;
     width: 8.24%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1683,7 +1708,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .mb16c1 {
@@ -1691,6 +1715,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-left: 10%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1699,6 +1725,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-right: 10%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1735,7 +1763,6 @@ body {
 .fb21 {
     width: 4%;
     height: 98%;
-    border: 0;
 }
 
 /* FB1 and FB15 */
@@ -1751,18 +1778,21 @@ body {
 .fb15a {
     height: 25%;
     width: 60%;
+    background-color: black;
 }
 
 .fb1b,
 .fb15b {
     height: 1%;
     width: 60%;
+    background-color: black;
 }
 
 .fb1c,
 .fb15c {
     height: 1%;
     width: 40%;
+    background-color: black;
 }
 
 /* FB2 and FB16 */
@@ -1778,12 +1808,14 @@ body {
 .fb16a {
     height: 35%;
     width: 60%;
+    background-color: black;
 }
 
 .fb2b,
 .fb16b {
     height: 1%;
     width: 60%;
+    background-color: black;
 }
 
 .fb2c,
@@ -1791,7 +1823,7 @@ body {
     height: 2.5%;
     width: 60%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background-color: black;
 }
 
 .fb2d,
@@ -1801,7 +1833,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .fb2d1,
@@ -1810,6 +1841,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-left: 26%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1819,6 +1852,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-right: 26%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1835,18 +1870,21 @@ body {
 .fb17a {
     height: 25%;
     width: 80%;
+    background-color: black;
 }
 
 .fb3b,
 .fb17b {
     height: 1%;
     width: 80%;
+    background-color: black;
 }
 
 .fb3c,
 .fb17c {
     height: 2.5%;
     width: 60%;
+    background-color: black;
     /* OTHERS-3 */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1859,12 +1897,14 @@ body {
 .fb17d {
     height: 1%;
     width: 60%;
+    background-color: black;
 }
 
 .fb3e,
 .fb17e {
     height: 1%;
     width: 20%;
+    background-color: black;
 }
 
 .fb3f,
@@ -1873,7 +1913,6 @@ body {
     height: 5%;
     width: 5%;
     clip-path: polygon(0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 70% 100%, 40% 80%, 70% 60%, 50% 50%, 30% 60%, 60% 80%, 30% 100%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -1882,6 +1921,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1898,24 +1939,28 @@ body {
 .fb18a {
     height: 35%;
     width: 80%;
+    background-color: black;
 }
 
 .fb4b,
 .fb18b {
     height: 1%;
     width: 80%;
+    background-color: black;
 }
 
 .fb4c,
 .fb18c {
     height: 2.5%;
     width: 80%;
+    background-color: black;
 }
 
 .fb4d,
 .fb18d {
     height: 1%;
     width: 80%;
+    background-color: black;
 }
 
 .fb4e,
@@ -1923,7 +1968,7 @@ body {
     height: 5%;
     width: 80%;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    background-color: grey;
+    background-color: black;
 }
 
 .fb4f,
@@ -1931,6 +1976,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1947,12 +1994,14 @@ body {
 .fb19a {
     height: 20%;
     width: 60%;
+    background-color: black;
 }
 
 .fb5b,
 .fb19b {
     height: 1%;
     width: 60%;
+    background-color: black;
 }
 
 .fb5c,
@@ -1960,7 +2009,7 @@ body {
     height: 2.5%;
     width: 60%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background-color: black;
 }
 
 .fb5d,
@@ -1970,7 +2019,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .fb5d1,
@@ -1979,6 +2027,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-left: 26%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -1988,6 +2038,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-right: 26%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -2004,12 +2056,14 @@ body {
 .fb20a {
     height: 40%;
     width: 80%;
+    background-color: black;
 }
 
 .fb6b,
 .fb20b {
     height: 1%;
     width: 80%;
+    background-color: black;
 }
 
 .fb6c,
@@ -2028,12 +2082,14 @@ body {
 .fb20d {
     height: 1%;
     width: 60%;
+    background-color: black;
 }
 
 .fb6e,
 .fb20e {
     height: 1%;
     width: 20%;
+    background-color: black;
 }
 
 .fb6f,
@@ -2042,7 +2098,6 @@ body {
     height: 5%;
     width: 5%;
     clip-path: polygon(0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 70% 100%, 40% 80%, 70% 60%, 50% 50%, 30% 60%, 60% 80%, 30% 100%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -2051,6 +2106,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -2067,12 +2124,14 @@ body {
 .fb21a {
     height: 15%;
     width: 60%;
+    background-color: black;
 }
 
 .fb7b,
 .fb21b {
     height: 1%;
     width: 60%;
+    background-color: black;
 }
 
 .fb7c,
@@ -2080,7 +2139,7 @@ body {
     height: 5%;
     width: 60%;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    background-color: grey;
+    background-color: black;
 }
 
 /* FB8 */
@@ -2094,16 +2153,19 @@ body {
 .fb8a {
     height: 35%;
     width: 80%;
+    background-color: black;
 }
 
 .fb8b {
     height: 1%;
     width: 80%;
+    background-color: black;
 }
 
 .fb8c {
     height: 2.5%;
     width: 60%;
+    background-color: black;
     /* OTHERS-3 */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -2115,11 +2177,13 @@ body {
 .fb8d {
     height: 1%;
     width: 60%;
+    background-color: black;
 }
 
 .fb8e {
     height: 1%;
     width: 20%;
+    background-color: black;
 }
 
 .fb8f {
@@ -2127,7 +2191,6 @@ body {
     height: 5%;
     width: 5%;
     clip-path: polygon(0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 70% 100%, 40% 80%, 70% 60%, 50% 50%, 30% 60%, 60% 80%, 30% 100%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -2135,6 +2198,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -2149,11 +2214,13 @@ body {
 .fb9a {
     height: 15%;
     width: 80%;
+    background-color: black;
 }
 
 .fb9b {
     height: 1%;
     width: 80%;
+    background-color: black;
 }
 
 /* FB10 */
@@ -2167,16 +2234,19 @@ body {
 .fb10a {
     height: 25%;
     width: 60%;
+    background-color: black;
 }
 
 .fb10b {
     height: 1%;
     width: 60%;
+    background-color: black;
 }
 
 .fb10c {
     height: 1%;
     width: 40%;
+    background-color: black;
 }
 
 /* FB11 */
@@ -2190,11 +2260,13 @@ body {
 .fb11a {
     height: 25%;
     width: 80%;
+    background-color: black;
 }
 
 .fb11b {
     height: 1%;
     width: 80%;
+    background-color: black;
 }
 
 /* FB12 */
@@ -2208,16 +2280,19 @@ body {
 .fb12a {
     height: 35%;
     width: 60%;
+    background-color: black;
 }
 
 .fb12b {
     height: 1%;
     width: 60%;
+    background-color: black;
 }
 
 .fb12c {
     height: 1%;
     width: 40%;
+    background-color: black;
 }
 
 /* FB13 */
@@ -2231,18 +2306,20 @@ body {
 .fb13a {
     height: 25%;
     width: 80%;
+    background-color: black;
 }
 
 .fb13b {
     height: 1%;
     width: 80%;
+    background-color: black;
 }
 
 .fb13c {
     height: 5%;
     width: 80%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background-color: black;
 }
 
 .fb13d {
@@ -2251,7 +2328,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border: 0;
 }
 
 .fb13d1 {
@@ -2259,6 +2335,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-left: 18%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -2267,6 +2345,8 @@ body {
     height: 66.4%;
     width: 8.24%;
     margin-right: 18%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -2281,16 +2361,19 @@ body {
 .fb14a {
     height: 35%;
     width: 80%;
+    background-color: black;
 }
 
 .fb14b {
     height: 1%;
     width: 80%;
+    background-color: black;
 }
 
 .fb14c {
     height: 2.5%;
     width: 60%;
+    background-color: black;
     /* OTHERS-3 */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -2302,11 +2385,13 @@ body {
 .fb14d {
     height: 1%;
     width: 60%;
+    background-color: black;
 }
 
 .fb14e {
     height: 1%;
     width: 20%;
+    background-color: black;
 }
 
 .fb14f {
@@ -2314,7 +2399,6 @@ body {
     height: 5%;
     width: 5%;
     clip-path: polygon(0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 70% 100%, 40% 80%, 70% 60%, 50% 50%, 30% 60%, 60% 80%, 30% 100%);
-    background-color: black;
     /* ANTENNAS */
 }
 
@@ -2322,6 +2406,8 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
+    clip-path: circle(50% at 50% 50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
     /* RED LIGHT */
 }
 
@@ -2333,6 +2419,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    background: linear-gradient(0deg, rgba(255, 250, 0, 0.2) 0%, rgba(255, 250, 0, 0) 30%);
 }
 
 /* CARS */
@@ -2340,7 +2427,6 @@ body {
 .cars {
     height: 1%;
     width: 100%;
-    border: 0;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -2349,7 +2435,6 @@ body {
 .cars-lights {
     height: 100%;
     width: 0.338%;
-    border: 0;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -2360,17 +2445,15 @@ body {
 .cl1 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
 }
 
 .cl2 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* CL3 and CL4 */
@@ -2378,17 +2461,15 @@ body {
 .cl3 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
 }
 
 .cl4 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* CL5 and CL6 */
@@ -2396,17 +2477,15 @@ body {
 .cl5 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
 }
 
 .cl6 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* CL7 and CL8 */
@@ -2414,17 +2493,15 @@ body {
 .cl7 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
 }
 
 .cl8 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* CL9 and CL10 */
@@ -2432,17 +2509,15 @@ body {
 .cl9 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
 }
 
 .cl10 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* CL11 and CL12 */
@@ -2450,17 +2525,15 @@ body {
 .cl11 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
 }
 
 .cl12 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* CL13 and CL14 */
@@ -2468,17 +2541,15 @@ body {
 .cl13 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
 }
 
 .cl14 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* CL15 and CL16 */
@@ -2486,17 +2557,15 @@ body {
 .cl15 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
 }
 
 .cl16 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* CL17 and CL18 */
@@ -2504,17 +2573,15 @@ body {
 .cl17 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
 }
 
 .cl18 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* CL19 and CL20 */
@@ -2522,17 +2589,15 @@ body {
 .cl19 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
 }
 
 .cl20 {
     height: 100%;
     width: 50%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* SPACE BETWEEN */
@@ -2540,7 +2605,6 @@ body {
 .space-between {
     height: 0.7%;
     width: 100%;
-    border: 0;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -2551,7 +2615,6 @@ body {
 .street-lights {
     height: 1%;
     width: 100%;
-    border: 0;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -2562,9 +2625,8 @@ body {
 .sl1 {
     height: 100%;
     width: 0.169%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* SL2 */
@@ -2572,9 +2634,8 @@ body {
 .sl2 {
     height: 100%;
     width: 0.169%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* SL3 */
@@ -2582,9 +2643,8 @@ body {
 .sl3 {
     height: 100%;
     width: 0.169%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* SL4 */
@@ -2592,9 +2652,8 @@ body {
 .sl4 {
     height: 100%;
     width: 0.169%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* SL5 */
@@ -2602,9 +2661,8 @@ body {
 .sl5 {
     height: 100%;
     width: 0.169%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* SL6 */
@@ -2612,9 +2670,8 @@ body {
 .sl6 {
     height: 100%;
     width: 0.169%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* SL7 */
@@ -2622,9 +2679,8 @@ body {
 .sl7 {
     height: 100%;
     width: 0.169%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* SL8 */
@@ -2632,9 +2688,8 @@ body {
 .sl8 {
     height: 100%;
     width: 0.169%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* SL9 */
@@ -2642,9 +2697,8 @@ body {
 .sl9 {
     height: 100%;
     width: 0.169%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* SL10 */
@@ -2652,9 +2706,8 @@ body {
 .sl10 {
     height: 100%;
     width: 0.169%;
-    border: 0;
     clip-path: circle(50% at 50% 50%);
-    background-color: black;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
 }
 
 /* WINDOWS */
@@ -2662,11 +2715,18 @@ body {
 .windows-1 {
     height: 100%;
     width: 100%;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 1) 40%, rgba(255, 190, 0, 1) 80%, rgba(255, 140, 0, 1) 100%);
 }
 
 /* ANTENNAS */
 
+.antennas-1 {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 40%);
+}
 
+.antennas-2 {
+    background-color: black;
+}
 
 /* RED LIGHTS */
 
