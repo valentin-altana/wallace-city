@@ -1,8 +1,5 @@
 * {
-    box-sizing: border-box;
-    border: solid black 1px;
     /* overflow: hidden; */
-    border: 0;
 }
 
 body {
@@ -104,12 +101,6 @@ body {
     height: 2.5%;
     width: 60%;
     background: rgb(12, 12, 12);
-    /* OTHERS-1 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-1 */
 }
 
 .bb1d,
@@ -226,12 +217,6 @@ body {
     height: 2.5%;
     width: 40%;
     background: rgb(12, 12, 12);
-    /* OTHERS-1 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-1 */
 }
 
 
@@ -298,12 +283,6 @@ body {
     height: 2.5%;
     width: 40%;
     background: rgb(12, 12, 12);
-    /* OTHERS-1 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-1 */
 }
 
 
@@ -366,12 +345,6 @@ body {
     height: 2.5%;
     width: 40%;
     background: rgb(12, 12, 12);
-    /* OTHERS-1 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-1 */
 }
 
 .bb5d {
@@ -474,12 +447,6 @@ body {
     height: 2.5%;
     width: 40%;
     background: rgb(12, 12, 12);
-    /* OTHERS-1 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-1 */
 }
 
 .bb7d {
@@ -628,12 +595,6 @@ body {
 .mb17c {
     height: 2.5%;
     width: 60%;
-    /* OTHERS-2 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-2 */
 }
 
 .mb1d,
@@ -706,12 +667,6 @@ body {
 .mb18c {
     height: 2.5%;
     width: 60%;
-    /* OTHERS-2 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-2 */
 }
 
 .mb2d,
@@ -927,12 +882,6 @@ body {
 .mb22c {
     height: 2.5%;
     width: 60%;
-    /* OTHERS-2 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-2 */
 }
 
 .mb6d,
@@ -1074,12 +1023,6 @@ body {
 .mb24k {
     height: 2.5%;
     width: 60%;
-    /* OTHERS-2 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-2 */
 }
 
 .mb8l,
@@ -1148,12 +1091,6 @@ body {
 .mb9c {
     height: 2.5%;
     width: 60%;
-    /* OTHERS-2 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-2 */
 }
 
 .mb9d {
@@ -1164,12 +1101,6 @@ body {
 .mb9e {
     height: 2.5%;
     width: 40%;
-    /* OTHERS-2 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-2 */
 }
 
 .mb9f {
@@ -1293,12 +1224,6 @@ body {
     height: 2.5%;
     width: 40%;
     margin-right: 30%;
-    /* OTHERS-2 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-2 */
 }
 
 .mb10m {
@@ -1366,12 +1291,6 @@ body {
 .mb11e {
     height: 2.5%;
     width: 60%;
-    /* OTHERS-2 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-2 */
 }
 
 .mb11f {
@@ -1472,12 +1391,6 @@ body {
 .mb12l {
     height: 2.5%;
     width: 60%;
-    /* OTHERS-2 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-2 */
 }
 
 .mb12m {
@@ -1541,12 +1454,6 @@ body {
 .mb13c {
     height: 2.5%;
     width: 60%;
-    /* OTHERS-2 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-2 */
 }
 
 .mb13d {
@@ -1885,12 +1792,6 @@ body {
     height: 2.5%;
     width: 60%;
     background-color: black;
-    /* OTHERS-3 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-3 */
 }
 
 .fb3d,
@@ -2070,12 +1971,6 @@ body {
 .fb20c {
     height: 2.5%;
     width: 60%;
-    /* OTHERS-3 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-3 */
 }
 
 .fb6d,
@@ -2166,12 +2061,6 @@ body {
     height: 2.5%;
     width: 60%;
     background-color: black;
-    /* OTHERS-3 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-3 */
 }
 
 .fb8d {
@@ -2374,12 +2263,6 @@ body {
     height: 2.5%;
     width: 60%;
     background-color: black;
-    /* OTHERS-3 */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding: 2.5%;
-    /* OTHERS-3 */
 }
 
 .fb14d {
@@ -2419,7 +2302,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    background: linear-gradient(0deg, rgba(255, 250, 0, 0.2) 0%, rgba(255, 250, 0, 0) 30%);
+    background: linear-gradient(0deg, rgba(255, 250, 0, 0.2) 0%, rgba(255, 250, 0, 0) 40%);
 }
 
 /* CARS */
@@ -2712,12 +2595,6 @@ body {
 
 /* WINDOWS */
 
-.windows-1 {
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(120deg, rgba(255, 255, 255, 1) 40%, rgba(255, 190, 0, 1) 80%, rgba(255, 140, 0, 1) 100%);
-}
-
 /* ANTENNAS */
 
 .antennas-1 {
@@ -2729,25 +2606,6 @@ body {
 }
 
 /* RED LIGHTS */
-
-
-
-/* OTHERS */
-
-.others-1 {
-    height: 100%;
-    width: 100%;
-}
-
-.others-2 {
-    height: 100%;
-    width: 100%;
-}
-
-.others-3 {
-    height: 100%;
-    width: 100%;
-}
 
 /* ABSOLUTE POSITION */
 
