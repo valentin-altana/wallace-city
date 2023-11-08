@@ -86,7 +86,7 @@ body {
 .bb9a {
     height: 75%;
     width: 80%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 .bb1b,
@@ -100,7 +100,7 @@ body {
 .bb9c {
     height: 2.5%;
     width: 60%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 .bb1d,
@@ -115,7 +115,7 @@ body {
     height: 5%;
     width: 60%;
     clip-path: polygon(65% 0, 75% 70%, 95% 85%, 100% 100%, 0 100%, 5% 85%, 25% 70%, 35% 0);
-    background-color: black;
+    background: black;
 }
 
 .bb1f,
@@ -150,7 +150,7 @@ body {
 .bb10a {
     height: 70%;
     width: 80%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 .bb2b,
@@ -202,7 +202,7 @@ body {
 .bb11a {
     height: 60%;
     width: 80%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 .bb3b,
@@ -216,7 +216,7 @@ body {
 .bb11c {
     height: 2.5%;
     width: 40%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 
@@ -268,7 +268,7 @@ body {
 .bb12a {
     height: 65%;
     width: 80%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 .bb4b,
@@ -282,7 +282,7 @@ body {
 .bb12c {
     height: 2.5%;
     width: 40%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 
@@ -332,7 +332,7 @@ body {
 .bb5a {
     height: 80%;
     width: 80%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 .bb5b {
@@ -344,7 +344,7 @@ body {
 .bb5c {
     height: 2.5%;
     width: 40%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 .bb5d {
@@ -357,7 +357,7 @@ body {
     height: 2%;
     width: 40%;
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-    background-color: black;
+    background: black;
 }
 
 .bb5f {
@@ -388,7 +388,7 @@ body {
 .bb6a {
     height: 95%;
     width: 80%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 .bb6b {
@@ -434,7 +434,7 @@ body {
 .bb7a {
     height: 65%;
     width: 80%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 .bb7b {
@@ -446,7 +446,7 @@ body {
 .bb7c {
     height: 2.5%;
     width: 40%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 .bb7d {
@@ -492,7 +492,7 @@ body {
 .bb8a {
     height: 75%;
     width: 80%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 .bb8b {
@@ -504,7 +504,7 @@ body {
 .bb8c {
     height: 1%;
     width: 60%;
-    background: rgb(12, 12, 12);
+    background: rgb(10, 10, 10);
 }
 
 .bb8d {
@@ -540,6 +540,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 70%);
 }
 
 .mb1,
@@ -581,26 +582,30 @@ body {
 
 .mb1a,
 .mb17a {
-    height: 60%;
+    height: 40%;
     width: 100%;
+    background: rgb(15, 15, 15);
 }
 
 .mb1b,
 .mb17b {
     height: 1%;
     width: 100%;
+    background: rgb(25, 25, 25);
 }
 
 .mb1c,
 .mb17c {
     height: 2.5%;
     width: 60%;
+    background: rgb(15, 15, 15);
 }
 
 .mb1d,
 .mb17d {
     height: 1%;
     width: 60%;
+    background: rgb(25, 25, 25);
 }
 
 .mb1e,
@@ -608,7 +613,7 @@ body {
     height: 2%;
     width: 60%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background: black;
 }
 
 .mb1f,
@@ -653,26 +658,30 @@ body {
 
 .mb2a,
 .mb18a {
-    height: 50%;
+    height: 55%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb2b,
 .mb18b {
     height: 1%;
     width: 80%;
+    background: rgb(25, 25, 25);
 }
 
 .mb2c,
 .mb18c {
     height: 2.5%;
     width: 60%;
+    background: rgb(15, 15, 15);
 }
 
 .mb2d,
 .mb18d {
     height: 1%;
     width: 60%;
+    background: rgb(25, 25, 25);
 }
 
 .mb2e,
@@ -714,14 +723,16 @@ body {
 
 .mb3a,
 .mb19a {
-    height: 60%;
+    height: 45%;
     width: 100%;
+    background: rgb(15, 15, 15);
 }
 
 .mb3b,
 .mb19b {
     height: 1%;
     width: 100%;
+    background: rgb(25, 25, 25);
 }
 
 .mb3c,
@@ -766,18 +777,21 @@ body {
 .mb20a {
     height: 65%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb4b,
 .mb20b {
     height: 1%;
     width: 80%;
+    background: rgb(25, 25, 25);
 }
 
 .mb4c,
 .mb20c {
     height: 1%;
     width: 40%;
+    background: rgb(15, 15, 15);
 }
 
 .mb4d,
@@ -786,6 +800,7 @@ body {
     width: 40%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+    background: rgb(25, 25, 25);
 }
 
 .mb4e,
@@ -818,14 +833,16 @@ body {
 
 .mb5a,
 .mb21a {
-    height: 55%;
+    height: 50%;
     width: 100%;
+    background: rgb(15, 15, 15);
 }
 
 .mb5b,
 .mb21b {
     height: 1%;
     width: 100%;
+    background: rgb(25, 25, 25);
 }
 
 .mb5c,
@@ -868,26 +885,30 @@ body {
 
 .mb6a,
 .mb22a {
-    height: 50%;
+    height: 45%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb6b,
 .mb22b {
     height: 1%;
     width: 80%;
+    background: rgb(25, 25, 25);
 }
 
 .mb6c,
 .mb22c {
     height: 2.5%;
     width: 60%;
+    background: rgb(15, 15, 15);
 }
 
 .mb6d,
 .mb22d {
     height: 1%;
     width: 60%;
+    background: rgb(25, 25, 25);
 }
 
 .mb6e,
@@ -895,7 +916,7 @@ body {
     height: 2%;
     width: 60%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background: rgb(15, 15, 15);
 }
 
 .mb6f,
@@ -904,6 +925,7 @@ body {
     width: 30%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+    background: rgb(25, 25, 25);
 }
 
 .mb6g,
@@ -938,16 +960,16 @@ body {
 .mb23a {
     height: 25%;
     width: 100%;
-    /* clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
-    background-color: grey; */
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    background: linear-gradient(0deg, rgba(50, 50, 50, 1) 50%, rgba(20, 20, 20, 1) 100%);
 }
 
 .mb7b,
 .mb23b {
     height: 65%;
     width: 100%;
-    /* clip-path: polygon(20% 5%, 80% 0, 100% 100%, 0 100%);
-    background-color: grey; */
+    clip-path: polygon(20% 5%, 80% 0, 100% 100%, 0 100%);
+    background: linear-gradient(0deg, rgba(20, 20, 20, 1) 0%, rgba(50, 50, 50, 1) 50%, rgba(20, 20, 20, 1) 100%);
 }
 
 /* MB8 and MB24 */
@@ -963,72 +985,84 @@ body {
 .mb24a {
     height: 5%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb8b,
 .mb24b {
     height: 1%;
     width: 90%;
+    background: rgb(25, 25, 25);
 }
 
 .mb8c,
 .mb24c {
     height: 5%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb8d,
 .mb24d {
     height: 1%;
     width: 90%;
+    background: rgb(25, 25, 25);
 }
 
 .mb8e,
 .mb24e {
     height: 5%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb8f,
 .mb24f {
     height: 1%;
     width: 90%;
+    background: rgb(25, 25, 25);
 }
 
 .mb8g,
 .mb24g {
     height: 5%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb8h,
 .mb24h {
     height: 1%;
     width: 90%;
+    background: rgb(25, 25, 25);
 }
 
 .mb8i,
 .mb24i {
     height: 5%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb8j,
 .mb24j {
     height: 1%;
     width: 90%;
+    background: rgb(25, 25, 25);
 }
 
 .mb8k,
 .mb24k {
     height: 2.5%;
     width: 60%;
+    background: rgb(15, 15, 15);
 }
 
 .mb8l,
 .mb24l {
     height: 1%;
     width: 60%;
+    background: rgb(25, 25, 25);
 }
 
 .mb8m,
@@ -1036,7 +1070,7 @@ body {
     height: 2%;
     width: 60%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background: black;
 }
 
 .mb8n,
@@ -1081,38 +1115,44 @@ body {
 .mb9a {
     height: 60%;
     width: 100%;
+    background: rgb(15, 15, 15);
 }
 
 .mb9b {
     height: 1%;
     width: 100%;
+    background: rgb(25, 25, 25);
 }
 
 .mb9c {
     height: 2.5%;
     width: 60%;
+    background: rgb(15, 15, 15);
 }
 
 .mb9d {
     height: 1%;
     width: 60%;
+    background: rgb(25, 25, 25);
 }
 
 .mb9e {
     height: 2.5%;
     width: 40%;
+    background: rgb(15, 15, 15);
 }
 
 .mb9f {
     height: 1%;
     width: 40%;
+    background: rgb(25, 25, 25);
 }
 
 .mb9g {
     height: 2%;
     width: 40%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background: black;
 }
 
 .mb9h {
@@ -1154,30 +1194,34 @@ body {
 .mb10a {
     height: 25%;
     width: 100%;
+    background: rgb(15, 15, 15);
 }
 
 .mb10b {
     height: 1%;
     width: 100%;
+    background: rgb(25, 25, 25);
 }
 
 .mb10c {
     height: 2%;
     width: 100%;
     clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background: rgb(25, 25, 25);
 }
 
 .mb10d {
     height: 5%;
     width: 90%;
     margin-right: 10%;
+    background: rgb(15, 15, 15);
 }
 
 .mb10e {
     height: 1%;
     width: 90%;
     margin-right: 10%;
+    background: rgb(25, 25, 25);
 }
 
 .mb10f {
@@ -1185,19 +1229,21 @@ body {
     width: 90%;
     margin-right: 10%;
     clip-path: polygon(0% 0%, 88.5% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background: rgb(25, 25, 25);
 }
 
 .mb10g {
     height: 5%;
     width: 80%;
     margin-right: 20%;
+    background: rgb(15, 15, 15);
 }
 
 .mb10h {
     height: 1%;
     width: 80%;
     margin-right: 20%;
+    background: rgb(25, 25, 25);
 }
 
 .mb10i {
@@ -1205,31 +1251,35 @@ body {
     width: 80%;
     margin-right: 20%;
     clip-path: polygon(0% 0%, 87.5% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background: rgb(25, 25, 25);
 }
 
 .mb10j {
     height: 5%;
     width: 70%;
     margin-right: 30%;
+    background: rgb(15, 15, 15);
 }
 
 .mb10k {
     height: 1%;
     width: 70%;
     margin-right: 30%;
+    background: rgb(25, 25, 25);
 }
 
 .mb10l {
     height: 2.5%;
     width: 40%;
     margin-right: 30%;
+    background: rgb(15, 15, 15);
 }
 
 .mb10m {
     height: 1%;
     width: 40%;
     margin-right: 30%;
+    background: rgb(25, 25, 25);
 }
 
 .mb10n {
@@ -1271,31 +1321,37 @@ body {
 .mb11a {
     height: 50%;
     width: 100%;
+    background: rgb(15, 15, 15);
 }
 
 .mb11b {
     height: 1%;
     width: 100%;
+    background: rgb(25, 25, 25);
 }
 
 .mb11c {
     height: 25%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb11d {
     height: 1%;
     width: 80%;
+    background: rgb(25, 25, 25);
 }
 
 .mb11e {
     height: 2.5%;
     width: 60%;
+    background: rgb(15, 15, 15);
 }
 
 .mb11f {
     height: 1%;
     width: 60%;
+    background: rgb(25, 25, 25);
 }
 
 .mb11g {
@@ -1334,75 +1390,87 @@ body {
 .mb12a {
     height: 30%;
     width: 100%;
+    background: rgb(15, 15, 15);
 }
 
 .mb12b {
     height: 1%;
     width: 100%;
+    background: rgb(25, 25, 25);
 }
 
 .mb12c {
     height: 4%;
     width: 100%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background: black;
 }
 
 .mb12d {
     height: 5%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb12e {
     height: 1%;
     width: 80%;
+    background: rgb(25, 25, 25);
 }
 
 .mb12f {
     height: 5%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb12g {
     height: 1%;
     width: 80%;
+    background: rgb(25, 25, 25);
 }
 
 .mb12h {
     height: 5%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb12i {
     height: 1%;
     width: 80%;
+    background: rgb(25, 25, 25);
 }
 
 .mb12j {
     height: 5%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb12k {
     height: 1%;
     width: 80%;
+    background: rgb(25, 25, 25);
 }
 
 .mb12l {
     height: 2.5%;
     width: 60%;
+    background: rgb(15, 15, 15);
 }
 
 .mb12m {
     height: 1%;
     width: 60%;
+    background: rgb(25, 25, 25);
 }
 
 .mb12n {
     height: 2%;
     width: 60%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background: black;
 }
 
 .mb12o {
@@ -1444,21 +1512,25 @@ body {
 .mb13a {
     height: 40%;
     width: 100%;
+    background: rgb(15, 15, 15);
 }
 
 .mb13b {
     height: 1%;
     width: 100%;
+    background: rgb(25, 25, 25);
 }
 
 .mb13c {
     height: 2.5%;
     width: 60%;
+    background: rgb(15, 15, 15);
 }
 
 .mb13d {
     height: 1%;
     width: 60%;
+    background: rgb(25, 25, 25);
 }
 
 .mb13e {
@@ -1500,23 +1572,26 @@ body {
 .mb14a {
     height: 50%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb14b {
     height: 1%;
     width: 80%;
+    background: rgb(25, 25, 25);
 }
 
 .mb14c {
     height: 8%;
     width: 80%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: grey;
+    background: black;
 }
 
 .mb14d {
     height: 1%;
     width: 64%;
+    background: rgb(25, 25, 25);
 }
 
 .mb14e {
@@ -1558,11 +1633,13 @@ body {
 .mb15a {
     height: 70%;
     width: 100%;
+    background: rgb(15, 15, 15);
 }
 
 .mb15b {
     height: 1%;
     width: 100%;
+    background: rgb(25, 25, 25);
 }
 
 .mb15c {
@@ -1602,11 +1679,13 @@ body {
 .mb16a {
     height: 50%;
     width: 80%;
+    background: rgb(15, 15, 15);
 }
 
 .mb16b {
     height: 1%;
     width: 80%;
+    background: rgb(25, 25, 25);
 }
 
 .mb16c {
@@ -1685,21 +1764,21 @@ body {
 .fb15a {
     height: 25%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb1b,
 .fb15b {
     height: 1%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb1c,
 .fb15c {
     height: 1%;
     width: 40%;
-    background-color: black;
+    background: black;
 }
 
 /* FB2 and FB16 */
@@ -1715,14 +1794,14 @@ body {
 .fb16a {
     height: 35%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb2b,
 .fb16b {
     height: 1%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb2c,
@@ -1730,7 +1809,7 @@ body {
     height: 2.5%;
     width: 60%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: black;
+    background: black;
 }
 
 .fb2d,
@@ -1777,35 +1856,35 @@ body {
 .fb17a {
     height: 25%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb3b,
 .fb17b {
     height: 1%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb3c,
 .fb17c {
     height: 2.5%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb3d,
 .fb17d {
     height: 1%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb3e,
 .fb17e {
     height: 1%;
     width: 20%;
-    background-color: black;
+    background: black;
 }
 
 .fb3f,
@@ -1840,28 +1919,28 @@ body {
 .fb18a {
     height: 35%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb4b,
 .fb18b {
     height: 1%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb4c,
 .fb18c {
     height: 2.5%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb4d,
 .fb18d {
     height: 1%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb4e,
@@ -1869,7 +1948,7 @@ body {
     height: 5%;
     width: 80%;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    background-color: black;
+    background: black;
 }
 
 .fb4f,
@@ -1895,14 +1974,14 @@ body {
 .fb19a {
     height: 20%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb5b,
 .fb19b {
     height: 1%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb5c,
@@ -1910,7 +1989,7 @@ body {
     height: 2.5%;
     width: 60%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: black;
+    background: black;
 }
 
 .fb5d,
@@ -1957,34 +2036,35 @@ body {
 .fb20a {
     height: 40%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb6b,
 .fb20b {
     height: 1%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb6c,
 .fb20c {
     height: 2.5%;
     width: 60%;
+    background: black;
 }
 
 .fb6d,
 .fb20d {
     height: 1%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb6e,
 .fb20e {
     height: 1%;
     width: 20%;
-    background-color: black;
+    background: black;
 }
 
 .fb6f,
@@ -2019,14 +2099,14 @@ body {
 .fb21a {
     height: 15%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb7b,
 .fb21b {
     height: 1%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb7c,
@@ -2034,7 +2114,7 @@ body {
     height: 5%;
     width: 60%;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    background-color: black;
+    background: black;
 }
 
 /* FB8 */
@@ -2048,31 +2128,31 @@ body {
 .fb8a {
     height: 35%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb8b {
     height: 1%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb8c {
     height: 2.5%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb8d {
     height: 1%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb8e {
     height: 1%;
     width: 20%;
-    background-color: black;
+    background: black;
 }
 
 .fb8f {
@@ -2103,13 +2183,13 @@ body {
 .fb9a {
     height: 15%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb9b {
     height: 1%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 /* FB10 */
@@ -2123,19 +2203,19 @@ body {
 .fb10a {
     height: 25%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb10b {
     height: 1%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb10c {
     height: 1%;
     width: 40%;
-    background-color: black;
+    background: black;
 }
 
 /* FB11 */
@@ -2149,13 +2229,13 @@ body {
 .fb11a {
     height: 25%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb11b {
     height: 1%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 /* FB12 */
@@ -2169,19 +2249,19 @@ body {
 .fb12a {
     height: 35%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb12b {
     height: 1%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb12c {
     height: 1%;
     width: 40%;
-    background-color: black;
+    background: black;
 }
 
 /* FB13 */
@@ -2195,20 +2275,20 @@ body {
 .fb13a {
     height: 25%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb13b {
     height: 1%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb13c {
     height: 5%;
     width: 80%;
     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-    background-color: black;
+    background: black;
 }
 
 .fb13d {
@@ -2250,31 +2330,31 @@ body {
 .fb14a {
     height: 35%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb14b {
     height: 1%;
     width: 80%;
-    background-color: black;
+    background: black;
 }
 
 .fb14c {
     height: 2.5%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb14d {
     height: 1%;
     width: 60%;
-    background-color: black;
+    background: black;
 }
 
 .fb14e {
     height: 1%;
     width: 20%;
-    background-color: black;
+    background: black;
 }
 
 .fb14f {
@@ -2302,7 +2382,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    background: linear-gradient(0deg, rgba(255, 250, 0, 0.2) 0%, rgba(255, 250, 0, 0) 40%);
+    background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 20%);
 }
 
 /* CARS */
@@ -2602,7 +2682,7 @@ body {
 }
 
 .antennas-2 {
-    background-color: black;
+    background: black;
 }
 
 /* RED LIGHTS */
