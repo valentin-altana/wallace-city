@@ -44,7 +44,6 @@ body {
     height: 97%;
     width: 100%;
     display: flex;
-    /* animation: scroll 60s linear infinite; */
 }
 
 /* BACKGROUND BUILDINGS */
@@ -55,6 +54,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    /* animation: scroll 100s linear infinite; */
 }
 
 .bb1,
@@ -541,6 +541,7 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 70%);
+    /* animation: scroll 80s linear infinite; */
 }
 
 .mb1,
@@ -1716,6 +1717,10 @@ body {
     /* RED LIGHT */
 }
 
+/* MIDDLE GROUND LIGHTS */
+
+/* animation: scroll 80s linear infinite; */
+
 /* FOREGROUND BUILDINGS */
 
 .foreground-buildings {
@@ -1724,6 +1729,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    /* animation: scroll 60s linear infinite; */
 }
 
 .fb1,
@@ -2374,15 +2380,16 @@ body {
     /* RED LIGHT */
 }
 
-/* FOREGROUND */
+/* FOREGROUND LIGHTS */
 
-.foreground {
+.foreground-lights {
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 20%);
+    /* animation: scroll 60s linear infinite; */
 }
 
 /* CARS */
@@ -2694,7 +2701,7 @@ body {
 .background-buildings,
 .middle-ground-buildings,
 .foreground-buildings,
-.foreground {
+.foreground-lights {
     position: absolute;
 }
 
