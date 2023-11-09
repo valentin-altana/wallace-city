@@ -1,5 +1,5 @@
 * {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 body {
@@ -35,7 +35,7 @@ body {
     width: 100%;
     display: flex;
     position: fixed;
-    background: radial-gradient(closest-corner circle at 15% 20%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 15%, rgba(0, 0, 100, 1) 20%, rgba(0, 0, 30, 1) 100%);
+    background: radial-gradient(closest-corner circle at 15% 20%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 15%, rgba(0, 0, 100, 1) 20%, rgba(0, 0, 20, 1) 100%);
 }
 
 /* CITY */
@@ -54,7 +54,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    /* animation: scroll 100s linear infinite; */
+    animation: scroll 100s linear infinite;
 }
 
 .bb1,
@@ -530,8 +530,8 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 70%);
-    /* animation: scroll 80s linear infinite; */
+    background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 60%);
+    animation: scroll 80s linear infinite;
 }
 
 .mb1,
@@ -1694,7 +1694,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    /* animation: scroll 60s linear infinite; */
+    animation: scroll 60s linear infinite;
 }
 
 .fb1,
@@ -2485,191 +2485,13 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 20%);
-    /* animation: scroll 60s linear infinite; */
+    animation: scroll 50s linear infinite;
 }
 
-/* CARS */
+/* SPACE */
 
-.cars {
-    height: 1%;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.cars-lights {
-    height: 100%;
-    width: 0.338%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-/* CL1 and CL2 */
-
-.cl1 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
-}
-
-.cl2 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* CL3 and CL4 */
-
-.cl3 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
-}
-
-.cl4 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* CL5 and CL6 */
-
-.cl5 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
-}
-
-.cl6 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* CL7 and CL8 */
-
-.cl7 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
-}
-
-.cl8 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* CL9 and CL10 */
-
-.cl9 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
-}
-
-.cl10 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* CL11 and CL12 */
-
-.cl11 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
-}
-
-.cl12 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* CL13 and CL14 */
-
-.cl13 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
-}
-
-.cl14 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* CL15 and CL16 */
-
-.cl15 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
-}
-
-.cl16 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* CL17 and CL18 */
-
-.cl17 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
-}
-
-.cl18 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* CL19 and CL20 */
-
-.cl19 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
-}
-
-.cl20 {
-    height: 100%;
-    width: 50%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* SPACE BETWEEN */
-
-.space-between {
-    height: 0.7%;
+.space {
+    height: 1.7%;
     width: 100%;
     display: flex;
     align-items: flex-end;
@@ -2686,94 +2508,220 @@ body {
     justify-content: space-around;
 }
 
-/* SL1 */
-
-.sl1 {
-    height: 100%;
-    width: 0.169%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* SL2 */
-
-.sl2 {
-    height: 100%;
-    width: 0.169%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* SL3 */
-
-.sl3 {
-    height: 100%;
-    width: 0.169%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* SL4 */
-
-.sl4 {
-    height: 100%;
-    width: 0.169%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* SL5 */
-
-.sl5 {
-    height: 100%;
-    width: 0.169%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* SL6 */
-
-.sl6 {
-    height: 100%;
-    width: 0.169%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* SL7 */
-
-.sl7 {
-    height: 100%;
-    width: 0.169%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* SL8 */
-
-.sl8 {
-    height: 100%;
-    width: 0.169%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* SL9 */
-
-.sl9 {
-    height: 100%;
-    width: 0.169%;
-    clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
-}
-
-/* SL10 */
-
+.sl1,
+.sl2,
+.sl3,
+.sl4,
+.sl5,
+.sl6,
+.sl7,
+.sl8,
+.sl9,
 .sl10 {
     height: 100%;
     width: 0.169%;
     clip-path: circle(50% at 50% 50%);
     background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
+}
+
+/* SL1 */
+
+.sl1 {
+    animation: sl1-on-off 2s infinite;
+}
+
+@keyframes sl1-on-off {
+    0% {
+        opacity: 35%;
+    }
+
+    50% {
+        opacity: 70%;
+    }
+
+    100% {
+        opacity: 35%;
+    }
+}
+
+/* SL2 */
+
+.sl2 {
+    animation: sl2-on-off 5s infinite;
+}
+
+@keyframes sl2-on-off {
+    0% {
+        opacity: 40%;
+    }
+
+    50% {
+        opacity: 80%;
+    }
+
+    100% {
+        opacity: 40%;
+    }
+}
+
+/* SL3 */
+
+.sl3 {
+    animation: sl3-on-off 6s infinite;
+}
+
+@keyframes sl3-on-off {
+    0% {
+        opacity: 35%;
+    }
+
+    50% {
+        opacity: 70%;
+    }
+
+    100% {
+        opacity: 35%;
+    }
+}
+
+/* SL4 */
+
+.sl4 {
+    animation: sl4-on-off 3s infinite;
+}
+
+@keyframes sl4-on-off {
+    0% {
+        opacity: 40%;
+    }
+
+    50% {
+        opacity: 80%;
+    }
+
+    100% {
+        opacity: 40%;
+    }
+}
+
+/* SL5 */
+
+.sl5 {
+    animation: sl5-on-off 4s infinite;
+}
+
+@keyframes sl5-on-off {
+    0% {
+        opacity: 35%;
+    }
+
+    50% {
+        opacity: 70%;
+    }
+
+    100% {
+        opacity: 35%;
+    }
+}
+
+/* SL6 */
+
+.sl6 {
+    animation: sl6-on-off 5s infinite;
+}
+
+@keyframes sl6-on-off {
+    0% {
+        opacity: 40%;
+    }
+
+    50% {
+        opacity: 80%;
+    }
+
+    100% {
+        opacity: 40%;
+    }
+}
+
+/* SL7 */
+
+.sl7 {
+    animation: sl7-on-off 2s infinite;
+}
+
+@keyframes sl7-on-off {
+    0% {
+        opacity: 35%;
+    }
+
+    50% {
+        opacity: 70%;
+    }
+
+    100% {
+        opacity: 35%;
+    }
+}
+
+/* SL8 */
+
+.sl8 {
+    animation: sl8-on-off 3s infinite;
+}
+
+@keyframes sl8-on-off {
+    0% {
+        opacity: 35%;
+    }
+
+    50% {
+        opacity: 80%;
+    }
+
+    100% {
+        opacity: 35%;
+    }
+}
+
+/* SL9 */
+
+.sl9 {
+    animation: sl9-on-off 4s infinite;
+}
+
+@keyframes sl9-on-off {
+    0% {
+        opacity: 35%;
+    }
+
+    50% {
+        opacity: 70%;
+    }
+
+    100% {
+        opacity: 35%;
+    }
+}
+
+/* SL10 */
+
+.sl10 {
+    animation: sl10-on-off 5s infinite;
+}
+
+@keyframes sl10-on-off {
+    0% {
+        opacity: 40%;
+    }
+
+    50% {
+        opacity: 80%;
+    }
+
+    100% {
+        opacity: 40%;
+    }
 }
 
 /* WINDOWS */
@@ -2792,14 +2740,59 @@ body {
 
 .rlbb {
     background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
+    animation: rlbb-on-off 5s infinite;
+}
+
+@keyframes rlbb-on-off {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
 }
 
 .rlmb {
     background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
+    animation: rlmb-on-off 4s infinite;
+}
+
+@keyframes rlmb-on-off {
+    0% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
 
 .rlfb {
     background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 0, 0, 0.8) 40%, rgba(255, 0, 0, 0.8) 50%, rgba(255, 0, 0, 0) 75%);
+    animation: rlfb-on-off 3s infinite;
+}
+
+@keyframes rlfb-on-off {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
 }
 
 /* ABSOLUTE POSITION */
