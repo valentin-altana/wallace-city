@@ -1,5 +1,5 @@
 * {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body {
@@ -54,7 +54,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    animation: scroll 100s linear infinite;
+    /* animation: scroll 100s linear infinite; */
 }
 
 .bb1,
@@ -531,7 +531,7 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 60%);
-    animation: scroll 80s linear infinite;
+    /* animation: scroll 80s linear infinite; */
 }
 
 .mb1,
@@ -1691,7 +1691,7 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 20%);
-    animation: scroll 75s linear infinite;
+    /* animation: scroll 75s linear infinite; */
 }
 
 /* FOREGROUND BUILDINGS */
@@ -1702,7 +1702,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    animation: scroll 60s linear infinite;
+    /* animation: scroll 60s linear infinite; */
 }
 
 .fb1,
@@ -2493,7 +2493,7 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 20%);
-    animation: scroll 50s linear infinite;
+    /* animation: scroll 50s linear infinite; */
 }
 
 /* SPACES */
