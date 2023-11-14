@@ -59,7 +59,7 @@ body {
 /* BIG CLOUDS */
 
 .big-clouds {
-    /* animation: scroll 90s linear infinite; */
+    /* animation: scroll 110s linear infinite; */
 }
 
 .bc1,
@@ -75,7 +75,7 @@ body {
 .bc1,
 .bc2,
 .bc3 {
-    opacity: 95%;
+    opacity: 90%;
 }
 
 /* BC1, BC2 and BC3 */
