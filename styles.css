@@ -70,6 +70,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    opacity: 95%;
 }
 
 /* BC1 and BC3 */
