@@ -88,8 +88,9 @@ body {
     border-radius: 50%;
     display: flex;
     position: relative;
-    bottom: 30%;
+    bottom: 60%;
     background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
 
 .bc1a1,
@@ -120,6 +121,7 @@ body {
     top: 25%;
     left: -45%;
     background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
 
 .bc1a2,
@@ -128,6 +130,7 @@ body {
     top: 50%;
     left: 60%;
     background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
 .bc1a3,
@@ -136,6 +139,7 @@ body {
     top: 50%;
     left: 10%;
     background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
 .bc1a4,
@@ -144,6 +148,7 @@ body {
     top: 50%;
     left: -40%;
     background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
 .bc1a5,
@@ -152,6 +157,8 @@ body {
     top: 50%;
     left: -90%;
     background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
 /* MEDIUM CLOUDS */
