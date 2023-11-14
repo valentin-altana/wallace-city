@@ -38,6 +38,111 @@ body {
     background: radial-gradient(closest-corner circle at 15% 20%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 15%, rgba(0, 0, 100, 1) 20%, rgba(0, 0, 20, 1) 100%);
 }
 
+/* CLOUDS */
+
+.clouds {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.big-clouds,
+.medium-clouds,
+.small-clouds {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+/* BIG CLOUDS */
+
+.big-clouds {
+    /* animation: scroll 90s linear infinite; */
+}
+
+.bc1,
+.bc2,
+.bc3 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+/* BC1 and BC3 */
+
+.bc1a,
+.bc3a {
+    height: 33.125%;
+    width: 12%;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    bottom: 20%;
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+}
+
+.bc1a1,
+.bc3a1,
+.bc1a2,
+.bc3a2,
+.bc1a3,
+.bc3a3,
+.bc1a4,
+.bc3a4,
+.bc1a5,
+.bc3a5 {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+}
+
+.bc1a1,
+.bc3a1 {
+    top: 25%;
+    left: -45%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+}
+
+.bc1a2,
+.bc3a2 {
+    top: 50%;
+    left: 60%;
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+}
+
+.bc1a3,
+.bc3a3 {
+    top: 50%;
+    left: 10%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+}
+
+.bc1a4,
+.bc3a4 {
+    top: 50%;
+    left: -40%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+}
+
+.bc1a5,
+.bc3a5 {
+    top: 50%;
+    left: -90%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+}
+
+/* BC2 */
+
+/* MEDIUM CLOUDS */
+
+/* SMALL CLOUDS */
+
 /* CITY */
 
 .city {
@@ -2911,6 +3016,10 @@ body {
 /* ABSOLUTE POSITION */
 
 .sky,
+.clouds,
+.big-clouds,
+.medium-clouds,
+.small-clouds,
 .city,
 .background-buildings,
 .middle-ground-buildings,
