@@ -70,12 +70,22 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+}
+
+.bc1,
+.bc3 {
     opacity: 95%;
 }
 
-/* BC1 and BC3 */
+.bc2 {
+    opacity: 75%;
+    z-index: 1;
+}
+
+/* BC1, BC2 and BC3 */
 
 .bc1a,
+.bc2a,
 .bc3a {
     height: 33.125%;
     width: 12%;
@@ -87,14 +97,19 @@ body {
 }
 
 .bc1a1,
+.bc2a1,
 .bc3a1,
 .bc1a2,
+.bc2a2,
 .bc3a2,
 .bc1a3,
+.bc2a3,
 .bc3a3,
 .bc1a4,
+.bc2a4,
 .bc3a4,
 .bc1a5,
+.bc2a5,
 .bc3a5 {
     height: 80%;
     width: 80%;
@@ -104,6 +119,7 @@ body {
 }
 
 .bc1a1,
+.bc2a1,
 .bc3a1 {
     top: 25%;
     left: -45%;
@@ -111,6 +127,7 @@ body {
 }
 
 .bc1a2,
+.bc2a2,
 .bc3a2 {
     top: 50%;
     left: 60%;
@@ -118,6 +135,7 @@ body {
 }
 
 .bc1a3,
+.bc2a3,
 .bc3a3 {
     top: 50%;
     left: 10%;
@@ -125,6 +143,7 @@ body {
 }
 
 .bc1a4,
+.bc2a4,
 .bc3a4 {
     top: 50%;
     left: -40%;
@@ -132,13 +151,12 @@ body {
 }
 
 .bc1a5,
+.bc2a5,
 .bc3a5 {
     top: 50%;
     left: -90%;
     background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
 }
-
-/* BC2 */
 
 /* MEDIUM CLOUDS */
 
