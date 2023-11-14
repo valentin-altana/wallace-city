@@ -79,7 +79,7 @@ body {
 
 .bc2 {
     opacity: 75%;
-    z-index: 1;
+    z-index: 20;
 }
 
 /* BC1, BC2 and BC3 */
