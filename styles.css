@@ -73,12 +73,9 @@ body {
 }
 
 .bc1,
+.bc2,
 .bc3 {
     opacity: 95%;
-}
-
-.bc2 {
-    opacity: 75%;
 }
 
 /* BC1, BC2 and BC3 */
