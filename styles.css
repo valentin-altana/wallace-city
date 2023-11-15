@@ -59,7 +59,7 @@ body {
 /* BIG CLOUDS */
 
 .big-clouds {
-    /* animation: scroll 110s linear infinite; */
+    /* animation: scroll 160s linear infinite; */
 }
 
 .bc1,
@@ -70,7 +70,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    opacity: 95%;
+    opacity: 92.5%;
 }
 
 /* BC1, BC2 and BC3 */
@@ -159,7 +159,7 @@ body {
 /* MEDIUM CLOUDS */
 
 .medium-clouds {
-    /* animation: scroll 90s linear infinite; */
+    /* animation: scroll 120s linear infinite; */
 }
 
 .mc1,
@@ -173,7 +173,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    opacity: 95%;
+    opacity: 92.5%;
 }
 
 /* MC1, MC3 and MC5 */
