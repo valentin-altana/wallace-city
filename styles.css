@@ -46,15 +46,18 @@ body {
     display: flex;
 }
 
+.small-clouds-1,
 .big-clouds,
 .medium-clouds,
-.small-clouds {
+.small-clouds-2 {
     height: 50%;
     width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
 }
+
+/* SMALL CLOUDS 1 */
 
 /* BIG CLOUDS */
 
@@ -259,11 +262,89 @@ body {
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
-/* MC2, MC5 and MC8 */
+/* MC2, MC4 and MC6 */
 
-/* MC3, MC6 and MC9 */
+.mc2a,
+.mc4a,
+.mc6a {
+    height: 25.5525%;
+    width: 15%;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
 
-/* SMALL CLOUDS */
+.mc2a1,
+.mc4a1,
+.mc6a1,
+.mc2a2,
+.mc4a2,
+.mc6a2,
+.mc2a3,
+.mc4a3,
+.mc6a3,
+.mc2a4,
+.mc4a4,
+.mc6a4,
+.mc2a5,
+.mc4a5,
+.mc6a5 {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+}
+
+.mc2a1,
+.mc4a1,
+.mc6a1 {
+    top: 25%;
+    left: -45%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.mc2a2,
+.mc4a2,
+.mc6a2 {
+    top: 50%;
+    left: 60%;
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.mc2a3,
+.mc4a3,
+.mc6a3 {
+    top: 50%;
+    left: 10%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.mc2a4,
+.mc4a4,
+.mc6a4 {
+    top: 50%;
+    left: -40%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.mc2a5,
+.mc4a5,
+.mc6a5 {
+    top: 50%;
+    left: -90%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+/* SMALL CLOUDS 2 */
 
 /* CITY */
 
@@ -3139,9 +3220,10 @@ body {
 
 .sky,
 .clouds,
+.small-clouds-1,
 .big-clouds,
 .medium-clouds,
-.small-clouds,
+.small-clouds-2,
 .city,
 .background-buildings,
 .middle-ground-buildings,
