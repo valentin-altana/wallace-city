@@ -66,15 +66,10 @@ body {
 .bc2,
 .bc3 {
     height: 100%;
-    width: 25%;
+    width: 30%;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-}
-
-.bc1,
-.bc2,
-.bc3 {
     opacity: 95%;
 }
 
@@ -83,12 +78,12 @@ body {
 .bc1a,
 .bc2a,
 .bc3a {
-    height: 33.125%;
-    width: 12%;
+    height: 51.105%;
+    width: 15%;
     border-radius: 50%;
     display: flex;
     position: relative;
-    bottom: 30%;
+    bottom: 20%;
     background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
@@ -162,6 +157,111 @@ body {
 }
 
 /* MEDIUM CLOUDS */
+
+.medium-clouds {
+    /* animation: scroll 90s linear infinite; */
+}
+
+.mc1,
+.mc2,
+.mc3,
+.mc4,
+.mc5,
+.mc6 {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    opacity: 95%;
+}
+
+/* MC1, MC3 and MC5 */
+
+.mc1a,
+.mc3a,
+.mc5a {
+    height: 25.5525%;
+    width: 15%;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    bottom: 40%;
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.mc1a1,
+.mc3a1,
+.mc5a1,
+.mc1a2,
+.mc3a2,
+.mc5a2,
+.mc1a3,
+.mc3a3,
+.mc5a3,
+.mc1a4,
+.mc3a4,
+.mc5a4,
+.mc1a5,
+.mc3a5,
+.mc5a5 {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+}
+
+.mc1a1,
+.mc3a1,
+.mc5a1 {
+    top: 25%;
+    left: -45%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.mc1a2,
+.mc3a2,
+.mc5a2 {
+    top: 50%;
+    left: 60%;
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.mc1a3,
+.mc3a3,
+.mc5a3 {
+    top: 50%;
+    left: 10%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.mc1a4,
+.mc3a4,
+.mc5a4 {
+    top: 50%;
+    left: -40%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.mc1a5,
+.mc3a5,
+.mc5a5 {
+    top: 50%;
+    left: -90%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+/* MC2, MC5 and MC8 */
+
+/* MC3, MC6 and MC9 */
 
 /* SMALL CLOUDS */
 
