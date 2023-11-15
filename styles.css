@@ -346,6 +346,276 @@ body {
 
 /* SMALL CLOUDS 2 */
 
+.small-clouds-2 {
+    /* animation: scroll 120s linear infinite; */
+}
+
+.sc2-1,
+.sc2-2,
+.sc2-3,
+.sc2-4,
+.sc2-5,
+.sc2-6,
+.sc2-7,
+.sc2-8,
+.sc2-9 {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    opacity: 92.5%;
+}
+
+/* SC2-1, SC2-4 and SC2-7 */
+
+.sc2-1a,
+.sc2-4a,
+.sc2-7a {
+    height: 17.035%;
+    width: 15%;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    bottom: 80%;
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc2-1a1,
+.sc2-4a1,
+.sc2-7a1,
+.sc2-1a2,
+.sc2-4a2,
+.sc2-7a2,
+.sc2-1a3,
+.sc2-4a3,
+.sc2-7a3,
+.sc2-1a4,
+.sc2-4a4,
+.sc2-7a4,
+.sc2-1a5,
+.sc2-4a5,
+.sc2-7a5 {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+}
+
+.sc2-1a1,
+.sc2-4a1,
+.sc2-7a1 {
+    top: 25%;
+    left: -45%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc2-1a2,
+.sc2-4a2,
+.sc2-7a2 {
+    top: 50%;
+    left: 60%;
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc2-1a3,
+.sc2-4a3,
+.sc2-7a3 {
+    top: 50%;
+    left: 10%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc2-1a4,
+.sc2-4a4,
+.sc2-7a4 {
+    top: 50%;
+    left: -40%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc2-1a5,
+.sc2-4a5,
+.sc2-7a5 {
+    top: 50%;
+    left: -90%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+/* SC2-2, SC2-5 and SC2-8 */
+
+.sc2-2a,
+.sc2-5a,
+.sc2-8a {
+    height: 17.035%;
+    width: 15%;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    bottom: 20%;
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc2-2a1,
+.sc2-5a1,
+.sc2-8a1,
+.sc2-2a2,
+.sc2-5a2,
+.sc2-8a2,
+.sc2-2a3,
+.sc2-5a3,
+.sc2-8a3,
+.sc2-2a4,
+.sc2-5a4,
+.sc2-8a4,
+.sc2-2a5,
+.sc2-5a5,
+.sc2-8a5 {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+}
+
+.sc2-2a1,
+.sc2-5a1,
+.sc2-8a1 {
+    top: 25%;
+    left: -45%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc2-2a2,
+.sc2-5a2,
+.sc2-8a2 {
+    top: 50%;
+    left: 60%;
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc2-2a3,
+.sc2-5a3,
+.sc2-8a3 {
+    top: 50%;
+    left: 10%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc2-2a4,
+.sc2-5a4,
+.sc2-8a4 {
+    top: 50%;
+    left: -40%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc2-2a5,
+.sc2-5a5,
+.sc2-8a5 {
+    top: 50%;
+    left: -90%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+/* SC2-3, SC2-6 and SC2-9 */
+
+.sc2-3a,
+.sc2-6a,
+.sc2-9a {
+    height: 17.035%;
+    width: 15%;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    bottom: 60%;
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc2-3a1,
+.sc2-6a1,
+.sc2-9a1,
+.sc2-3a2,
+.sc2-6a2,
+.sc2-9a2,
+.sc2-3a3,
+.sc2-6a3,
+.sc2-9a3,
+.sc2-3a4,
+.sc2-6a4,
+.sc2-9a4,
+.sc2-3a5,
+.sc2-6a5,
+.sc2-9a5 {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+}
+
+.sc2-3a1,
+.sc2-6a1,
+.sc2-9a1 {
+    top: 25%;
+    left: -45%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc2-3a2,
+.sc2-6a2,
+.sc2-9a2 {
+    top: 50%;
+    left: 60%;
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc2-3a3,
+.sc2-6a3,
+.sc2-9a3 {
+    top: 50%;
+    left: 10%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc2-3a4,
+.sc2-6a4,
+.sc2-9a4 {
+    top: 50%;
+    left: -40%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc2-3a5,
+.sc2-6a5,
+.sc2-9a5 {
+    top: 50%;
+    left: -90%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
 /* CITY */
 
 .city {
