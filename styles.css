@@ -48,7 +48,7 @@ body {
 }
 
 .small-clouds-1,
-.big-clouds,
+.plane,
 .medium-clouds,
 .small-clouds-2 {
     height: 50%;
@@ -412,101 +412,7 @@ body {
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
-/* BIG CLOUDS */
-
-.bc1,
-.bc2,
-.bc3 {
-    height: 100%;
-    width: 30%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    opacity: 95%;
-}
-
-/* BC1, BC2 and BC3 */
-
-.bc1a,
-.bc2a,
-.bc3a {
-    height: 51.105%;
-    width: 15%;
-    border-radius: 50%;
-    display: flex;
-    position: relative;
-    bottom: 20%;
-    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 60, 1) 0%, rgba(0, 0, 60, 1) 80%, rgba(0, 0, 40, 1) 100%);
-    border-top: solid rgba(0, 0, 160, 0.5) 1px;
-}
-
-.bc1a1,
-.bc2a1,
-.bc3a1,
-.bc1a2,
-.bc2a2,
-.bc3a2,
-.bc1a3,
-.bc2a3,
-.bc3a3,
-.bc1a4,
-.bc2a4,
-.bc3a4,
-.bc1a5,
-.bc2a5,
-.bc3a5 {
-    height: 80%;
-    width: 80%;
-    border-radius: 50%;
-    display: flex;
-    position: absolute;
-}
-
-.bc1a1,
-.bc2a1,
-.bc3a1 {
-    top: 25%;
-    left: -45%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 60, 1) 0%, rgba(0, 0, 60, 1) 80%, rgba(0, 0, 40, 1) 100%);
-    border-top: solid rgba(0, 0, 160, 0.5) 1px;
-}
-
-.bc1a2,
-.bc2a2,
-.bc3a2 {
-    top: 50%;
-    left: 60%;
-    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 60, 1) 0%, rgba(0, 0, 60, 1) 80%, rgba(0, 0, 40, 1) 100%);
-    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
-}
-
-.bc1a3,
-.bc2a3,
-.bc3a3 {
-    top: 50%;
-    left: 10%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 60, 1) 0%, rgba(0, 0, 60, 1) 80%, rgba(0, 0, 40, 1) 100%);
-    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
-}
-
-.bc1a4,
-.bc2a4,
-.bc3a4 {
-    top: 50%;
-    left: -40%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 60, 1) 0%, rgba(0, 0, 60, 1) 80%, rgba(0, 0, 40, 1) 100%);
-    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
-}
-
-.bc1a5,
-.bc2a5,
-.bc3a5 {
-    top: 50%;
-    left: -90%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 60, 1) 0%, rgba(0, 0, 60, 1) 80%, rgba(0, 0, 40, 1) 100%);
-    border-top: solid rgba(0, 0, 160, 0.5) 1px;
-    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
-}
+/* PLANE */
 
 /* MEDIUM CLOUDS */
 
@@ -3834,7 +3740,7 @@ body {
 .sky,
 .clouds,
 .small-clouds-1,
-.big-clouds,
+.plane,
 .medium-clouds,
 .small-clouds-2,
 .city,
