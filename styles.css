@@ -44,6 +44,7 @@ body {
     height: 100%;
     width: 100%;
     display: flex;
+    /* animation: scroll 200s linear infinite; */
 }
 
 .small-clouds-1,
@@ -59,11 +60,359 @@ body {
 
 /* SMALL CLOUDS 1 */
 
-/* BIG CLOUDS */
-
-.big-clouds {
-    /* animation: scroll 200s linear infinite; */
+.sc1-1,
+.sc1-2,
+.sc1-3,
+.sc1-4,
+.sc1-5,
+.sc1-6,
+.sc1-7,
+.sc1-8,
+.sc1-9,
+.sc1-10,
+.sc1-11,
+.sc1-12 {
+    height: 100%;
+    width: 7.5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    opacity: 95%;
 }
+
+/* SC1-1, SC1-5 and SC1-9 */
+
+.sc1-1a,
+.sc1-5a,
+.sc1-9a {
+    height: 12.78%;
+    width: 15%;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    bottom: 5%;
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc1-1a1,
+.sc1-5a1,
+.sc1-9a1,
+.sc1-1a2,
+.sc1-5a2,
+.sc1-9a2,
+.sc1-1a3,
+.sc1-5a3,
+.sc1-9a3,
+.sc1-1a4,
+.sc1-5a4,
+.sc1-9a4,
+.sc1-1a5,
+.sc1-5a5,
+.sc1-9a5 {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+}
+
+.sc1-1a1,
+.sc1-5a1,
+.sc1-9a1 {
+    top: 25%;
+    left: -45%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc1-1a2,
+.sc1-5a2,
+.sc1-9a2 {
+    top: 50%;
+    left: 60%;
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc1-1a3,
+.sc1-5a3,
+.sc1-9a3 {
+    top: 50%;
+    left: 10%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc1-1a4,
+.sc1-5a4,
+.sc1-9a4 {
+    top: 50%;
+    left: -40%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc1-1a5,
+.sc1-5a5,
+.sc1-9a5 {
+    top: 50%;
+    left: -90%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+/* SC1-2, SC1-6 and SC1-10 */
+
+.sc1-2a,
+.sc1-6a,
+.sc1-10a {
+    height: 12.78%;
+    width: 15%;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    bottom: 65%;
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc1-2a1,
+.sc1-6a1,
+.sc1-10a1,
+.sc1-2a2,
+.sc1-6a2,
+.sc1-10a2,
+.sc1-2a3,
+.sc1-6a3,
+.sc1-10a3,
+.sc1-2a4,
+.sc1-6a4,
+.sc1-10a4,
+.sc1-2a5,
+.sc1-6a5,
+.sc1-10a5 {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+}
+
+.sc1-2a1,
+.sc1-6a1,
+.sc1-10a1 {
+    top: 25%;
+    left: -45%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc1-2a2,
+.sc1-6a2,
+.sc1-10a2 {
+    top: 50%;
+    left: 60%;
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc1-2a3,
+.sc1-6a3,
+.sc1-10a3 {
+    top: 50%;
+    left: 10%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc1-2a4,
+.sc1-6a4,
+.sc1-10a4 {
+    top: 50%;
+    left: -40%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc1-2a5,
+.sc1-6a5,
+.sc1-10a5 {
+    top: 50%;
+    left: -90%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+/* SC1-3, SC1-7 and SC1-11 */
+
+.sc1-3a,
+.sc1-7a,
+.sc1-11a {
+    height: 12.78%;
+    width: 15%;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    bottom: 45%;
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc1-3a1,
+.sc1-7a1,
+.sc1-11a1,
+.sc1-3a2,
+.sc1-7a2,
+.sc1-11a2,
+.sc1-3a3,
+.sc1-7a3,
+.sc1-11a3,
+.sc1-3a4,
+.sc1-7a4,
+.sc1-11a4,
+.sc1-3a5,
+.sc1-7a5,
+.sc1-11a5 {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+}
+
+.sc1-3a1,
+.sc1-7a1,
+.sc1-11a1 {
+    top: 25%;
+    left: -45%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc1-3a2,
+.sc1-7a2,
+.sc1-11a2 {
+    top: 50%;
+    left: 60%;
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc1-3a3,
+.sc1-7a3,
+.sc1-11a3 {
+    top: 50%;
+    left: 10%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc1-3a4,
+.sc1-7a4,
+.sc1-11a4 {
+    top: 50%;
+    left: -40%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc1-3a5,
+.sc1-7a5,
+.sc1-11a5 {
+    top: 50%;
+    left: -90%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+/* SC1-4, SC1-8 and SC1-12 */
+
+.sc1-4a,
+.sc1-8a,
+.sc1-12a {
+    height: 12.78%;
+    width: 15%;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    bottom: 15%;
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc1-4a1,
+.sc1-8a1,
+.sc1-12a1,
+.sc1-4a2,
+.sc1-8a2,
+.sc1-12a2,
+.sc1-4a3,
+.sc1-8a3,
+.sc1-12a3,
+.sc1-4a4,
+.sc1-8a4,
+.sc1-12a4,
+.sc1-4a5,
+.sc1-8a5,
+.sc1-12a5 {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+}
+
+.sc1-4a1,
+.sc1-8a1,
+.sc1-12a1 {
+    top: 25%;
+    left: -45%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+}
+
+.sc1-4a2,
+.sc1-8a2,
+.sc1-12a2 {
+    top: 50%;
+    left: 60%;
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc1-4a3,
+.sc1-8a3,
+.sc1-12a3 {
+    top: 50%;
+    left: 10%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc1-4a4,
+.sc1-8a4,
+.sc1-12a4 {
+    top: 50%;
+    left: -40%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+.sc1-4a5,
+.sc1-8a5,
+.sc1-12a5 {
+    top: 50%;
+    left: -90%;
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 50, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    border-top: solid rgba(0, 0, 160, 0.5) 1px;
+    border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
+}
+
+/* BIG CLOUDS */
 
 .bc1,
 .bc2,
@@ -160,10 +509,6 @@ body {
 }
 
 /* MEDIUM CLOUDS */
-
-.medium-clouds {
-    /* animation: scroll 160s linear infinite; */
-}
 
 .mc1,
 .mc2,
@@ -272,6 +617,7 @@ body {
     border-radius: 50%;
     display: flex;
     position: relative;
+    bottom: 0%;
     background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
@@ -346,10 +692,6 @@ body {
 
 /* SMALL CLOUDS 2 */
 
-.small-clouds-2 {
-    /* animation: scroll 120s linear infinite; */
-}
-
 .sc2-1,
 .sc2-2,
 .sc2-3,
@@ -377,7 +719,7 @@ body {
     border-radius: 50%;
     display: flex;
     position: relative;
-    bottom: 80%;
+    bottom: 75%;
     background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
@@ -460,7 +802,7 @@ body {
     border-radius: 50%;
     display: flex;
     position: relative;
-    bottom: 20%;
+    bottom: 25%;
     background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
@@ -543,7 +885,7 @@ body {
     border-radius: 50%;
     display: flex;
     position: relative;
-    bottom: 60%;
+    bottom: 55%;
     background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
