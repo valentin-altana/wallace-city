@@ -73,7 +73,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    opacity: 92.5%;
+    opacity: 95%;
 }
 
 /* BC1, BC2 and BC3 */
@@ -87,7 +87,7 @@ body {
     display: flex;
     position: relative;
     bottom: 20%;
-    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 60, 1) 0%, rgba(0, 0, 60, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
 
@@ -118,7 +118,7 @@ body {
 .bc3a1 {
     top: 25%;
     left: -45%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 60, 1) 0%, rgba(0, 0, 60, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
 
@@ -127,7 +127,7 @@ body {
 .bc3a2 {
     top: 50%;
     left: 60%;
-    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 60, 1) 0%, rgba(0, 0, 60, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
@@ -136,7 +136,7 @@ body {
 .bc3a3 {
     top: 50%;
     left: 10%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 60, 1) 0%, rgba(0, 0, 60, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
@@ -145,7 +145,7 @@ body {
 .bc3a4 {
     top: 50%;
     left: -40%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 60, 1) 0%, rgba(0, 0, 60, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
@@ -154,7 +154,7 @@ body {
 .bc3a5 {
     top: 50%;
     left: -90%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 60, 1) 0%, rgba(0, 0, 60, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
@@ -176,7 +176,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    opacity: 92.5%;
+    opacity: 95%;
 }
 
 /* MC1, MC3 and MC5 */
@@ -364,7 +364,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    opacity: 92.5%;
+    opacity: 95%;
 }
 
 /* SC2-1, SC2-4 and SC2-7 */
@@ -378,7 +378,7 @@ body {
     display: flex;
     position: relative;
     bottom: 80%;
-    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
 
@@ -409,7 +409,7 @@ body {
 .sc2-7a1 {
     top: 25%;
     left: -45%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
 
@@ -418,7 +418,7 @@ body {
 .sc2-7a2 {
     top: 50%;
     left: 60%;
-    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
@@ -427,7 +427,7 @@ body {
 .sc2-7a3 {
     top: 50%;
     left: 10%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
@@ -436,7 +436,7 @@ body {
 .sc2-7a4 {
     top: 50%;
     left: -40%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
@@ -445,7 +445,7 @@ body {
 .sc2-7a5 {
     top: 50%;
     left: -90%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
@@ -461,7 +461,7 @@ body {
     display: flex;
     position: relative;
     bottom: 20%;
-    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
 
@@ -492,7 +492,7 @@ body {
 .sc2-8a1 {
     top: 25%;
     left: -45%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
 
@@ -501,7 +501,7 @@ body {
 .sc2-8a2 {
     top: 50%;
     left: 60%;
-    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
@@ -510,7 +510,7 @@ body {
 .sc2-8a3 {
     top: 50%;
     left: 10%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
@@ -519,7 +519,7 @@ body {
 .sc2-8a4 {
     top: 50%;
     left: -40%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
@@ -528,7 +528,7 @@ body {
 .sc2-8a5 {
     top: 50%;
     left: -90%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
@@ -544,7 +544,7 @@ body {
     display: flex;
     position: relative;
     bottom: 60%;
-    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 40% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
 
@@ -575,7 +575,7 @@ body {
 .sc2-9a1 {
     top: 25%;
     left: -45%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
 }
 
@@ -584,7 +584,7 @@ body {
 .sc2-9a2 {
     top: 50%;
     left: 60%;
-    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 45% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
@@ -593,7 +593,7 @@ body {
 .sc2-9a3 {
     top: 50%;
     left: 10%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
@@ -602,7 +602,7 @@ body {
 .sc2-9a4 {
     top: 50%;
     left: -40%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
 
@@ -611,7 +611,7 @@ body {
 .sc2-9a5 {
     top: 50%;
     left: -90%;
-    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 80, 1) 0%, rgba(0, 0, 80, 1) 80%, rgba(0, 0, 40, 1) 100%);
+    background: radial-gradient(closest-corner circle at 50% 30%, rgba(0, 0, 70, 1) 0%, rgba(0, 0, 70, 1) 80%, rgba(0, 0, 40, 1) 100%);
     border-top: solid rgba(0, 0, 160, 0.5) 1px;
     border-bottom: solid rgba(0, 0, 120, 0.5) 1px;
 }
