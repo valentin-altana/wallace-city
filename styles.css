@@ -62,7 +62,7 @@ body {
 /* BIG CLOUDS */
 
 .big-clouds {
-    /* animation: scroll 160s linear infinite; */
+    /* animation: scroll 200s linear infinite; */
 }
 
 .bc1,
@@ -162,7 +162,7 @@ body {
 /* MEDIUM CLOUDS */
 
 .medium-clouds {
-    /* animation: scroll 120s linear infinite; */
+    /* animation: scroll 160s linear infinite; */
 }
 
 .mc1,
@@ -362,6 +362,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 80%);
     /* animation: scroll 100s linear infinite; */
 }
 
@@ -1998,7 +1999,6 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 20%);
     /* animation: scroll 75s linear infinite; */
 }
 
@@ -2010,6 +2010,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 40%);
     /* animation: scroll 60s linear infinite; */
 }
 
@@ -2801,7 +2802,7 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 20%);
-    /* animation: scroll 50s linear infinite; */
+    /* animation: scroll 55s linear infinite; */
 }
 
 /* SPACES */
@@ -2845,7 +2846,7 @@ body {
     height: 100%;
     width: 0.169%;
     clip-path: circle(50% at 50% 50%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(250, 255, 0, 0.8) 40%, rgba(250, 255, 0, 0.8) 50%, rgba(250, 255, 0, 0) 75%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 250, 0, 0.8) 40%, rgba(255, 250, 0, 0.8) 50%, rgba(255, 250, 0, 0) 75%);
 }
 
 /* SL1 */
