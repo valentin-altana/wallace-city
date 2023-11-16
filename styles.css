@@ -3929,6 +3929,71 @@ body {
     }
 }
 
+/* BUILDINGS LIGHTS */
+
+.bb1a,
+.bb2a,
+.bb3a,
+.bb4a,
+.bb5a,
+.bb6a,
+.bb7a,
+.bb8a,
+.bb9a,
+.bb10a,
+.bb11a,
+.bb12a {
+    position: relative;
+}
+
+/* BACKGROUND BUILDINGS LIGHTS */
+
+/* LEFT and RIGHT */
+
+.bb1a::before,
+.bb2a::before,
+.bb3a::before,
+.bb4a::before,
+.bb5a::before,
+.bb6a::before,
+.bb7a::before,
+.bb8a::before,
+.bb9a::before,
+.bb10a::before,
+.bb11a::before,
+.bb12a::before {
+    content: "";
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    left: -10%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
+}
+
+.bb1a::after,
+.bb2a::after,
+.bb3a::after,
+.bb4a::after,
+.bb5a::after,
+.bb6a::after,
+.bb7a::after,
+.bb8a::after,
+.bb9a::after,
+.bb10a::after,
+.bb11a::after,
+.bb12a::after {
+    content: "";
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    right: -10%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
+}
+
+/* MIDDLE GROUND BUILDINGS LIGHTS */
+
+/* FOREGROUND BUILDINGS LIGHTS */
+
 /* WINDOWS */
 
 /* ANTENNAS */
