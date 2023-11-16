@@ -3942,13 +3942,43 @@ body {
 .bb9a,
 .bb10a,
 .bb11a,
-.bb12a {
+.bb12a,
+.mb1a,
+.mb2a,
+.mb3a,
+.mb4a,
+.mb5a,
+.mb6a,
+.mb8a,
+.mb8c,
+.mb8e,
+.mb8g,
+.mb8i,
+.mb9a,
+.mb11a,
+.mb13a,
+.mb14a,
+.mb15a,
+.mb16a,
+.mb17a,
+.mb18a,
+.mb19a,
+.mb20a,
+.mb21a,
+.mb22a,
+.mb24a,
+.mb24c,
+.mb24e,
+.mb24g,
+.mb24i {
     position: relative;
 }
 
 /* BACKGROUND BUILDINGS LIGHTS */
 
 /* LEFT and RIGHT */
+
+/* LEFT */
 
 .bb1a::before,
 .bb2a::before,
@@ -3967,8 +3997,11 @@ body {
     width: 10%;
     position: absolute;
     left: -10%;
+    opacity: 80%;
     background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
 }
+
+/* RIGHT */
 
 .bb1a::after,
 .bb2a::after,
@@ -3987,10 +4020,109 @@ body {
     width: 10%;
     position: absolute;
     right: -10%;
+    opacity: 80%;
     background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
 }
 
 /* MIDDLE GROUND BUILDINGS LIGHTS */
+
+/* LEFT and RIGHT */
+
+/* LEFT */
+
+.mb1a::before,
+.mb3a::before,
+.mb5a::before,
+.mb9a::before,
+.mb11a::before,
+.mb13a::before,
+.mb15a::before,
+.mb17a::before,
+.mb19a::before,
+.mb21a::before {
+    content: "";
+    height: 100%;
+    width: 6%;
+    position: absolute;
+    left: -6%;
+    opacity: 50%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
+}
+
+.mb2a::before,
+.mb4a::before,
+.mb6a::before,
+.mb8a::before,
+.mb8c::before,
+.mb8e::before,
+.mb8g::before,
+.mb8i::before,
+.mb14a::before,
+.mb16a::before,
+.mb18a::before,
+.mb20a::before,
+.mb22a::before,
+.mb24a::before,
+.mb24c::before,
+.mb24e::before,
+.mb24g::before,
+.mb24i::before {
+    content: "";
+    height: 100%;
+    width: 8%;
+    position: absolute;
+    left: -8%;
+    opacity: 50%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
+}
+
+/* RIGHT */
+
+.mb1a::after,
+.mb3a::after,
+.mb5a::after,
+.mb9a::after,
+.mb11a::after,
+.mb13a::after,
+.mb15a::after,
+.mb17a::after,
+.mb19a::after,
+.mb21a::after {
+    content: "";
+    height: 100%;
+    width: 6%;
+    position: absolute;
+    right: -6%;
+    opacity: 50%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
+}
+
+.mb2a::after,
+.mb4a::after,
+.mb6a::after,
+.mb8a::after,
+.mb8c::after,
+.mb8e::after,
+.mb8g::after,
+.mb8i::after,
+.mb14a::after,
+.mb16a::after,
+.mb18a::after,
+.mb20a::after,
+.mb22a::after,
+.mb24a::after,
+.mb24c::after,
+.mb24e::after,
+.mb24g::after,
+.mb24i::after {
+    content: "";
+    height: 100%;
+    width: 8%;
+    position: absolute;
+    right: -8%;
+    opacity: 50%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
+}
 
 /* FOREGROUND BUILDINGS LIGHTS */
 
