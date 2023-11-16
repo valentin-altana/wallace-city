@@ -3932,17 +3932,26 @@ body {
 /* BUILDINGS LIGHTS */
 
 .bb1a,
+.bb1b,
 .bb2a,
 .bb3a,
+.bb3b,
 .bb4a,
+.bb4b,
 .bb5a,
+.bb5b,
 .bb6a,
 .bb7a,
+.bb7b,
 .bb8a,
+.bb8b,
 .bb9a,
+.bb9b,
 .bb10a,
 .bb11a,
+.bb11b,
 .bb12a,
+.bb12b,
 .mb1a,
 .mb2a,
 .mb3a,
@@ -3955,7 +3964,15 @@ body {
 .mb8g,
 .mb8i,
 .mb9a,
+.mb10d,
+.mb10g,
+.mb10j,
 .mb11a,
+.mb11c,
+.mb12d,
+.mb12f,
+.mb12h,
+.mb12j,
 .mb13a,
 .mb14a,
 .mb15a,
@@ -4057,6 +4074,11 @@ body {
 .mb8e::before,
 .mb8g::before,
 .mb8i::before,
+.mb11c::before,
+.mb12d::before,
+.mb12f::before,
+.mb12h::before,
+.mb12j::before,
 .mb14a::before,
 .mb16a::before,
 .mb18a::before,
@@ -4105,6 +4127,11 @@ body {
 .mb8e::after,
 .mb8g::after,
 .mb8i::after,
+.mb11c::after,
+.mb12d::after,
+.mb12f::after,
+.mb12h::after,
+.mb12j::after,
 .mb14a::after,
 .mb16a::after,
 .mb18a::after,
@@ -4124,7 +4151,69 @@ body {
     background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
 }
 
+.mb10d::after {
+    content: "";
+    height: 100%;
+    width: 7%;
+    position: absolute;
+    right: -7%;
+    opacity: 50%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
+}
+
+.mb10g::after {
+    content: "";
+    height: 100%;
+    width: 8%;
+    position: absolute;
+    right: -8%;
+    opacity: 50%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
+}
+
+.mb10j::after {
+    content: "";
+    height: 100%;
+    width: 9%;
+    position: absolute;
+    right: -9%;
+    opacity: 50%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
+}
+
 /* FOREGROUND BUILDINGS LIGHTS */
+
+/* ROOFS LIGHTS */
+
+.bb1b::before,
+.bb8b::before,
+.bb9b::before {
+    content: "";
+    height: 200%;
+    width: 85%;
+    position: absolute;
+    top: -200%;
+    left: 7.5%;
+    opacity: 50%;
+    background: linear-gradient(0deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
+}
+
+
+.bb3b::before,
+.bb4b::before,
+.bb5b::before,
+.bb7b::before,
+.bb11b::before,
+.bb12b::before {
+    content: "";
+    height: 200%;
+    width: 60%;
+    position: absolute;
+    top: -200%;
+    left: 20%;
+    opacity: 50%;
+    background: linear-gradient(0deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
+}
 
 /* WINDOWS */
 
