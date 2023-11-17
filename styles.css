@@ -3932,26 +3932,17 @@ body {
 /* BUILDINGS LIGHTS */
 
 .bb1a,
-.bb1b,
 .bb2a,
 .bb3a,
-.bb3b,
 .bb4a,
-.bb4b,
 .bb5a,
-.bb5b,
 .bb6a,
 .bb7a,
-.bb7b,
 .bb8a,
-.bb8b,
 .bb9a,
-.bb9b,
 .bb10a,
 .bb11a,
-.bb11b,
 .bb12a,
-.bb12b,
 .mb1a,
 .mb2a,
 .mb3a,
@@ -4182,38 +4173,6 @@ body {
 }
 
 /* FOREGROUND BUILDINGS LIGHTS */
-
-/* ROOFS LIGHTS */
-
-.bb1b::before,
-.bb8b::before,
-.bb9b::before {
-    content: "";
-    height: 200%;
-    width: 85%;
-    position: absolute;
-    top: -200%;
-    left: 7.5%;
-    opacity: 50%;
-    background: linear-gradient(0deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
-}
-
-
-.bb3b::before,
-.bb4b::before,
-.bb5b::before,
-.bb7b::before,
-.bb11b::before,
-.bb12b::before {
-    content: "";
-    height: 200%;
-    width: 60%;
-    position: absolute;
-    top: -200%;
-    left: 20%;
-    opacity: 50%;
-    background: linear-gradient(0deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
-}
 
 /* WINDOWS */
 
