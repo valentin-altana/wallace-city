@@ -3978,13 +3978,34 @@ body {
 .mb24c,
 .mb24e,
 .mb24g,
-.mb24i {
+.mb24i,
+.fb1a,
+.fb2a,
+.fb3a,
+.fb4a,
+.fb4c,
+.fb5a,
+.fb6a,
+.fb7a,
+.fb8a,
+.fb9a,
+.fb10a,
+.fb11a,
+.fb12a,
+.fb13a,
+.fb14a,
+.fb15a,
+.fb16a,
+.fb17a,
+.fb18a,
+.fb18c,
+.fb19a,
+.fb20a,
+.fb21a {
     position: relative;
 }
 
 /* BACKGROUND BUILDINGS LIGHTS */
-
-/* LEFT and RIGHT */
 
 /* LEFT */
 
@@ -4033,8 +4054,6 @@ body {
 }
 
 /* MIDDLE GROUND BUILDINGS LIGHTS */
-
-/* LEFT and RIGHT */
 
 /* LEFT */
 
@@ -4173,6 +4192,92 @@ body {
 }
 
 /* FOREGROUND BUILDINGS LIGHTS */
+
+/* LEFT */
+
+.fb1a::before,
+.fb2a::before,
+.fb5a::before,
+.fb7a::before,
+.fb10a::before,
+.fb12a::before,
+.fb15a::before,
+.fb16a::before,
+.fb19a::before,
+.fb21a::before {
+    content: "";
+    height: 100%;
+    width: 8%;
+    position: absolute;
+    left: -8%;
+    opacity: 50%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
+}
+
+.fb3a::before,
+.fb4a::before,
+.fb4c::before,
+.fb6a::before,
+.fb8a::before,
+.fb9a::before,
+.fb11a::before,
+.fb13a::before,
+.fb14a::before,
+.fb17a::before,
+.fb18a::before,
+.fb18c::before,
+.fb20a::before {
+    content: "";
+    height: 100%;
+    width: 6%;
+    position: absolute;
+    left: -6%;
+    opacity: 50%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
+}
+
+/* RIGHT */
+
+.fb1a::after,
+.fb2a::after,
+.fb5a::after,
+.fb7a::after,
+.fb10a::after,
+.fb12a::after,
+.fb15a::after,
+.fb16a::after,
+.fb19a::after,
+.fb21a::after {
+    content: "";
+    height: 100%;
+    width: 8%;
+    position: absolute;
+    right: -8%;
+    opacity: 50%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
+}
+
+.fb3a::after,
+.fb4a::after,
+.fb4c::after,
+.fb6a::after,
+.fb8a::after,
+.fb9a::after,
+.fb11a::after,
+.fb13a::after,
+.fb14a::after,
+.fb17a::after,
+.fb18a::after,
+.fb18c::after,
+.fb20a::after {
+    content: "";
+    height: 100%;
+    width: 6%;
+    position: absolute;
+    right: -6%;
+    opacity: 50%;
+    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
+}
 
 /* WINDOWS */
 
