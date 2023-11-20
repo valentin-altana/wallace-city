@@ -48,7 +48,6 @@ body {
 }
 
 .small-b-clouds-1,
-.plane,
 .medium-b-clouds,
 .small-b-clouds-2 {
     height: 50%;
@@ -413,78 +412,6 @@ body {
 }
 
 /* PLANE */
-
-.plane {
-    height: 22%;
-    width: 100%;
-    display: flex;
-    /* animation: scroll 90s linear infinite; */
-}
-
-.plane-1 {
-    height: 5%;
-    width: 1.5%;
-    border-top-left-radius: 20% 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 20% 50%;
-    border-bottom-right-radius: 50%;
-    display: flex;
-    background: black;
-    border-top: solid rgba(0, 0, 160, 0.5) 1px;
-}
-
-.plane-1a {
-    height: 35%;
-    width: 10%;
-    border-top-left-radius: 20% 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 20% 50%;
-    border-bottom-right-radius: 50%;
-    display: flex;
-    position: relative;
-    top: 80%;
-    left: 45%;
-    background: black;
-}
-
-.plane-1b {
-    height: 25%;
-    width: 30%;
-    border-radius: 50%;
-    display: flex;
-    position: relative;
-    top: 50%;
-    left: 25%;
-    background: black;
-    border-top: solid rgba(0, 0, 160, 0.5) 1px;
-}
-
-.plane-1c {
-    height: 100%;
-    width: 10%;
-    border-top-left-radius: 100%;
-    border-top-right-radius: 10%;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    display: flex;
-    position: relative;
-    top: -65%;
-    left: 45%;
-    background: black;
-    border-top: solid rgba(0, 0, 160, 0.5) 1px;
-}
-
-.plane-1d {
-    height: 2%;
-    width: 48%;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    display: flex;
-    position: absolute;
-    top: 96.2%;
-    left: 51%;
-    background: linear-gradient(90deg, rgba(0, 0, 120, 1) 0%, rgba(0, 0, 120, 0) 100%);
-}
 
 /* MEDIUM BACKGROUND CLOUDS */
 
@@ -4611,7 +4538,6 @@ body {
 .sky,
 .background-clouds,
 .small-b-clouds-1,
-.plane,
 .medium-b-clouds,
 .small-b-clouds-2,
 .city,
