@@ -44,7 +44,6 @@ body {
     height: 100%;
     width: 100%;
     display: flex;
-    /* animation: scroll 200s linear infinite; */
 }
 
 .small-b-clouds-1,
@@ -55,6 +54,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    animation: scroll 200s linear infinite;
 }
 
 /* SMALL BACKGROUND CLOUDS 1 */
@@ -419,7 +419,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    /* animation: scroll 90s linear infinite; */
+    animation: scroll 90s linear infinite;
 }
 
 .space-p,
@@ -968,7 +968,7 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 80%);
-    /* animation: scroll 100s linear infinite; */
+    animation: scroll 100s linear infinite;
 }
 
 .bb1,
@@ -1442,7 +1442,7 @@ body {
     height: 103.097%;
     width: 100%;
     display: flex;
-    /* animation: scroll 75s linear infinite; */
+    animation: scroll 75s linear infinite;
 }
 
 /* MEDIUM MIDDLE GROUND CLOUDS */
@@ -1608,7 +1608,7 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 60%);
-    /* animation: scroll 80s linear infinite; */
+    animation: scroll 80s linear infinite;
 }
 
 .mb1,
@@ -2767,7 +2767,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    /* animation: scroll 75s linear infinite; */
+    animation: scroll 75s linear infinite;
 }
 
 /* FOREGROUND BUILDINGS */
@@ -2779,7 +2779,7 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 40%);
-    /* animation: scroll 60s linear infinite; */
+    animation: scroll 60s linear infinite;
 }
 
 .fb1,
@@ -3567,7 +3567,7 @@ body {
     height: 103.097%;
     width: 100%;
     display: flex;
-    /* animation: scroll 55s linear infinite; */
+    animation: scroll 55s linear infinite;
 }
 
 .small-f-clouds {
@@ -3769,7 +3769,7 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 20%);
-    /* animation: scroll 55s linear infinite; */
+    animation: scroll 55s linear infinite;
 }
 
 /* SPACES */
