@@ -498,6 +498,102 @@ body {
     opacity: 25%;
 }
 
+/* PLANE LIGHTS */
+
+/* PLANE WHITE LIGHT */
+
+.plane-1d::before {
+    content: "";
+    height: 343%;
+    width: 19.95%;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    top: -160%;
+    left: 90%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%);
+    animation: plane-white-light-on-off 3s infinite;
+}
+
+@keyframes plane-white-light-on-off {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+
+    52% {
+        opacity: 100%;
+    }
+
+    54% {
+        opacity: 0%;
+    }
+
+    56% {
+        opacity: 100%;
+    }
+
+    58% {
+        opacity: 0%;
+    }
+
+    62% {
+        opacity: 0%;
+    }
+
+    64% {
+        opacity: 100%;
+    }
+
+    66% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+/* PLANE RED LIGHT */
+
+.plane-1a::before {
+    content: "";
+    height: 68%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    top: -45%;
+    left: 60%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 0, 0, 1) 25%, rgba(255, 0, 0, 0) 100%);
+    animation: plane-red-light-on-off 3s infinite;
+}
+
+@keyframes plane-red-light-on-off {
+    0% {
+        opacity: 0%;
+    }
+
+    58% {
+        opacity: 0%;
+    }
+
+    60% {
+        opacity: 100%;
+    }
+
+    62% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
 /* MEDIUM BACKGROUND CLOUDS */
 
 .mc1,
