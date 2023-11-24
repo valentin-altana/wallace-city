@@ -512,7 +512,7 @@ body {
     top: -160%;
     left: 90%;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%);
-    animation: plane-white-light-on-off 3s infinite;
+    animation: plane-white-light-on-off 2s infinite;
 }
 
 @keyframes plane-white-light-on-off {
@@ -524,31 +524,31 @@ body {
         opacity: 0%;
     }
 
-    52% {
+    53% {
         opacity: 100%;
-    }
-
-    54% {
-        opacity: 0%;
     }
 
     56% {
-        opacity: 100%;
+        opacity: 0%;
     }
 
-    58% {
-        opacity: 0%;
+    59% {
+        opacity: 100%;
     }
 
     62% {
         opacity: 0%;
     }
 
-    64% {
+    68% {
+        opacity: 0%;
+    }
+
+    71% {
         opacity: 100%;
     }
 
-    66% {
+    74% {
         opacity: 0%;
     }
 
@@ -569,7 +569,7 @@ body {
     top: -45%;
     left: 60%;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 0, 0, 1) 25%, rgba(255, 0, 0, 0) 100%);
-    animation: plane-red-light-on-off 3s infinite;
+    animation: plane-red-light-on-off 2s infinite;
 }
 
 @keyframes plane-red-light-on-off {
@@ -577,15 +577,15 @@ body {
         opacity: 0%;
     }
 
-    58% {
+    62% {
         opacity: 0%;
     }
 
-    60% {
+    65% {
         opacity: 100%;
     }
 
-    62% {
+    68% {
         opacity: 0%;
     }
 
@@ -4547,6 +4547,131 @@ body {
 }
 
 /* WINDOWS */
+
+/* BACKGROUND BUILDINGS WINDOWS */
+
+/* BB WINDOWS 1 */
+
+.bb1a,
+.bb2a,
+.bb3a,
+.bb4a,
+.bb5a,
+.bb6a,
+.bb7a,
+.bb8a,
+.bb9a,
+.bb10a,
+.bb11a,
+.bb12a {
+    display: grid;
+    grid-template-columns: repeat(1, 95%);
+    grid-template-rows: repeat(50, 0.5%);
+    justify-content: space-around;
+    gap: 1.5%;
+}
+
+.bb-windows-1-a,
+.bb-windows-1-b,
+.bb-windows-1-c,
+.bb-windows-1-d,
+.bb-windows-1-e,
+.bb-windows-1-f,
+.bb-windows-1-g,
+.bb-windows-1-h,
+.bb-windows-1-i,
+.bb-windows-1-j {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 150%;
+    opacity: 25%;
+}
+
+.bb-windows-1-a {
+    background: linear-gradient(90deg, rgba(10, 10, 10, 1) 0%, rgba(255, 250, 0, 1) 5%, rgba(10, 10, 10, 1) 10%, rgba(10, 10, 10, 1) 15%, rgba(10, 10, 10, 1) 20%, rgba(255, 250, 0, 1) 25%, rgba(10, 10, 10, 1) 30%, rgba(10, 10, 10, 1) 35%, rgba(10, 10, 10, 1) 40%, rgba(255, 250, 0, 1) 45%, rgba(10, 10, 10, 1) 50%, rgba(10, 10, 10, 1) 55%, rgba(10, 10, 10, 1) 60%, rgba(10, 10, 10, 1) 65%, rgba(10, 10, 10, 1) 70%, rgba(10, 10, 10, 1) 75%, rgba(10, 10, 10, 1) 80%, rgba(255, 250, 0, 1) 85%, rgba(10, 10, 10, 1) 90%, rgba(255, 250, 0, 1) 95%, rgba(10, 10, 10, 1) 100%);
+}
+
+.bb-windows-1-b {
+    background: linear-gradient(90deg, rgba(10, 10, 10, 1) 0%, rgba(10, 10, 10, 1) 5%, rgba(10, 10, 10, 1) 10%, rgba(10, 10, 10, 1) 15%, rgba(10, 10, 10, 1) 20%, rgba(255, 250, 0, 1) 25%, rgba(10, 10, 10, 1) 30%, rgba(255, 250, 0, 1) 35%, rgba(10, 10, 10, 1) 40%, rgba(255, 250, 0, 1) 45%, rgba(10, 10, 10, 1) 50%, rgba(10, 10, 10, 1) 55%, rgba(10, 10, 10, 1) 60%, rgba(10, 10, 10, 1) 65%, rgba(10, 10, 10, 1) 70%, rgba(255, 250, 0, 1) 75%, rgba(10, 10, 10, 1) 80%, rgba(10, 10, 10, 1) 85%, rgba(10, 10, 10, 1) 90%, rgba(255, 250, 0, 1) 95%, rgba(10, 10, 10, 1) 100%);
+}
+
+.bb-windows-1-c {
+    background: linear-gradient(90deg, rgba(10, 10, 10, 1) 0%, rgba(255, 250, 0, 1) 5%, rgba(10, 10, 10, 1) 10%, rgba(10, 10, 10, 1) 15%, rgba(10, 10, 10, 1) 20%, rgba(255, 250, 0, 1) 25%, rgba(10, 10, 10, 1) 30%, rgba(10, 10, 10, 1) 35%, rgba(10, 10, 10, 1) 40%, rgba(10, 10, 10, 1) 45%, rgba(10, 10, 10, 1) 50%, rgba(10, 10, 10, 1) 55%, rgba(10, 10, 10, 1) 60%, rgba(255, 250, 0, 1) 65%, rgba(10, 10, 10, 1) 70%, rgba(255, 250, 0, 1) 75%, rgba(10, 10, 10, 1) 80%, rgba(10, 10, 10, 1) 85%, rgba(10, 10, 10, 1) 90%, rgba(255, 250, 0, 1) 95%, rgba(10, 10, 10, 1) 100%);
+}
+
+.bb-windows-1-d {
+    background: linear-gradient(90deg, rgba(10, 10, 10, 1) 0%, rgba(10, 10, 10, 1) 5%, rgba(10, 10, 10, 1) 10%, rgba(255, 250, 0, 1) 15%, rgba(10, 10, 10, 1) 20%, rgba(10, 10, 10, 1) 25%, rgba(10, 10, 10, 1) 30%, rgba(255, 250, 0, 1) 35%, rgba(10, 10, 10, 1) 40%, rgba(10, 10, 10, 1) 45%, rgba(10, 10, 10, 1) 50%, rgba(255, 250, 0, 1) 55%, rgba(10, 10, 10, 1) 60%, rgba(10, 10, 10, 1) 65%, rgba(10, 10, 10, 1) 70%, rgba(10, 10, 10, 1) 75%, rgba(10, 10, 10, 1) 80%, rgba(255, 250, 0, 1) 85%, rgba(10, 10, 10, 1) 90%, rgba(10, 10, 10, 1) 95%, rgba(10, 10, 10, 1) 100%);
+}
+
+.bb-windows-1-e {
+    background: linear-gradient(90deg, rgba(10, 10, 10, 1) 0%, rgba(255, 250, 0, 1) 5%, rgba(10, 10, 10, 1) 10%, rgba(10, 10, 10, 1) 15%, rgba(10, 10, 10, 1) 20%, rgba(10, 10, 10, 1) 25%, rgba(10, 10, 10, 1) 30%, rgba(255, 250, 0, 1) 35%, rgba(10, 10, 10, 1) 40%, rgba(255, 250, 0, 1) 45%, rgba(10, 10, 10, 1) 50%, rgba(10, 10, 10, 1) 55%, rgba(10, 10, 10, 1) 60%, rgba(255, 250, 0, 1) 65%, rgba(10, 10, 10, 1) 70%, rgba(255, 250, 0, 1) 75%, rgba(10, 10, 10, 1) 80%, rgba(10, 10, 10, 1) 85%, rgba(10, 10, 10, 1) 90%, rgba(10, 10, 10, 1) 95%, rgba(10, 10, 10, 1) 100%);
+}
+
+.bb-windows-1-f {
+    background: linear-gradient(90deg, rgba(10, 10, 10, 1) 0%, rgba(10, 10, 10, 1) 5%, rgba(10, 10, 10, 1) 10%, rgba(255, 250, 0, 1) 15%, rgba(10, 10, 10, 1) 20%, rgba(10, 10, 10, 1) 25%, rgba(10, 10, 10, 1) 30%, rgba(255, 250, 0, 1) 35%, rgba(10, 10, 10, 1) 40%, rgba(10, 10, 10, 1) 45%, rgba(10, 10, 10, 1) 50%, rgba(255, 250, 0, 1) 55%, rgba(10, 10, 10, 1) 60%, rgba(10, 10, 10, 1) 65%, rgba(10, 10, 10, 1) 70%, rgba(255, 250, 0, 1) 75%, rgba(10, 10, 10, 1) 80%, rgba(255, 250, 0, 1) 85%, rgba(10, 10, 10, 1) 90%, rgba(255, 250, 0, 1) 95%, rgba(10, 10, 10, 1) 100%);
+}
+
+.bb-windows-1-g {
+    background: linear-gradient(90deg, rgba(10, 10, 10, 1) 0%, rgba(10, 10, 10, 1) 5%, rgba(10, 10, 10, 1) 10%, rgba(255, 250, 0, 1) 15%, rgba(10, 10, 10, 1) 20%, rgba(255, 250, 0, 1) 25%, rgba(10, 10, 10, 1) 30%, rgba(10, 10, 10, 1) 35%, rgba(10, 10, 10, 1) 40%, rgba(255, 250, 0, 1) 45%, rgba(10, 10, 10, 1) 50%, rgba(10, 10, 10, 1) 55%, rgba(10, 10, 10, 1) 60%, rgba(255, 250, 0, 1) 65%, rgba(10, 10, 10, 1) 70%, rgba(255, 250, 0, 1) 75%, rgba(10, 10, 10, 1) 80%, rgba(10, 10, 10, 1) 85%, rgba(10, 10, 10, 1) 90%, rgba(255, 250, 0, 1) 95%, rgba(10, 10, 10, 1) 100%);
+}
+
+.bb-windows-1-h {
+    background: linear-gradient(90deg, rgba(10, 10, 10, 1) 0%, rgba(255, 250, 0, 1) 5%, rgba(10, 10, 10, 1) 10%, rgba(255, 250, 0, 1) 15%, rgba(10, 10, 10, 1) 20%, rgba(10, 10, 10, 1) 25%, rgba(10, 10, 10, 1) 30%, rgba(255, 250, 0, 1) 35%, rgba(10, 10, 10, 1) 40%, rgba(10, 10, 10, 1) 45%, rgba(10, 10, 10, 1) 50%, rgba(255, 250, 0, 1) 55%, rgba(10, 10, 10, 1) 60%, rgba(255, 250, 0, 1) 65%, rgba(10, 10, 10, 1) 70%, rgba(255, 250, 0, 1) 75%, rgba(10, 10, 10, 1) 80%, rgba(10, 10, 10, 1) 85%, rgba(10, 10, 10, 1) 90%, rgba(255, 250, 0, 1) 95%, rgba(10, 10, 10, 1) 100%);
+}
+
+.bb-windows-1-i {
+    background: linear-gradient(90deg, rgba(10, 10, 10, 1) 0%, rgba(255, 250, 0, 1) 5%, rgba(10, 10, 10, 1) 10%, rgba(10, 10, 10, 1) 15%, rgba(10, 10, 10, 1) 20%, rgba(255, 250, 0, 1) 25%, rgba(10, 10, 10, 1) 30%, rgba(255, 250, 0, 1) 35%, rgba(10, 10, 10, 1) 40%, rgba(10, 10, 10, 1) 45%, rgba(10, 10, 10, 1) 50%, rgba(255, 250, 0, 1) 55%, rgba(10, 10, 10, 1) 60%, rgba(10, 10, 10, 1) 65%, rgba(10, 10, 10, 1) 70%, rgba(255, 250, 0, 1) 75%, rgba(10, 10, 10, 1) 80%, rgba(10, 10, 10, 1) 85%, rgba(10, 10, 10, 1) 90%, rgba(10, 10, 10, 1) 95%, rgba(10, 10, 10, 1) 100%);
+}
+
+.bb-windows-1-j {
+    background: linear-gradient(90deg, rgba(10, 10, 10, 1) 0%, rgba(255, 250, 0, 1) 5%, rgba(10, 10, 10, 1) 10%, rgba(10, 10, 10, 1) 15%, rgba(10, 10, 10, 1) 20%, rgba(10, 10, 10, 1) 25%, rgba(10, 10, 10, 1) 30%, rgba(255, 250, 0, 1) 35%, rgba(10, 10, 10, 1) 40%, rgba(255, 250, 0, 1) 45%, rgba(10, 10, 10, 1) 50%, rgba(255, 250, 0, 1) 55%, rgba(10, 10, 10, 1) 60%, rgba(10, 10, 10, 1) 65%, rgba(10, 10, 10, 1) 70%, rgba(10, 10, 10, 1) 75%, rgba(10, 10, 10, 1) 80%, rgba(255, 250, 0, 1) 85%, rgba(10, 10, 10, 1) 90%, rgba(10, 10, 10, 1) 95%, rgba(10, 10, 10, 1) 100%);
+}
+
+/* BB WINDOWS 2 */
+
+.bb1c,
+.bb9c {
+    display: grid;
+    grid-template-columns: repeat(5, 10%);
+    grid-template-rows: repeat(1, 90%);
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.bb-windows-2-a,
+.bb-windows-2-e {
+    height: 50%;
+    width: 100%;
+}
+
+.bb-windows-2-b,
+.bb-windows-2-d {
+    height: 75%;
+    width: 100%;
+}
+
+.bb-windows-2-c {
+    height: 100%;
+    width: 100%;
+}
+
+.bb-windows-2-a,
+.bb-windows-2-b,
+.bb-windows-2-c,
+.bb-windows-2-d,
+.bb-windows-2-e {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: relative;
+    top: 5%;
+    opacity: 25%;
+    background: linear-gradient(180deg, rgba(255,250,0,1) 0%, rgba(255,150,0,1) 100%);
+}
+
+/* MIDDLE GROUND BUILDINGS WINDOWS */
+
+/* FOREGROUND BUILDINGS WINDOWS */
 
 /* ANTENNAS */
 
