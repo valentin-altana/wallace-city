@@ -4658,7 +4658,7 @@ body {
 .bb-windows-2-e {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    opacity: 80%;
+    opacity: 70%;
     background: linear-gradient(180deg, rgba(255, 250, 0, 1) 0%, rgba(255, 150, 0, 1) 100%);
     filter: drop-shadow(0 0 2px rgb(255, 250, 0));
 }
