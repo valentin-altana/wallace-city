@@ -4761,7 +4761,6 @@ body {
     justify-content: space-around;
     grid-template-columns: repeat(16, 6.15%);
     grid-template-rows: repeat(50, 2.1%);
-    z-index: 1;
 }
 
 .mb-windows-3-a-1,
@@ -5588,6 +5587,1527 @@ body {
 
 .mb-windows-3-p-10 {
     opacity: 10%;
+}
+
+/* MB WINDOWS 4 */
+
+.mb11c {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(13, 7.69%);
+    grid-template-rows: repeat(40, 5.88%);
+}
+
+.mb-windows-4-a-1,
+.mb-windows-4-b-1,
+.mb-windows-4-c-1,
+.mb-windows-4-d-1,
+.mb-windows-4-e-1,
+.mb-windows-4-f-1,
+.mb-windows-4-g-1,
+.mb-windows-4-h-1,
+.mb-windows-4-i-1,
+.mb-windows-4-j-1,
+.mb-windows-4-k-1,
+.mb-windows-4-l-1,
+.mb-windows-4-m-1,
+.mb-windows-4-a-2,
+.mb-windows-4-b-2,
+.mb-windows-4-c-2,
+.mb-windows-4-d-2,
+.mb-windows-4-e-2,
+.mb-windows-4-f-2,
+.mb-windows-4-g-2,
+.mb-windows-4-h-2,
+.mb-windows-4-i-2,
+.mb-windows-4-j-2,
+.mb-windows-4-k-2,
+.mb-windows-4-l-2,
+.mb-windows-4-m-2,
+.mb-windows-4-a-3,
+.mb-windows-4-b-3,
+.mb-windows-4-c-3,
+.mb-windows-4-d-3,
+.mb-windows-4-e-3,
+.mb-windows-4-f-3,
+.mb-windows-4-g-3,
+.mb-windows-4-h-3,
+.mb-windows-4-i-3,
+.mb-windows-4-j-3,
+.mb-windows-4-k-3,
+.mb-windows-4-l-3,
+.mb-windows-4-m-3,
+.mb-windows-4-a-4,
+.mb-windows-4-b-4,
+.mb-windows-4-c-4,
+.mb-windows-4-d-4,
+.mb-windows-4-e-4,
+.mb-windows-4-f-4,
+.mb-windows-4-g-4,
+.mb-windows-4-h-4,
+.mb-windows-4-i-4,
+.mb-windows-4-j-4,
+.mb-windows-4-k-4,
+.mb-windows-4-l-4,
+.mb-windows-4-m-4,
+.mb-windows-4-a-5,
+.mb-windows-4-b-5,
+.mb-windows-4-c-5,
+.mb-windows-4-d-5,
+.mb-windows-4-e-5,
+.mb-windows-4-f-5,
+.mb-windows-4-g-5,
+.mb-windows-4-h-5,
+.mb-windows-4-i-5,
+.mb-windows-4-j-5,
+.mb-windows-4-k-5,
+.mb-windows-4-l-5,
+.mb-windows-4-m-5,
+.mb-windows-4-a-6,
+.mb-windows-4-b-6,
+.mb-windows-4-c-6,
+.mb-windows-4-d-6,
+.mb-windows-4-e-6,
+.mb-windows-4-f-6,
+.mb-windows-4-g-6,
+.mb-windows-4-h-6,
+.mb-windows-4-i-6,
+.mb-windows-4-j-6,
+.mb-windows-4-k-6,
+.mb-windows-4-l-6,
+.mb-windows-4-m-6,
+.mb-windows-4-a-7,
+.mb-windows-4-b-7,
+.mb-windows-4-c-7,
+.mb-windows-4-d-7,
+.mb-windows-4-e-7,
+.mb-windows-4-f-7,
+.mb-windows-4-g-7,
+.mb-windows-4-h-7,
+.mb-windows-4-i-7,
+.mb-windows-4-j-7,
+.mb-windows-4-k-7,
+.mb-windows-4-l-7,
+.mb-windows-4-m-7,
+.mb-windows-4-a-8,
+.mb-windows-4-b-8,
+.mb-windows-4-c-8,
+.mb-windows-4-d-8,
+.mb-windows-4-e-8,
+.mb-windows-4-f-8,
+.mb-windows-4-g-8,
+.mb-windows-4-h-8,
+.mb-windows-4-i-8,
+.mb-windows-4-j-8,
+.mb-windows-4-k-8,
+.mb-windows-4-l-8,
+.mb-windows-4-m-8,
+.mb-windows-4-a-9,
+.mb-windows-4-b-9,
+.mb-windows-4-c-9,
+.mb-windows-4-d-9,
+.mb-windows-4-e-9,
+.mb-windows-4-f-9,
+.mb-windows-4-g-9,
+.mb-windows-4-h-9,
+.mb-windows-4-i-9,
+.mb-windows-4-j-9,
+.mb-windows-4-k-9,
+.mb-windows-4-l-9,
+.mb-windows-4-m-9,
+.mb-windows-4-a-10,
+.mb-windows-4-b-10,
+.mb-windows-4-c-10,
+.mb-windows-4-d-10,
+.mb-windows-4-e-10,
+.mb-windows-4-f-10,
+.mb-windows-4-g-10,
+.mb-windows-4-h-10,
+.mb-windows-4-i-10,
+.mb-windows-4-j-10,
+.mb-windows-4-k-10,
+.mb-windows-4-l-10,
+.mb-windows-4-m-10 {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(closest-corner circle at 50% 20%, rgba(95, 195, 255, 1) 0%, rgba(0, 62, 100, 1) 100%);
+    box-shadow: inset 0px 0px 1px 0.5px rgba(95, 195, 255, 1);
+}
+
+/* 1 */
+
+.mb-windows-4-a-1 {
+    opacity: 50%;
+}
+
+.mb-windows-4-b-1 {
+    opacity: 40%;
+}
+
+.mb-windows-4-c-1 {
+    opacity: 30%;
+}
+
+.mb-windows-4-d-1 {
+    opacity: 20%;
+}
+
+.mb-windows-4-e-1 {
+    opacity: 10%;
+}
+
+.mb-windows-4-f-1 {
+    opacity: 10%;
+}
+
+.mb-windows-4-g-1 {
+    opacity: 10%;
+}
+
+.mb-windows-4-h-1 {
+    opacity: 20%;
+}
+
+.mb-windows-4-i-1 {
+    opacity: 30%;
+}
+
+.mb-windows-4-j-1 {
+    opacity: 40%;
+}
+
+.mb-windows-4-k-1 {
+    opacity: 50%;
+}
+
+.mb-windows-4-l-1 {
+    opacity: 40%;
+}
+
+.mb-windows-4-m-1 {
+    opacity: 30%;
+}
+
+/* 2 */
+
+.mb-windows-4-a-2 {
+    opacity: 10%;
+}
+
+.mb-windows-4-b-2 {
+    opacity: 10%;
+}
+
+.mb-windows-4-c-2 {
+    opacity: 10%;
+}
+
+.mb-windows-4-d-2 {
+    opacity: 10%;
+}
+
+.mb-windows-4-e-2 {
+    opacity: 10%;
+}
+
+.mb-windows-4-f-2 {
+    opacity: 10%;
+}
+
+.mb-windows-4-g-2 {
+    opacity: 10%;
+}
+
+.mb-windows-4-h-2 {
+    opacity: 10%;
+}
+
+.mb-windows-4-i-2 {
+    opacity: 10%;
+}
+
+.mb-windows-4-j-2 {
+    opacity: 10%;
+}
+
+.mb-windows-4-k-2 {
+    opacity: 10%;
+}
+
+.mb-windows-4-l-2 {
+    opacity: 10%;
+}
+
+.mb-windows-4-m-2 {
+    opacity: 10%;
+}
+
+/* 3 */
+
+.mb-windows-4-a-3 {
+    opacity: 10%;
+}
+
+.mb-windows-4-b-3 {
+    opacity: 10%;
+}
+
+.mb-windows-4-c-3 {
+    opacity: 10%;
+}
+
+.mb-windows-4-d-3 {
+    opacity: 10%;
+}
+
+.mb-windows-4-e-3 {
+    opacity: 10%;
+}
+
+.mb-windows-4-f-3 {
+    opacity: 10%;
+}
+
+.mb-windows-4-g-3 {
+    opacity: 10%;
+}
+
+.mb-windows-4-h-3 {
+    opacity: 10%;
+}
+
+.mb-windows-4-i-3 {
+    opacity: 10%;
+}
+
+.mb-windows-4-j-3 {
+    opacity: 10%;
+}
+
+.mb-windows-4-k-3 {
+    opacity: 10%;
+}
+
+.mb-windows-4-l-3 {
+    opacity: 10%;
+}
+
+.mb-windows-4-m-3 {
+    opacity: 10%;
+}
+
+/* 4 */
+
+.mb-windows-4-a-4 {
+    opacity: 10%;
+}
+
+.mb-windows-4-b-4 {
+    opacity: 10%;
+}
+
+.mb-windows-4-c-4 {
+    opacity: 20%;
+}
+
+.mb-windows-4-d-4 {
+    opacity: 30%;
+}
+
+.mb-windows-4-e-4 {
+    opacity: 40%;
+}
+
+.mb-windows-4-f-4 {
+    opacity: 50%;
+}
+
+.mb-windows-4-g-4 {
+    opacity: 40%;
+}
+
+.mb-windows-4-h-4 {
+    opacity: 30%;
+}
+
+.mb-windows-4-i-4 {
+    opacity: 20%;
+}
+
+.mb-windows-4-j-4 {
+    opacity: 10%;
+}
+
+.mb-windows-4-k-4 {
+    opacity: 10%;
+}
+
+.mb-windows-4-l-4 {
+    opacity: 10%;
+}
+
+.mb-windows-4-m-4 {
+    opacity: 10%;
+}
+
+/* 5 */
+
+.mb-windows-4-a-5 {
+    opacity: 10%;
+}
+
+.mb-windows-4-b-5 {
+    opacity: 10%;
+}
+
+.mb-windows-4-c-5 {
+    opacity: 10%;
+}
+
+.mb-windows-4-d-5 {
+    opacity: 10%;
+}
+
+.mb-windows-4-e-5 {
+    opacity: 10%;
+}
+
+.mb-windows-4-f-5 {
+    opacity: 10%;
+}
+
+.mb-windows-4-g-5 {
+    opacity: 10%;
+}
+
+.mb-windows-4-h-5 {
+    opacity: 10%;
+}
+
+.mb-windows-4-i-5 {
+    opacity: 10%;
+}
+
+.mb-windows-4-j-5 {
+    opacity: 10%;
+}
+
+.mb-windows-4-k-5 {
+    opacity: 10%;
+}
+
+.mb-windows-4-l-5 {
+    opacity: 10%;
+}
+
+.mb-windows-4-m-5 {
+    opacity: 10%;
+}
+
+/* 6 */
+
+.mb-windows-4-a-6 {
+    opacity: 50%;
+}
+
+.mb-windows-4-b-6 {
+    opacity: 40%;
+}
+
+.mb-windows-4-c-6 {
+    opacity: 30%;
+}
+
+.mb-windows-4-d-6 {
+    opacity: 20%;
+}
+
+.mb-windows-4-e-6 {
+    opacity: 10%;
+}
+
+.mb-windows-4-f-6 {
+    opacity: 10%;
+}
+
+.mb-windows-4-g-6 {
+    opacity: 20%;
+}
+
+.mb-windows-4-h-6 {
+    opacity: 30%;
+}
+
+.mb-windows-4-i-6 {
+    opacity: 40%;
+}
+
+.mb-windows-4-j-6 {
+    opacity: 50%;
+}
+
+.mb-windows-4-k-6 {
+    opacity: 50%;
+}
+
+.mb-windows-4-l-6 {
+    opacity: 40%;
+}
+
+.mb-windows-4-m-6 {
+    opacity: 30%;
+}
+
+/* 7 */
+
+.mb-windows-4-a-7 {
+    opacity: 10%;
+}
+
+.mb-windows-4-b-7 {
+    opacity: 10%;
+}
+
+.mb-windows-4-c-7 {
+    opacity: 10%;
+}
+
+.mb-windows-4-d-7 {
+    opacity: 10%;
+}
+
+.mb-windows-4-e-7 {
+    opacity: 10%;
+}
+
+.mb-windows-4-f-7 {
+    opacity: 10%;
+}
+
+.mb-windows-4-g-7 {
+    opacity: 10%;
+}
+
+.mb-windows-4-h-7 {
+    opacity: 10%;
+}
+
+.mb-windows-4-i-7 {
+    opacity: 10%;
+}
+
+.mb-windows-4-j-7 {
+    opacity: 10%;
+}
+
+.mb-windows-4-k-7 {
+    opacity: 10%;
+}
+
+.mb-windows-4-l-7 {
+    opacity: 10%;
+}
+
+.mb-windows-4-m-7 {
+    opacity: 10%;
+}
+
+/* 8 */
+
+.mb-windows-4-a-8 {
+    opacity: 10%;
+}
+
+.mb-windows-4-b-8 {
+    opacity: 10%;
+}
+
+.mb-windows-4-c-8 {
+    opacity: 10%;
+}
+
+.mb-windows-4-d-8 {
+    opacity: 10%;
+}
+
+.mb-windows-4-e-8 {
+    opacity: 10%;
+}
+
+.mb-windows-4-f-8 {
+    opacity: 10%;
+}
+
+.mb-windows-4-g-8 {
+    opacity: 10%;
+}
+
+.mb-windows-4-h-8 {
+    opacity: 10%;
+}
+
+.mb-windows-4-i-8 {
+    opacity: 10%;
+}
+
+.mb-windows-4-j-8 {
+    opacity: 10%;
+}
+
+.mb-windows-4-k-8 {
+    opacity: 10%;
+}
+
+.mb-windows-4-l-8 {
+    opacity: 10%;
+}
+
+.mb-windows-4-m-8 {
+    opacity: 10%;
+}
+
+/* 9 */
+
+.mb-windows-4-a-9 {
+    opacity: 10%;
+}
+
+.mb-windows-4-b-9 {
+    opacity: 10%;
+}
+
+.mb-windows-4-c-9 {
+    opacity: 10%;
+}
+
+.mb-windows-4-d-9 {
+    opacity: 10%;
+}
+
+.mb-windows-4-e-9 {
+    opacity: 10%;
+}
+
+.mb-windows-4-f-9 {
+    opacity: 10%;
+}
+
+.mb-windows-4-g-9 {
+    opacity: 10%;
+}
+
+.mb-windows-4-h-9 {
+    opacity: 10%;
+}
+
+.mb-windows-4-i-9 {
+    opacity: 10%;
+}
+
+.mb-windows-4-j-9 {
+    opacity: 10%;
+}
+
+.mb-windows-4-k-9 {
+    opacity: 10%;
+}
+
+.mb-windows-4-l-9 {
+    opacity: 10%;
+}
+
+.mb-windows-4-m-9 {
+    opacity: 10%;
+}
+
+/* 10 */
+
+.mb-windows-4-a-10 {
+    opacity: 40%;
+}
+
+.mb-windows-4-b-10 {
+    opacity: 50%;
+}
+
+.mb-windows-4-c-10 {
+    opacity: 50%;
+}
+
+.mb-windows-4-d-10 {
+    opacity: 50%;
+}
+
+.mb-windows-4-e-10 {
+    opacity: 40%;
+}
+
+.mb-windows-4-f-10 {
+    opacity: 30%;
+}
+
+.mb-windows-4-g-10 {
+    opacity: 20%;
+}
+
+.mb-windows-4-h-10 {
+    opacity: 10%;
+}
+
+.mb-windows-4-i-10 {
+    opacity: 10%;
+}
+
+.mb-windows-4-j-10 {
+    opacity: 10%;
+}
+
+.mb-windows-4-k-10 {
+    opacity: 10%;
+}
+
+.mb-windows-4-l-10 {
+    opacity: 10%;
+}
+
+.mb-windows-4-m-10 {
+    opacity: 10%;
+}
+
+/* MB WINDOWS 5 */
+
+.mb11a {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(16, 6.15%);
+    grid-template-rows: repeat(34, 2.94%);
+}
+
+.mb-windows-5-a-1,
+.mb-windows-5-b-1,
+.mb-windows-5-c-1,
+.mb-windows-5-d-1,
+.mb-windows-5-e-1,
+.mb-windows-5-f-1,
+.mb-windows-5-g-1,
+.mb-windows-5-h-1,
+.mb-windows-5-i-1,
+.mb-windows-5-j-1,
+.mb-windows-5-k-1,
+.mb-windows-5-l-1,
+.mb-windows-5-m-1,
+.mb-windows-5-n-1,
+.mb-windows-5-o-1,
+.mb-windows-5-p-1,
+.mb-windows-5-a-2,
+.mb-windows-5-b-2,
+.mb-windows-5-c-2,
+.mb-windows-5-d-2,
+.mb-windows-5-e-2,
+.mb-windows-5-f-2,
+.mb-windows-5-g-2,
+.mb-windows-5-h-2,
+.mb-windows-5-i-2,
+.mb-windows-5-j-2,
+.mb-windows-5-k-2,
+.mb-windows-5-l-2,
+.mb-windows-5-m-2,
+.mb-windows-5-n-2,
+.mb-windows-5-o-2,
+.mb-windows-5-p-2,
+.mb-windows-5-a-3,
+.mb-windows-5-b-3,
+.mb-windows-5-c-3,
+.mb-windows-5-d-3,
+.mb-windows-5-e-3,
+.mb-windows-5-f-3,
+.mb-windows-5-g-3,
+.mb-windows-5-h-3,
+.mb-windows-5-i-3,
+.mb-windows-5-j-3,
+.mb-windows-5-k-3,
+.mb-windows-5-l-3,
+.mb-windows-5-m-3,
+.mb-windows-5-n-3,
+.mb-windows-5-o-3,
+.mb-windows-5-p-3,
+.mb-windows-5-a-4,
+.mb-windows-5-b-4,
+.mb-windows-5-c-4,
+.mb-windows-5-d-4,
+.mb-windows-5-e-4,
+.mb-windows-5-f-4,
+.mb-windows-5-g-4,
+.mb-windows-5-h-4,
+.mb-windows-5-i-4,
+.mb-windows-5-j-4,
+.mb-windows-5-k-4,
+.mb-windows-5-l-4,
+.mb-windows-5-m-4,
+.mb-windows-5-n-4,
+.mb-windows-5-o-4,
+.mb-windows-5-p-4,
+.mb-windows-5-a-5,
+.mb-windows-5-b-5,
+.mb-windows-5-c-5,
+.mb-windows-5-d-5,
+.mb-windows-5-e-5,
+.mb-windows-5-f-5,
+.mb-windows-5-g-5,
+.mb-windows-5-h-5,
+.mb-windows-5-i-5,
+.mb-windows-5-j-5,
+.mb-windows-5-k-5,
+.mb-windows-5-l-5,
+.mb-windows-5-m-5,
+.mb-windows-5-n-5,
+.mb-windows-5-o-5,
+.mb-windows-5-p-5,
+.mb-windows-5-a-6,
+.mb-windows-5-b-6,
+.mb-windows-5-c-6,
+.mb-windows-5-d-6,
+.mb-windows-5-e-6,
+.mb-windows-5-f-6,
+.mb-windows-5-g-6,
+.mb-windows-5-h-6,
+.mb-windows-5-i-6,
+.mb-windows-5-j-6,
+.mb-windows-5-k-6,
+.mb-windows-5-l-6,
+.mb-windows-5-m-6,
+.mb-windows-5-n-6,
+.mb-windows-5-o-6,
+.mb-windows-5-p-6,
+.mb-windows-5-a-7,
+.mb-windows-5-b-7,
+.mb-windows-5-c-7,
+.mb-windows-5-d-7,
+.mb-windows-5-e-7,
+.mb-windows-5-f-7,
+.mb-windows-5-g-7,
+.mb-windows-5-h-7,
+.mb-windows-5-i-7,
+.mb-windows-5-j-7,
+.mb-windows-5-k-7,
+.mb-windows-5-l-7,
+.mb-windows-5-m-7,
+.mb-windows-5-n-7,
+.mb-windows-5-o-7,
+.mb-windows-5-p-7,
+.mb-windows-5-a-8,
+.mb-windows-5-b-8,
+.mb-windows-5-c-8,
+.mb-windows-5-d-8,
+.mb-windows-5-e-8,
+.mb-windows-5-f-8,
+.mb-windows-5-g-8,
+.mb-windows-5-h-8,
+.mb-windows-5-i-8,
+.mb-windows-5-j-8,
+.mb-windows-5-k-8,
+.mb-windows-5-l-8,
+.mb-windows-5-m-8,
+.mb-windows-5-n-8,
+.mb-windows-5-o-8,
+.mb-windows-5-p-8,
+.mb-windows-5-a-9,
+.mb-windows-5-b-9,
+.mb-windows-5-c-9,
+.mb-windows-5-d-9,
+.mb-windows-5-e-9,
+.mb-windows-5-f-9,
+.mb-windows-5-g-9,
+.mb-windows-5-h-9,
+.mb-windows-5-i-9,
+.mb-windows-5-j-9,
+.mb-windows-5-k-9,
+.mb-windows-5-l-9,
+.mb-windows-5-m-9,
+.mb-windows-5-n-9,
+.mb-windows-5-o-9,
+.mb-windows-5-p-9,
+.mb-windows-5-a-10,
+.mb-windows-5-b-10,
+.mb-windows-5-c-10,
+.mb-windows-5-d-10,
+.mb-windows-5-e-10,
+.mb-windows-5-f-10,
+.mb-windows-5-g-10,
+.mb-windows-5-h-10,
+.mb-windows-5-i-10,
+.mb-windows-5-j-10,
+.mb-windows-5-k-10,
+.mb-windows-5-l-10,
+.mb-windows-5-m-10,
+.mb-windows-5-n-10,
+.mb-windows-5-o-10,
+.mb-windows-5-p-10 {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(closest-corner circle at 50% 20%, rgba(95, 195, 255, 1) 0%, rgba(0, 62, 100, 1) 100%);
+    box-shadow: inset 0px 0px 1px 0.5px rgba(95, 195, 255, 1);
+}
+
+/* 1 */
+
+.mb-windows-5-a-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-b-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-c-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-d-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-e-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-f-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-g-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-h-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-i-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-j-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-k-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-l-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-m-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-n-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-o-1 {
+    opacity: 10%;
+}
+
+.mb-windows-5-p-1 {
+    opacity: 10%;
+}
+
+/* 2 */
+
+.mb-windows-5-a-2 {
+    opacity: 40%;
+}
+
+.mb-windows-5-b-2 {
+    opacity: 50%;
+}
+
+.mb-windows-5-c-2 {
+    opacity: 40%;
+}
+
+.mb-windows-5-d-2 {
+    opacity: 30%;
+}
+
+.mb-windows-5-e-2 {
+    opacity: 20%;
+}
+
+.mb-windows-5-f-2 {
+    opacity: 10%;
+}
+
+.mb-windows-5-g-2 {
+    opacity: 10%;
+}
+
+.mb-windows-5-h-2 {
+    opacity: 10%;
+}
+
+.mb-windows-5-i-2 {
+    opacity: 20%;
+}
+
+.mb-windows-5-j-2 {
+    opacity: 30%;
+}
+
+.mb-windows-5-k-2 {
+    opacity: 40%;
+}
+
+.mb-windows-5-l-2 {
+    opacity: 50%;
+}
+
+.mb-windows-5-m-2 {
+    opacity: 40%;
+}
+
+.mb-windows-5-n-2 {
+    opacity: 30%;
+}
+
+.mb-windows-5-o-2 {
+    opacity: 20%;
+}
+
+.mb-windows-5-p-2 {
+    opacity: 10%;
+}
+
+/* 3 */
+
+.mb-windows-5-a-3 {
+    opacity: 10%;
+}
+
+.mb-windows-5-b-3 {
+    opacity: 20%;
+}
+
+.mb-windows-5-c-3 {
+    opacity: 30%;
+}
+
+.mb-windows-5-d-3 {
+    opacity: 40%;
+}
+
+.mb-windows-5-e-3 {
+    opacity: 50%;
+}
+
+.mb-windows-5-f-3 {
+    opacity: 50%;
+}
+
+.mb-windows-5-g-3 {
+    opacity: 40%;
+}
+
+.mb-windows-5-h-3 {
+    opacity: 30%;
+}
+
+.mb-windows-5-i-3 {
+    opacity: 20%;
+}
+
+.mb-windows-5-j-3 {
+    opacity: 10%;
+}
+
+.mb-windows-5-k-3 {
+    opacity: 10%;
+}
+
+.mb-windows-5-l-3 {
+    opacity: 10%;
+}
+
+.mb-windows-5-m-3 {
+    opacity: 10%;
+}
+
+.mb-windows-5-n-3 {
+    opacity: 10%;
+}
+
+.mb-windows-5-o-3 {
+    opacity: 10%;
+}
+
+.mb-windows-5-p-3 {
+    opacity: 10%;
+}
+
+/* 4 */
+
+.mb-windows-5-a-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-b-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-c-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-d-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-e-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-f-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-g-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-h-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-i-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-j-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-k-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-l-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-m-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-n-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-o-4 {
+    opacity: 10%;
+}
+
+.mb-windows-5-p-4 {
+    opacity: 10%;
+}
+
+/* 5 */
+
+.mb-windows-5-a-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-b-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-c-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-d-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-e-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-f-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-g-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-h-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-i-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-j-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-k-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-l-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-m-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-n-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-o-5 {
+    opacity: 10%;
+}
+
+.mb-windows-5-p-5 {
+    opacity: 10%;
+}
+
+/* 6 */
+
+.mb-windows-5-a-6 {
+    opacity: 10%;
+}
+
+.mb-windows-5-b-6 {
+    opacity: 10%;
+}
+
+.mb-windows-5-c-6 {
+    opacity: 20%;
+}
+
+.mb-windows-5-d-6 {
+    opacity: 30%;
+}
+
+.mb-windows-5-e-6 {
+    opacity: 40%;
+}
+
+.mb-windows-5-f-6 {
+    opacity: 50%;
+}
+
+.mb-windows-5-g-6 {
+    opacity: 50%;
+}
+
+.mb-windows-5-h-6 {
+    opacity: 50%;
+}
+
+.mb-windows-5-i-6 {
+    opacity: 50%;
+}
+
+.mb-windows-5-j-6 {
+    opacity: 50%;
+}
+
+.mb-windows-5-k-6 {
+    opacity: 40%;
+}
+
+.mb-windows-5-l-6 {
+    opacity: 30%;
+}
+
+.mb-windows-5-m-6 {
+    opacity: 20%;
+}
+
+.mb-windows-5-n-6 {
+    opacity: 30%;
+}
+
+.mb-windows-5-o-6 {
+    opacity: 40%;
+}
+
+.mb-windows-5-p-6 {
+    opacity: 50%;
+}
+
+/* 7 */
+
+.mb-windows-5-a-7 {
+    opacity: 10%;
+}
+
+.mb-windows-5-b-7 {
+    opacity: 10%;
+}
+
+.mb-windows-5-c-7 {
+    opacity: 10%;
+}
+
+.mb-windows-5-d-7 {
+    opacity: 10%;
+}
+
+.mb-windows-5-e-7 {
+    opacity: 20%;
+}
+
+.mb-windows-5-f-7 {
+    opacity: 30%;
+}
+
+.mb-windows-5-g-7 {
+    opacity: 40%;
+}
+
+.mb-windows-5-h-7 {
+    opacity: 50%;
+}
+
+.mb-windows-5-i-7 {
+    opacity: 40%;
+}
+
+.mb-windows-5-j-7 {
+    opacity: 30%;
+}
+
+.mb-windows-5-k-7 {
+    opacity: 20%;
+}
+
+.mb-windows-5-l-7 {
+    opacity: 10%;
+}
+
+.mb-windows-5-m-7 {
+    opacity: 10%;
+}
+
+.mb-windows-5-n-7 {
+    opacity: 10%;
+}
+
+.mb-windows-5-o-7 {
+    opacity: 10%;
+}
+
+.mb-windows-5-p-7 {
+    opacity: 10%;
+}
+
+/* 8 */
+
+.mb-windows-5-a-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-b-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-c-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-d-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-e-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-f-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-g-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-h-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-i-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-j-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-k-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-l-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-m-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-n-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-o-8 {
+    opacity: 10%;
+}
+
+.mb-windows-5-p-8 {
+    opacity: 10%;
+}
+
+/* 9 */
+
+.mb-windows-5-a-9 {
+    opacity: 10%;
+}
+
+.mb-windows-5-b-9 {
+    opacity: 10%;
+}
+
+.mb-windows-5-c-9 {
+    opacity: 20%;
+}
+
+.mb-windows-5-d-9 {
+    opacity: 30%;
+}
+
+.mb-windows-5-e-9 {
+    opacity: 40%;
+}
+
+.mb-windows-5-f-9 {
+    opacity: 50%;
+}
+
+.mb-windows-5-g-9 {
+    opacity: 40%;
+}
+
+.mb-windows-5-h-9 {
+    opacity: 30%;
+}
+
+.mb-windows-5-i-9 {
+    opacity: 20%;
+}
+
+.mb-windows-5-j-9 {
+    opacity: 10%;
+}
+
+.mb-windows-5-k-9 {
+    opacity: 10%;
+}
+
+.mb-windows-5-l-9 {
+    opacity: 10%;
+}
+
+.mb-windows-5-m-9 {
+    opacity: 10%;
+}
+
+.mb-windows-5-n-9 {
+    opacity: 10%;
+}
+
+.mb-windows-5-o-9 {
+    opacity: 10%;
+}
+
+.mb-windows-5-p-9 {
+    opacity: 10%;
+}
+
+/* 10 */
+
+.mb-windows-5-a-10 {
+    opacity: 10%;
+}
+
+.mb-windows-5-b-10 {
+    opacity: 10%;
+}
+
+.mb-windows-5-c-10 {
+    opacity: 10%;
+}
+
+.mb-windows-5-d-10 {
+    opacity: 10%;
+}
+
+.mb-windows-5-e-10 {
+    opacity: 10%;
+}
+
+.mb-windows-5-f-10 {
+    opacity: 10%;
+}
+
+.mb-windows-5-g-10 {
+    opacity: 10%;
+}
+
+.mb-windows-5-h-10 {
+    opacity: 10%;
+}
+
+.mb-windows-5-i-10 {
+    opacity: 10%;
+}
+
+.mb-windows-5-j-10 {
+    opacity: 10%;
+}
+
+.mb-windows-5-k-10 {
+    opacity: 10%;
+}
+
+.mb-windows-5-l-10 {
+    opacity: 20%;
+}
+
+.mb-windows-5-m-10 {
+    opacity: 30%;
+}
+
+.mb-windows-5-n-10 {
+    opacity: 40%;
+}
+
+.mb-windows-5-o-10 {
+    opacity: 50%;
+}
+
+.mb-windows-5-p-10 {
+    opacity: 40%;
 }
 
 /* FOREGROUND BUILDINGS WINDOWS */
