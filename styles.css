@@ -7282,7 +7282,7 @@ body {
 
 .background-clouds,
 .city {
-    filter: blur(2px);
+    /* filter: blur(2px); */
 }
 
 /* ABSOLUTE POSITION */
