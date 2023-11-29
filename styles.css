@@ -7278,6 +7278,13 @@ body {
     }
 }
 
+/* BLUR */
+
+.background-clouds,
+.city {
+    filter: blur(2px);
+}
+
 /* ABSOLUTE POSITION */
 
 .sky,
