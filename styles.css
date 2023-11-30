@@ -1501,7 +1501,7 @@ body {
 
 .bb8c {
     height: 1%;
-    width: 60%;
+    width: 40%;
     background: rgb(10, 10, 10);
 }
 
@@ -2276,13 +2276,13 @@ body {
 
 .mb9c {
     height: 2.5%;
-    width: 60%;
+    width: 80%;
     background: rgb(15, 15, 15);
 }
 
 .mb9d {
     height: 1%;
-    width: 60%;
+    width: 80%;
     background: rgb(20, 20, 20);
 }
 
@@ -2352,9 +2352,8 @@ body {
 }
 
 .mb10c {
-    height: 2%;
+    height: 1%;
     width: 100%;
-    clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
     background: rgb(20, 20, 20);
 }
 
@@ -2373,10 +2372,9 @@ body {
 }
 
 .mb10f {
-    height: 2%;
+    height: 1%;
     width: 90%;
     margin-right: 10%;
-    clip-path: polygon(0% 0%, 88.5% 0%, 100% 100%, 0% 100%);
     background: rgb(20, 20, 20);
 }
 
@@ -2395,10 +2393,9 @@ body {
 }
 
 .mb10i {
-    height: 2%;
+    height: 1%;
     width: 80%;
     margin-right: 20%;
-    clip-path: polygon(0% 0%, 87.5% 0%, 100% 100%, 0% 100%);
     background: rgb(20, 20, 20);
 }
 
@@ -4126,7 +4123,6 @@ body {
 .bb11a,
 .bb12a,
 .mb1a,
-.mb1c,
 .mb2a,
 .mb3a,
 .mb4a,
@@ -4138,10 +4134,7 @@ body {
 .mb8e,
 .mb8g,
 .mb8i,
-.mb8k,
 .mb9a,
-.mb9c,
-.mb9e,
 .mb10d,
 .mb10g,
 .mb10j,
@@ -4151,13 +4144,11 @@ body {
 .mb12f,
 .mb12h,
 .mb12j,
-.mb12l,
 .mb13a,
 .mb14a,
 .mb15a,
 .mb16a,
 .mb17a,
-.mb17c,
 .mb18a,
 .mb19a,
 .mb20a,
@@ -4169,7 +4160,6 @@ body {
 .mb24e,
 .mb24g,
 .mb24i,
-.mb24k,
 .fb1a,
 .fb2a,
 .fb3a,
@@ -4321,29 +4311,13 @@ body {
     background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
 }
 
-.mb1c::before,
 .mb6c::before,
-.mb8k::before,
-.mb9c::before,
-.mb12l::before,
-.mb17c::before,
-.mb22c::before,
-.mb24k::before {
+.mb22c::before {
     content: "";
     height: 100%;
     width: 10%;
     position: absolute;
     left: -10%;
-    opacity: 50%;
-    background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
-}
-
-.mb9e::before {
-    content: "";
-    height: 100%;
-    width: 12%;
-    position: absolute;
-    left: -12%;
     opacity: 50%;
     background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
 }
@@ -4431,29 +4405,13 @@ body {
     background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
 }
 
-.mb1c::after,
 .mb6c::after,
-.mb8k::after,
-.mb9c::after,
-.mb12l::after,
-.mb17c::after,
-.mb22c::after,
-.mb24k::after {
+.mb22c::after {
     content: "";
     height: 100%;
     width: 10%;
     position: absolute;
     right: -10%;
-    opacity: 50%;
-    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
-}
-
-.mb9e::after {
-    content: "";
-    height: 100%;
-    width: 12%;
-    position: absolute;
-    right: -12%;
     opacity: 50%;
     background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
 }
@@ -4571,6 +4529,99 @@ body {
 
 /* BB WINDOWS 1-1 and 9-1 */
 
+.bb1a,
+.bb9a {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(8, 7.69%);
+    grid-template-rows: repeat(51, 1.959%);
+}
+
+.bb-windows-1-1-a-1,
+.bb-windows-1-1-b-1,
+.bb-windows-1-1-c-1,
+.bb-windows-1-1-d-1,
+.bb-windows-1-1-e-1,
+.bb-windows-1-1-f-1,
+.bb-windows-1-1-g-1,
+.bb-windows-1-1-h-1,
+.bb-windows-1-1-a-2,
+.bb-windows-1-1-b-2,
+.bb-windows-1-1-c-2,
+.bb-windows-1-1-d-2,
+.bb-windows-1-1-e-2,
+.bb-windows-1-1-f-2,
+.bb-windows-1-1-g-2,
+.bb-windows-1-1-h-2,
+.bb-windows-1-1-a-3,
+.bb-windows-1-1-b-3,
+.bb-windows-1-1-c-3,
+.bb-windows-1-1-d-3,
+.bb-windows-1-1-e-3,
+.bb-windows-1-1-f-3,
+.bb-windows-1-1-g-3,
+.bb-windows-1-1-h-3,
+.bb-windows-1-1-a-4,
+.bb-windows-1-1-b-4,
+.bb-windows-1-1-c-4,
+.bb-windows-1-1-d-4,
+.bb-windows-1-1-e-4,
+.bb-windows-1-1-f-4,
+.bb-windows-1-1-g-4,
+.bb-windows-1-1-h-4,
+.bb-windows-1-1-a-5,
+.bb-windows-1-1-b-5,
+.bb-windows-1-1-c-5,
+.bb-windows-1-1-d-5,
+.bb-windows-1-1-e-5,
+.bb-windows-1-1-f-5,
+.bb-windows-1-1-g-5,
+.bb-windows-1-1-h-5,
+.bb-windows-1-1-a-6,
+.bb-windows-1-1-b-6,
+.bb-windows-1-1-c-6,
+.bb-windows-1-1-d-6,
+.bb-windows-1-1-e-6,
+.bb-windows-1-1-f-6,
+.bb-windows-1-1-g-6,
+.bb-windows-1-1-h-6,
+.bb-windows-1-1-a-7,
+.bb-windows-1-1-b-7,
+.bb-windows-1-1-c-7,
+.bb-windows-1-1-d-7,
+.bb-windows-1-1-e-7,
+.bb-windows-1-1-f-7,
+.bb-windows-1-1-g-7,
+.bb-windows-1-1-h-7,
+.bb-windows-1-1-a-8,
+.bb-windows-1-1-b-8,
+.bb-windows-1-1-c-8,
+.bb-windows-1-1-d-8,
+.bb-windows-1-1-e-8,
+.bb-windows-1-1-f-8,
+.bb-windows-1-1-g-8,
+.bb-windows-1-1-h-8,
+.bb-windows-1-1-a-9,
+.bb-windows-1-1-b-9,
+.bb-windows-1-1-c-9,
+.bb-windows-1-1-d-9,
+.bb-windows-1-1-e-9,
+.bb-windows-1-1-f-9,
+.bb-windows-1-1-g-9,
+.bb-windows-1-1-h-9,
+.bb-windows-1-1-a-10,
+.bb-windows-1-1-b-10,
+.bb-windows-1-1-c-10,
+.bb-windows-1-1-d-10,
+.bb-windows-1-1-e-10,
+.bb-windows-1-1-f-10,
+.bb-windows-1-1-g-10,
+.bb-windows-1-1-h-10 {
+    height: 100%;
+    width: 100%;
+}
+
 /* BB WINDOWS 1-2 and 9-2 */
 
 .bb1c,
@@ -4607,6 +4658,505 @@ body {
 
 .bb-windows-1-2-c {
     height: 90%;
+    width: 100%;
+}
+
+/* BB WINDOWS 2 and 10 */
+
+.bb2a,
+.bb10a {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(13, 7.69%);
+    grid-template-rows: repeat(40, 2.5%);
+}
+
+.bb-windows-2-a-1,
+.bb-windows-2-b-1,
+.bb-windows-2-c-1,
+.bb-windows-2-d-1,
+.bb-windows-2-e-1,
+.bb-windows-2-f-1,
+.bb-windows-2-g-1,
+.bb-windows-2-h-1,
+.bb-windows-2-i-1,
+.bb-windows-2-j-1,
+.bb-windows-2-k-1,
+.bb-windows-2-l-1,
+.bb-windows-2-m-1,
+.bb-windows-2-a-2,
+.bb-windows-2-b-2,
+.bb-windows-2-c-2,
+.bb-windows-2-d-2,
+.bb-windows-2-e-2,
+.bb-windows-2-f-2,
+.bb-windows-2-g-2,
+.bb-windows-2-h-2,
+.bb-windows-2-i-2,
+.bb-windows-2-j-2,
+.bb-windows-2-k-2,
+.bb-windows-2-l-2,
+.bb-windows-2-m-2,
+.bb-windows-2-a-3,
+.bb-windows-2-b-3,
+.bb-windows-2-c-3,
+.bb-windows-2-d-3,
+.bb-windows-2-e-3,
+.bb-windows-2-f-3,
+.bb-windows-2-g-3,
+.bb-windows-2-h-3,
+.bb-windows-2-i-3,
+.bb-windows-2-j-3,
+.bb-windows-2-k-3,
+.bb-windows-2-l-3,
+.bb-windows-2-m-3,
+.bb-windows-2-a-4,
+.bb-windows-2-b-4,
+.bb-windows-2-c-4,
+.bb-windows-2-d-4,
+.bb-windows-2-e-4,
+.bb-windows-2-f-4,
+.bb-windows-2-g-4,
+.bb-windows-2-h-4,
+.bb-windows-2-i-4,
+.bb-windows-2-j-4,
+.bb-windows-2-k-4,
+.bb-windows-2-l-4,
+.bb-windows-2-m-4,
+.bb-windows-2-a-5,
+.bb-windows-2-b-5,
+.bb-windows-2-c-5,
+.bb-windows-2-d-5,
+.bb-windows-2-e-5,
+.bb-windows-2-f-5,
+.bb-windows-2-g-5,
+.bb-windows-2-h-5,
+.bb-windows-2-i-5,
+.bb-windows-2-j-5,
+.bb-windows-2-k-5,
+.bb-windows-2-l-5,
+.bb-windows-2-m-5,
+.bb-windows-2-a-6,
+.bb-windows-2-b-6,
+.bb-windows-2-c-6,
+.bb-windows-2-d-6,
+.bb-windows-2-e-6,
+.bb-windows-2-f-6,
+.bb-windows-2-g-6,
+.bb-windows-2-h-6,
+.bb-windows-2-i-6,
+.bb-windows-2-j-6,
+.bb-windows-2-k-6,
+.bb-windows-2-l-6,
+.bb-windows-2-m-6,
+.bb-windows-2-a-7,
+.bb-windows-2-b-7,
+.bb-windows-2-c-7,
+.bb-windows-2-d-7,
+.bb-windows-2-e-7,
+.bb-windows-2-f-7,
+.bb-windows-2-g-7,
+.bb-windows-2-h-7,
+.bb-windows-2-i-7,
+.bb-windows-2-j-7,
+.bb-windows-2-k-7,
+.bb-windows-2-l-7,
+.bb-windows-2-m-7,
+.bb-windows-2-a-8,
+.bb-windows-2-b-8,
+.bb-windows-2-c-8,
+.bb-windows-2-d-8,
+.bb-windows-2-e-8,
+.bb-windows-2-f-8,
+.bb-windows-2-g-8,
+.bb-windows-2-h-8,
+.bb-windows-2-i-8,
+.bb-windows-2-j-8,
+.bb-windows-2-k-8,
+.bb-windows-2-l-8,
+.bb-windows-2-m-8,
+.bb-windows-2-a-9,
+.bb-windows-2-b-9,
+.bb-windows-2-c-9,
+.bb-windows-2-d-9,
+.bb-windows-2-e-9,
+.bb-windows-2-f-9,
+.bb-windows-2-g-9,
+.bb-windows-2-h-9,
+.bb-windows-2-i-9,
+.bb-windows-2-j-9,
+.bb-windows-2-k-9,
+.bb-windows-2-l-9,
+.bb-windows-2-m-9,
+.bb-windows-2-a-10,
+.bb-windows-2-b-10,
+.bb-windows-2-c-10,
+.bb-windows-2-d-10,
+.bb-windows-2-e-10,
+.bb-windows-2-f-10,
+.bb-windows-2-g-10,
+.bb-windows-2-h-10,
+.bb-windows-2-i-10,
+.bb-windows-2-j-10,
+.bb-windows-2-k-10,
+.bb-windows-2-l-10,
+.bb-windows-2-m-10 {
+    height: 100%;
+    width: 100%;
+}
+
+/* BB WINDOWS 3 and 11 */
+
+.bb3a,
+.bb11a {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(10, 7.69%);
+    grid-template-rows: repeat(40, 2.45%);
+}
+
+.bb-windows-3-a-1,
+.bb-windows-3-b-1,
+.bb-windows-3-c-1,
+.bb-windows-3-d-1,
+.bb-windows-3-e-1,
+.bb-windows-3-f-1,
+.bb-windows-3-g-1,
+.bb-windows-3-h-1,
+.bb-windows-3-i-1,
+.bb-windows-3-j-1,
+.bb-windows-3-a-2,
+.bb-windows-3-b-2,
+.bb-windows-3-c-2,
+.bb-windows-3-d-2,
+.bb-windows-3-e-2,
+.bb-windows-3-f-2,
+.bb-windows-3-g-2,
+.bb-windows-3-h-2,
+.bb-windows-3-i-2,
+.bb-windows-3-j-2,
+.bb-windows-3-a-3,
+.bb-windows-3-b-3,
+.bb-windows-3-c-3,
+.bb-windows-3-d-3,
+.bb-windows-3-e-3,
+.bb-windows-3-f-3,
+.bb-windows-3-g-3,
+.bb-windows-3-h-3,
+.bb-windows-3-i-3,
+.bb-windows-3-j-3,
+.bb-windows-3-a-4,
+.bb-windows-3-b-4,
+.bb-windows-3-c-4,
+.bb-windows-3-d-4,
+.bb-windows-3-e-4,
+.bb-windows-3-f-4,
+.bb-windows-3-g-4,
+.bb-windows-3-h-4,
+.bb-windows-3-i-4,
+.bb-windows-3-j-4,
+.bb-windows-3-a-5,
+.bb-windows-3-b-5,
+.bb-windows-3-c-5,
+.bb-windows-3-d-5,
+.bb-windows-3-e-5,
+.bb-windows-3-f-5,
+.bb-windows-3-g-5,
+.bb-windows-3-h-5,
+.bb-windows-3-i-5,
+.bb-windows-3-j-5,
+.bb-windows-3-a-6,
+.bb-windows-3-b-6,
+.bb-windows-3-c-6,
+.bb-windows-3-d-6,
+.bb-windows-3-e-6,
+.bb-windows-3-f-6,
+.bb-windows-3-g-6,
+.bb-windows-3-h-6,
+.bb-windows-3-i-6,
+.bb-windows-3-j-6,
+.bb-windows-3-a-7,
+.bb-windows-3-b-7,
+.bb-windows-3-c-7,
+.bb-windows-3-d-7,
+.bb-windows-3-e-7,
+.bb-windows-3-f-7,
+.bb-windows-3-g-7,
+.bb-windows-3-h-7,
+.bb-windows-3-i-7,
+.bb-windows-3-j-7,
+.bb-windows-3-a-8,
+.bb-windows-3-b-8,
+.bb-windows-3-c-8,
+.bb-windows-3-d-8,
+.bb-windows-3-e-8,
+.bb-windows-3-f-8,
+.bb-windows-3-g-8,
+.bb-windows-3-h-8,
+.bb-windows-3-i-8,
+.bb-windows-3-j-8,
+.bb-windows-3-a-9,
+.bb-windows-3-b-9,
+.bb-windows-3-c-9,
+.bb-windows-3-d-9,
+.bb-windows-3-e-9,
+.bb-windows-3-f-9,
+.bb-windows-3-g-9,
+.bb-windows-3-h-9,
+.bb-windows-3-i-9,
+.bb-windows-3-j-9,
+.bb-windows-3-a-10,
+.bb-windows-3-b-10,
+.bb-windows-3-c-10,
+.bb-windows-3-d-10,
+.bb-windows-3-e-10,
+.bb-windows-3-f-10,
+.bb-windows-3-g-10,
+.bb-windows-3-h-10,
+.bb-windows-3-i-10,
+.bb-windows-3-j-10 {
+    height: 100%;
+    width: 100%;
+}
+
+/* BB WINDOWS 4 and 12 */
+
+.bb4a,
+.bb12a {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(8, 7.69%);
+    grid-template-rows: repeat(31, 2.26%);
+    gap: 1%;
+}
+
+.bb-windows-4-a-1,
+.bb-windows-4-b-1,
+.bb-windows-4-c-1,
+.bb-windows-4-d-1,
+.bb-windows-4-e-1,
+.bb-windows-4-f-1,
+.bb-windows-4-g-1,
+.bb-windows-4-h-1,
+.bb-windows-4-a-2,
+.bb-windows-4-b-2,
+.bb-windows-4-c-2,
+.bb-windows-4-d-2,
+.bb-windows-4-e-2,
+.bb-windows-4-f-2,
+.bb-windows-4-g-2,
+.bb-windows-4-h-2,
+.bb-windows-4-a-3,
+.bb-windows-4-b-3,
+.bb-windows-4-c-3,
+.bb-windows-4-d-3,
+.bb-windows-4-e-3,
+.bb-windows-4-f-3,
+.bb-windows-4-g-3,
+.bb-windows-4-h-3,
+.bb-windows-4-a-4,
+.bb-windows-4-b-4,
+.bb-windows-4-c-4,
+.bb-windows-4-d-4,
+.bb-windows-4-e-4,
+.bb-windows-4-f-4,
+.bb-windows-4-g-4,
+.bb-windows-4-h-4,
+.bb-windows-4-a-5,
+.bb-windows-4-b-5,
+.bb-windows-4-c-5,
+.bb-windows-4-d-5,
+.bb-windows-4-e-5,
+.bb-windows-4-f-5,
+.bb-windows-4-g-5,
+.bb-windows-4-h-5,
+.bb-windows-4-a-6,
+.bb-windows-4-b-6,
+.bb-windows-4-c-6,
+.bb-windows-4-d-6,
+.bb-windows-4-e-6,
+.bb-windows-4-f-6,
+.bb-windows-4-g-6,
+.bb-windows-4-h-6,
+.bb-windows-4-a-7,
+.bb-windows-4-b-7,
+.bb-windows-4-c-7,
+.bb-windows-4-d-7,
+.bb-windows-4-e-7,
+.bb-windows-4-f-7,
+.bb-windows-4-g-7,
+.bb-windows-4-h-7,
+.bb-windows-4-a-8,
+.bb-windows-4-b-8,
+.bb-windows-4-c-8,
+.bb-windows-4-d-8,
+.bb-windows-4-e-8,
+.bb-windows-4-f-8,
+.bb-windows-4-g-8,
+.bb-windows-4-h-8,
+.bb-windows-4-a-9,
+.bb-windows-4-b-9,
+.bb-windows-4-c-9,
+.bb-windows-4-d-9,
+.bb-windows-4-e-9,
+.bb-windows-4-f-9,
+.bb-windows-4-g-9,
+.bb-windows-4-h-9,
+.bb-windows-4-a-10,
+.bb-windows-4-b-10,
+.bb-windows-4-c-10,
+.bb-windows-4-d-10,
+.bb-windows-4-e-10,
+.bb-windows-4-f-10,
+.bb-windows-4-g-10,
+.bb-windows-4-h-10 {
+    height: 100%;
+    width: 100%;
+}
+
+/* BB WINDOWS 5 */
+
+.bb5a {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(13, 7.69%);
+    grid-template-rows: repeat(60, 1.837%);
+}
+
+.bb-windows-5-a-1,
+.bb-windows-5-b-1,
+.bb-windows-5-c-1,
+.bb-windows-5-d-1,
+.bb-windows-5-e-1,
+.bb-windows-5-f-1,
+.bb-windows-5-g-1,
+.bb-windows-5-h-1,
+.bb-windows-5-i-1,
+.bb-windows-5-j-1,
+.bb-windows-5-k-1,
+.bb-windows-5-l-1,
+.bb-windows-5-m-1,
+.bb-windows-5-a-2,
+.bb-windows-5-b-2,
+.bb-windows-5-c-2,
+.bb-windows-5-d-2,
+.bb-windows-5-e-2,
+.bb-windows-5-f-2,
+.bb-windows-5-g-2,
+.bb-windows-5-h-2,
+.bb-windows-5-i-2,
+.bb-windows-5-j-2,
+.bb-windows-5-k-2,
+.bb-windows-5-l-2,
+.bb-windows-5-m-2,
+.bb-windows-5-a-3,
+.bb-windows-5-b-3,
+.bb-windows-5-c-3,
+.bb-windows-5-d-3,
+.bb-windows-5-e-3,
+.bb-windows-5-f-3,
+.bb-windows-5-g-3,
+.bb-windows-5-h-3,
+.bb-windows-5-i-3,
+.bb-windows-5-j-3,
+.bb-windows-5-k-3,
+.bb-windows-5-l-3,
+.bb-windows-5-m-3,
+.bb-windows-5-a-4,
+.bb-windows-5-b-4,
+.bb-windows-5-c-4,
+.bb-windows-5-d-4,
+.bb-windows-5-e-4,
+.bb-windows-5-f-4,
+.bb-windows-5-g-4,
+.bb-windows-5-h-4,
+.bb-windows-5-i-4,
+.bb-windows-5-j-4,
+.bb-windows-5-k-4,
+.bb-windows-5-l-4,
+.bb-windows-5-m-4,
+.bb-windows-5-a-5,
+.bb-windows-5-b-5,
+.bb-windows-5-c-5,
+.bb-windows-5-d-5,
+.bb-windows-5-e-5,
+.bb-windows-5-f-5,
+.bb-windows-5-g-5,
+.bb-windows-5-h-5,
+.bb-windows-5-i-5,
+.bb-windows-5-j-5,
+.bb-windows-5-k-5,
+.bb-windows-5-l-5,
+.bb-windows-5-m-5,
+.bb-windows-5-a-6,
+.bb-windows-5-b-6,
+.bb-windows-5-c-6,
+.bb-windows-5-d-6,
+.bb-windows-5-e-6,
+.bb-windows-5-f-6,
+.bb-windows-5-g-6,
+.bb-windows-5-h-6,
+.bb-windows-5-i-6,
+.bb-windows-5-j-6,
+.bb-windows-5-k-6,
+.bb-windows-5-l-6,
+.bb-windows-5-m-6,
+.bb-windows-5-a-7,
+.bb-windows-5-b-7,
+.bb-windows-5-c-7,
+.bb-windows-5-d-7,
+.bb-windows-5-e-7,
+.bb-windows-5-f-7,
+.bb-windows-5-g-7,
+.bb-windows-5-h-7,
+.bb-windows-5-i-7,
+.bb-windows-5-j-7,
+.bb-windows-5-k-7,
+.bb-windows-5-l-7,
+.bb-windows-5-m-7,
+.bb-windows-5-a-8,
+.bb-windows-5-b-8,
+.bb-windows-5-c-8,
+.bb-windows-5-d-8,
+.bb-windows-5-e-8,
+.bb-windows-5-f-8,
+.bb-windows-5-g-8,
+.bb-windows-5-h-8,
+.bb-windows-5-i-8,
+.bb-windows-5-j-8,
+.bb-windows-5-k-8,
+.bb-windows-5-l-8,
+.bb-windows-5-m-8,
+.bb-windows-5-a-9,
+.bb-windows-5-b-9,
+.bb-windows-5-c-9,
+.bb-windows-5-d-9,
+.bb-windows-5-e-9,
+.bb-windows-5-f-9,
+.bb-windows-5-g-9,
+.bb-windows-5-h-9,
+.bb-windows-5-i-9,
+.bb-windows-5-j-9,
+.bb-windows-5-k-9,
+.bb-windows-5-l-9,
+.bb-windows-5-m-9,
+.bb-windows-5-a-10,
+.bb-windows-5-b-10,
+.bb-windows-5-c-10,
+.bb-windows-5-d-10,
+.bb-windows-5-e-10,
+.bb-windows-5-f-10,
+.bb-windows-5-g-10,
+.bb-windows-5-h-10,
+.bb-windows-5-i-10,
+.bb-windows-5-j-10,
+.bb-windows-5-k-10,
+.bb-windows-5-l-10,
+.bb-windows-5-m-10 {
+    height: 100%;
     width: 100%;
 }
 
@@ -4749,6 +5299,244 @@ body {
 .bb-windows-6-k-10,
 .bb-windows-6-l-10,
 .bb-windows-6-m-10 {
+    height: 100%;
+    width: 100%;
+}
+
+/* BB WINDOWS 7 */
+
+.bb7a {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(13, 7.69%);
+    grid-template-rows: repeat(40, 2.5%);
+}
+
+.bb-windows-7-a-1,
+.bb-windows-7-b-1,
+.bb-windows-7-c-1,
+.bb-windows-7-d-1,
+.bb-windows-7-e-1,
+.bb-windows-7-f-1,
+.bb-windows-7-g-1,
+.bb-windows-7-h-1,
+.bb-windows-7-i-1,
+.bb-windows-7-j-1,
+.bb-windows-7-k-1,
+.bb-windows-7-l-1,
+.bb-windows-7-m-1,
+.bb-windows-7-a-2,
+.bb-windows-7-b-2,
+.bb-windows-7-c-2,
+.bb-windows-7-d-2,
+.bb-windows-7-e-2,
+.bb-windows-7-f-2,
+.bb-windows-7-g-2,
+.bb-windows-7-h-2,
+.bb-windows-7-i-2,
+.bb-windows-7-j-2,
+.bb-windows-7-k-2,
+.bb-windows-7-l-2,
+.bb-windows-7-m-2,
+.bb-windows-7-a-3,
+.bb-windows-7-b-3,
+.bb-windows-7-c-3,
+.bb-windows-7-d-3,
+.bb-windows-7-e-3,
+.bb-windows-7-f-3,
+.bb-windows-7-g-3,
+.bb-windows-7-h-3,
+.bb-windows-7-i-3,
+.bb-windows-7-j-3,
+.bb-windows-7-k-3,
+.bb-windows-7-l-3,
+.bb-windows-7-m-3,
+.bb-windows-7-a-4,
+.bb-windows-7-b-4,
+.bb-windows-7-c-4,
+.bb-windows-7-d-4,
+.bb-windows-7-e-4,
+.bb-windows-7-f-4,
+.bb-windows-7-g-4,
+.bb-windows-7-h-4,
+.bb-windows-7-i-4,
+.bb-windows-7-j-4,
+.bb-windows-7-k-4,
+.bb-windows-7-l-4,
+.bb-windows-7-m-4,
+.bb-windows-7-a-5,
+.bb-windows-7-b-5,
+.bb-windows-7-c-5,
+.bb-windows-7-d-5,
+.bb-windows-7-e-5,
+.bb-windows-7-f-5,
+.bb-windows-7-g-5,
+.bb-windows-7-h-5,
+.bb-windows-7-i-5,
+.bb-windows-7-j-5,
+.bb-windows-7-k-5,
+.bb-windows-7-l-5,
+.bb-windows-7-m-5,
+.bb-windows-7-a-6,
+.bb-windows-7-b-6,
+.bb-windows-7-c-6,
+.bb-windows-7-d-6,
+.bb-windows-7-e-6,
+.bb-windows-7-f-6,
+.bb-windows-7-g-6,
+.bb-windows-7-h-6,
+.bb-windows-7-i-6,
+.bb-windows-7-j-6,
+.bb-windows-7-k-6,
+.bb-windows-7-l-6,
+.bb-windows-7-m-6,
+.bb-windows-7-a-7,
+.bb-windows-7-b-7,
+.bb-windows-7-c-7,
+.bb-windows-7-d-7,
+.bb-windows-7-e-7,
+.bb-windows-7-f-7,
+.bb-windows-7-g-7,
+.bb-windows-7-h-7,
+.bb-windows-7-i-7,
+.bb-windows-7-j-7,
+.bb-windows-7-k-7,
+.bb-windows-7-l-7,
+.bb-windows-7-m-7,
+.bb-windows-7-a-8,
+.bb-windows-7-b-8,
+.bb-windows-7-c-8,
+.bb-windows-7-d-8,
+.bb-windows-7-e-8,
+.bb-windows-7-f-8,
+.bb-windows-7-g-8,
+.bb-windows-7-h-8,
+.bb-windows-7-i-8,
+.bb-windows-7-j-8,
+.bb-windows-7-k-8,
+.bb-windows-7-l-8,
+.bb-windows-7-m-8,
+.bb-windows-7-a-9,
+.bb-windows-7-b-9,
+.bb-windows-7-c-9,
+.bb-windows-7-d-9,
+.bb-windows-7-e-9,
+.bb-windows-7-f-9,
+.bb-windows-7-g-9,
+.bb-windows-7-h-9,
+.bb-windows-7-i-9,
+.bb-windows-7-j-9,
+.bb-windows-7-k-9,
+.bb-windows-7-l-9,
+.bb-windows-7-m-9,
+.bb-windows-7-a-10,
+.bb-windows-7-b-10,
+.bb-windows-7-c-10,
+.bb-windows-7-d-10,
+.bb-windows-7-e-10,
+.bb-windows-7-f-10,
+.bb-windows-7-g-10,
+.bb-windows-7-h-10,
+.bb-windows-7-i-10,
+.bb-windows-7-j-10,
+.bb-windows-7-k-10,
+.bb-windows-7-l-10,
+.bb-windows-7-m-10 {
+    height: 100%;
+    width: 100%;
+}
+
+/* BB WINDOWS 8 */
+
+.bb8a {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(8, 7.69%);
+    grid-template-rows: repeat(34, 1.959%);
+    gap: 1%;
+}
+
+.bb-windows-8-a-1,
+.bb-windows-8-b-1,
+.bb-windows-8-c-1,
+.bb-windows-8-d-1,
+.bb-windows-8-e-1,
+.bb-windows-8-f-1,
+.bb-windows-8-g-1,
+.bb-windows-8-h-1,
+.bb-windows-8-a-2,
+.bb-windows-8-b-2,
+.bb-windows-8-c-2,
+.bb-windows-8-d-2,
+.bb-windows-8-e-2,
+.bb-windows-8-f-2,
+.bb-windows-8-g-2,
+.bb-windows-8-h-2,
+.bb-windows-8-a-3,
+.bb-windows-8-b-3,
+.bb-windows-8-c-3,
+.bb-windows-8-d-3,
+.bb-windows-8-e-3,
+.bb-windows-8-f-3,
+.bb-windows-8-g-3,
+.bb-windows-8-h-3,
+.bb-windows-8-a-4,
+.bb-windows-8-b-4,
+.bb-windows-8-c-4,
+.bb-windows-8-d-4,
+.bb-windows-8-e-4,
+.bb-windows-8-f-4,
+.bb-windows-8-g-4,
+.bb-windows-8-h-4,
+.bb-windows-8-a-5,
+.bb-windows-8-b-5,
+.bb-windows-8-c-5,
+.bb-windows-8-d-5,
+.bb-windows-8-e-5,
+.bb-windows-8-f-5,
+.bb-windows-8-g-5,
+.bb-windows-8-h-5,
+.bb-windows-8-a-6,
+.bb-windows-8-b-6,
+.bb-windows-8-c-6,
+.bb-windows-8-d-6,
+.bb-windows-8-e-6,
+.bb-windows-8-f-6,
+.bb-windows-8-g-6,
+.bb-windows-8-h-6,
+.bb-windows-8-a-7,
+.bb-windows-8-b-7,
+.bb-windows-8-c-7,
+.bb-windows-8-d-7,
+.bb-windows-8-e-7,
+.bb-windows-8-f-7,
+.bb-windows-8-g-7,
+.bb-windows-8-h-7,
+.bb-windows-8-a-8,
+.bb-windows-8-b-8,
+.bb-windows-8-c-8,
+.bb-windows-8-d-8,
+.bb-windows-8-e-8,
+.bb-windows-8-f-8,
+.bb-windows-8-g-8,
+.bb-windows-8-h-8,
+.bb-windows-8-a-9,
+.bb-windows-8-b-9,
+.bb-windows-8-c-9,
+.bb-windows-8-d-9,
+.bb-windows-8-e-9,
+.bb-windows-8-f-9,
+.bb-windows-8-g-9,
+.bb-windows-8-h-9,
+.bb-windows-8-a-10,
+.bb-windows-8-b-10,
+.bb-windows-8-c-10,
+.bb-windows-8-d-10,
+.bb-windows-8-e-10,
+.bb-windows-8-f-10,
+.bb-windows-8-g-10,
+.bb-windows-8-h-10 {
     height: 100%;
     width: 100%;
 }
