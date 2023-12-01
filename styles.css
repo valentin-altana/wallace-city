@@ -4122,6 +4122,7 @@ body {
 .mb8g,
 .mb8i,
 .mb9a,
+.mb9c,
 .mb10a,
 .mb10d,
 .mb10g,
@@ -4132,6 +4133,7 @@ body {
 .mb12f,
 .mb12h,
 .mb12j,
+.mb12l,
 .mb13a,
 .mb14a,
 .mb15a,
@@ -4234,6 +4236,7 @@ body {
 .mb3a::before,
 .mb5a::before,
 .mb9a::before,
+.mb9c::before,
 .mb11a::before,
 .mb13a::before,
 .mb15a::before,
@@ -4267,6 +4270,7 @@ body {
 .mb12f::before,
 .mb12h::before,
 .mb12j::before,
+.mb12l::before,
 .mb14a::before,
 .mb16a::before,
 .mb18a::before,
@@ -4293,6 +4297,7 @@ body {
 .mb3a::after,
 .mb5a::after,
 .mb9a::after,
+.mb9c::after,
 .mb11a::after,
 .mb13a::after,
 .mb15a::after,
@@ -4326,6 +4331,7 @@ body {
 .mb12f::after,
 .mb12h::after,
 .mb12j::after,
+.mb12l::after,
 .mb14a::after,
 .mb16a::after,
 .mb18a::after,
@@ -4453,6 +4459,12 @@ body {
     background: radial-gradient(closest-corner circle at 50% 20%, rgba(95, 195, 255, 1) 0%, rgba(0, 62, 100, 1) 100%);
     box-shadow: inset 0 0 1px 1px rgba(95, 195, 255, 1);
     opacity: 2.5%;
+}
+
+.windows-color-4 {
+    background: linear-gradient(160deg, rgba(0, 0, 20, 1) 20%, rgba(0, 255, 250, 1) 100%);
+    box-shadow: inset 0 0 1px 1px rgba(0, 0, 20, 1);
+    opacity: 15%;
 }
 
 /* BACKGROUND BUILDINGS WINDOWS */
@@ -6621,6 +6633,13 @@ body {
 
 .mb12a {
     display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(20, 5%);
+}
+
+.mb-windows-12-1-a {
+    height: 100%;
+    width: 100%;
 }
 
 /* MB WINDOWS 12-2 */
@@ -6630,6 +6649,13 @@ body {
 .mb12h,
 .mb12j {
     display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 25%);
+}
+
+.mb-windows-12-2-a {
+    height: 100%;
+    width: 100%;
 }
 
 /* MB WINDOWS 13 */
