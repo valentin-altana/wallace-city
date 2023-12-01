@@ -2348,7 +2348,7 @@ body {
 .mb10b {
     height: 1%;
     width: 80%;
-    background: rgb(20, 20, 20);
+    background: rgb(15, 15, 15);
 }
 
 .mb10c {
@@ -2366,7 +2366,7 @@ body {
 .mb10e {
     height: 1%;
     width: 70%;
-    background: rgb(20, 20, 20);
+    background: rgb(15, 15, 15);
 }
 
 .mb10f {
@@ -2384,7 +2384,7 @@ body {
 .mb10h {
     height: 1%;
     width: 60%;
-    background: rgb(20, 20, 20);
+    background: rgb(15, 15, 15);
 }
 
 .mb10i {
@@ -4467,6 +4467,12 @@ body {
     opacity: 15%;
 }
 
+.windows-color-5 {
+    background: linear-gradient(120deg, rgba(0, 0, 20, 1) 20%, rgba(0, 255, 250, 1) 100%);
+    box-shadow: inset 0 0 1px 1px rgba(0, 0, 20, 1);
+    opacity: 15%;
+}
+
 /* BACKGROUND BUILDINGS WINDOWS */
 
 /* BB WINDOWS 1-1 and 9-1 */
@@ -6191,6 +6197,13 @@ body {
 .mb8i,
 .mb24i {
     display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 25%);
+}
+
+.mb-windows-8-a {
+    height: 100%;
+    width: 100%;
 }
 
 /* MB WINDOWS 9-1 */
@@ -6292,24 +6305,96 @@ body {
 
 .mb10a {
     display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 100%);
+}
+
+.mb-windows-10-1-a,
+.mb-windows-10-1-b,
+.mb-windows-10-1-c,
+.mb-windows-10-1-d,
+.mb-windows-10-1-e,
+.mb-windows-10-1-f,
+.mb-windows-10-1-g,
+.mb-windows-10-1-h,
+.mb-windows-10-1-i,
+.mb-windows-10-1-j {
+    height: 100%;
+    width: 100%;
 }
 
 /* MB WINDOWS 10-2 */
 
 .mb10d {
     display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 100%);
+}
+
+.mb-windows-10-2-a,
+.mb-windows-10-2-b,
+.mb-windows-10-2-c,
+.mb-windows-10-2-d,
+.mb-windows-10-2-e,
+.mb-windows-10-2-f,
+.mb-windows-10-2-g,
+.mb-windows-10-2-h,
+.mb-windows-10-2-i,
+.mb-windows-10-2-j {
+    height: 100%;
+    width: 100%;
 }
 
 /* MB WINDOWS 10-3 */
 
 .mb10g {
     display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 100%);
+}
+
+.mb-windows-10-3-a,
+.mb-windows-10-3-b,
+.mb-windows-10-3-c,
+.mb-windows-10-3-d,
+.mb-windows-10-3-e,
+.mb-windows-10-3-f,
+.mb-windows-10-3-g,
+.mb-windows-10-3-h,
+.mb-windows-10-3-i,
+.mb-windows-10-3-j {
+    height: 100%;
+    width: 100%;
 }
 
 /* MB WINDOWS 10-4 */
 
 .mb10j {
     display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 100%);
+}
+
+.mb-windows-10-4-a,
+.mb-windows-10-4-b,
+.mb-windows-10-4-c,
+.mb-windows-10-4-d,
+.mb-windows-10-4-e,
+.mb-windows-10-4-f,
+.mb-windows-10-4-g,
+.mb-windows-10-4-h,
+.mb-windows-10-4-i,
+.mb-windows-10-4-j {
+    height: 100%;
+    width: 100%;
 }
 
 /* MB WINDOWS 11-1 */
