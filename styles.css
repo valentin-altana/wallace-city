@@ -2143,7 +2143,7 @@ body {
 .mb8b,
 .mb24b {
     height: 1%;
-    width: 90%;
+    width: 80%;
     background: rgb(20, 20, 20);
 }
 
@@ -2157,7 +2157,7 @@ body {
 .mb8d,
 .mb24d {
     height: 1%;
-    width: 90%;
+    width: 80%;
     background: rgb(20, 20, 20);
 }
 
@@ -2171,7 +2171,7 @@ body {
 .mb8f,
 .mb24f {
     height: 1%;
-    width: 90%;
+    width: 80%;
     background: rgb(20, 20, 20);
 }
 
@@ -2185,7 +2185,7 @@ body {
 .mb8h,
 .mb24h {
     height: 1%;
-    width: 90%;
+    width: 80%;
     background: rgb(20, 20, 20);
 }
 
@@ -2199,7 +2199,7 @@ body {
 .mb8j,
 .mb24j {
     height: 1%;
-    width: 90%;
+    width: 80%;
     background: rgb(20, 20, 20);
 }
 
@@ -6249,38 +6249,6 @@ body {
 .mb8i,
 .mb24i {
     display: grid;
-    align-items: center;
-    justify-content: space-around;
-    grid-template-columns: repeat(8, 7.69%);
-    grid-template-rows: repeat(3, 29.4%);
-}
-
-.mb-windows-8-1-a-1,
-.mb-windows-8-1-b-1,
-.mb-windows-8-1-c-1,
-.mb-windows-8-1-d-1,
-.mb-windows-8-1-e-1,
-.mb-windows-8-1-f-1,
-.mb-windows-8-1-g-1,
-.mb-windows-8-1-h-1,
-.mb-windows-8-1-a-2,
-.mb-windows-8-1-b-2,
-.mb-windows-8-1-c-2,
-.mb-windows-8-1-d-2,
-.mb-windows-8-1-e-2,
-.mb-windows-8-1-f-2,
-.mb-windows-8-1-g-2,
-.mb-windows-8-1-h-2,
-.mb-windows-8-1-a-3,
-.mb-windows-8-1-b-3,
-.mb-windows-8-1-c-3,
-.mb-windows-8-1-d-3,
-.mb-windows-8-1-e-3,
-.mb-windows-8-1-f-3,
-.mb-windows-8-1-g-3,
-.mb-windows-8-1-h-3 {
-    height: 100%;
-    width: 100%;
 }
 
 /* MB WINDOWS 9-1 */
