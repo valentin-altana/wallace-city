@@ -2341,89 +2341,79 @@ body {
 
 .mb10a {
     height: 25%;
-    width: 100%;
+    width: 80%;
     background: rgb(15, 15, 15);
 }
 
 .mb10b {
     height: 1%;
-    width: 100%;
+    width: 80%;
     background: rgb(20, 20, 20);
 }
 
 .mb10c {
     height: 1%;
-    width: 100%;
+    width: 80%;
     background: rgb(20, 20, 20);
 }
 
 .mb10d {
     height: 5%;
-    width: 90%;
-    margin-right: 10%;
+    width: 70%;
     background: rgb(15, 15, 15);
 }
 
 .mb10e {
     height: 1%;
-    width: 90%;
-    margin-right: 10%;
+    width: 70%;
     background: rgb(20, 20, 20);
 }
 
 .mb10f {
     height: 1%;
-    width: 90%;
-    margin-right: 10%;
+    width: 70%;
     background: rgb(20, 20, 20);
 }
 
 .mb10g {
     height: 5%;
-    width: 80%;
-    margin-right: 20%;
+    width: 60%;
     background: rgb(15, 15, 15);
 }
 
 .mb10h {
     height: 1%;
-    width: 80%;
-    margin-right: 20%;
+    width: 60%;
     background: rgb(20, 20, 20);
 }
 
 .mb10i {
     height: 1%;
-    width: 80%;
-    margin-right: 20%;
+    width: 60%;
     background: rgb(20, 20, 20);
 }
 
 .mb10j {
     height: 5%;
-    width: 70%;
-    margin-right: 30%;
+    width: 50%;
     background: rgb(15, 15, 15);
 }
 
 .mb10k {
     height: 1%;
-    width: 70%;
-    margin-right: 30%;
+    width: 50%;
     background: rgb(20, 20, 20);
 }
 
 .mb10l {
     height: 2.5%;
     width: 40%;
-    margin-right: 30%;
     background: rgb(15, 15, 15);
 }
 
 .mb10m {
     height: 1%;
     width: 40%;
-    margin-right: 30%;
     background: rgb(20, 20, 20);
 }
 
@@ -2431,7 +2421,6 @@ body {
     /* ANTENNAS */
     height: 2.5%;
     width: 20%;
-    margin-right: 30%;
     clip-path: polygon(75% 50%, 0 100%, 35% 0, 65% 0, 100% 100%, 25% 50%, 80% 75%, 65% 30%, 55% 100%, 45% 100%, 35% 30%, 20% 75%);
     /* ANTENNAS */
 }
@@ -2440,7 +2429,6 @@ body {
     /* ANTENNAS */
     height: 5%;
     width: 5%;
-    margin-right: 30%;
     clip-path: polygon(40% 40%, 25% 50%, 20% 60%, 90% 65%, 20% 70%, 20% 80%, 90% 85%, 20% 90%, 20% 100%, 0 100%, 0 70%, 50% 0, 100% 70%, 100% 100%, 80% 100%, 80% 90%, 10% 85%, 80% 80%, 80% 70%, 10% 65%, 80% 60%, 75% 50%, 60% 40%, 50% 85%);
     /* ANTENNAS */
 }
@@ -2449,7 +2437,6 @@ body {
     /* RED LIGHT */
     height: 2%;
     width: 8.28%;
-    margin-right: 30%;
     clip-path: circle(50% at 50% 50%);
     /* RED LIGHT */
 }
@@ -4135,6 +4122,7 @@ body {
 .mb8g,
 .mb8i,
 .mb9a,
+.mb10a,
 .mb10d,
 .mb10g,
 .mb10j,
@@ -4191,6 +4179,7 @@ body {
 /* LEFT */
 
 .bb1a::before,
+.bb1c::before,
 .bb2a::before,
 .bb3a::before,
 .bb4a::before,
@@ -4199,6 +4188,7 @@ body {
 .bb7a::before,
 .bb8a::before,
 .bb9a::before,
+.bb9c::before,
 .bb10a::before,
 .bb11a::before,
 .bb12a::before {
@@ -4211,20 +4201,10 @@ body {
     background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
 }
 
-.bb1c::before,
-.bb9c::before {
-    content: "";
-    height: 100%;
-    width: 12%;
-    position: absolute;
-    left: -12%;
-    opacity: 80%;
-    background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
-}
-
 /* RIGHT */
 
 .bb1a::after,
+.bb1c::after,
 .bb2a::after,
 .bb3a::after,
 .bb4a::after,
@@ -4233,6 +4213,7 @@ body {
 .bb7a::after,
 .bb8a::after,
 .bb9a::after,
+.bb9c::after,
 .bb10a::after,
 .bb11a::after,
 .bb12a::after {
@@ -4241,17 +4222,6 @@ body {
     width: 10%;
     position: absolute;
     right: -10%;
-    opacity: 80%;
-    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
-}
-
-.bb1c::after,
-.bb9c::after {
-    content: "";
-    height: 100%;
-    width: 12%;
-    position: absolute;
-    right: -12%;
     opacity: 80%;
     background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
 }
@@ -4282,11 +4252,16 @@ body {
 .mb2a::before,
 .mb4a::before,
 .mb6a::before,
+.mb6c::before,
 .mb8a::before,
 .mb8c::before,
 .mb8e::before,
 .mb8g::before,
 .mb8i::before,
+.mb10a::before,
+.mb10d::before,
+.mb10g::before,
+.mb10j::before,
 .mb11c::before,
 .mb12d::before,
 .mb12f::before,
@@ -4297,6 +4272,7 @@ body {
 .mb18a::before,
 .mb20a::before,
 .mb22a::before,
+.mb22c::before,
 .mb24a::before,
 .mb24c::before,
 .mb24e::before,
@@ -4307,17 +4283,6 @@ body {
     width: 8%;
     position: absolute;
     left: -8%;
-    opacity: 50%;
-    background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
-}
-
-.mb6c::before,
-.mb22c::before {
-    content: "";
-    height: 100%;
-    width: 10%;
-    position: absolute;
-    left: -10%;
     opacity: 50%;
     background: linear-gradient(90deg, rgba(255, 250, 0, 0) 0%, rgba(255, 250, 0, 0.15) 100%);
 }
@@ -4346,11 +4311,16 @@ body {
 .mb2a::after,
 .mb4a::after,
 .mb6a::after,
+.mb6c::after,
 .mb8a::after,
 .mb8c::after,
 .mb8e::after,
 .mb8g::after,
 .mb8i::after,
+.mb10a::after,
+.mb10d::after,
+.mb10g::after,
+.mb10j::after,
 .mb11c::after,
 .mb12d::after,
 .mb12f::after,
@@ -4361,6 +4331,7 @@ body {
 .mb18a::after,
 .mb20a::after,
 .mb22a::after,
+.mb22c::after,
 .mb24a::after,
 .mb24c::after,
 .mb24e::after,
@@ -4371,47 +4342,6 @@ body {
     width: 8%;
     position: absolute;
     right: -8%;
-    opacity: 50%;
-    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
-}
-
-.mb10d::after {
-    content: "";
-    height: 100%;
-    width: 7%;
-    position: absolute;
-    right: -7%;
-    opacity: 50%;
-    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
-}
-
-.mb10g::after {
-    content: "";
-    height: 100%;
-    width: 8%;
-    position: absolute;
-    right: -8%;
-    opacity: 50%;
-    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
-}
-
-.mb10j::after {
-    content: "";
-    height: 100%;
-    width: 9%;
-    position: absolute;
-    right: -9%;
-    opacity: 50%;
-    background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
-}
-
-.mb6c::after,
-.mb22c::after {
-    content: "";
-    height: 100%;
-    width: 10%;
-    position: absolute;
-    right: -10%;
     opacity: 50%;
     background: linear-gradient(90deg, rgba(255, 250, 0, 0.15) 0%, rgba(255, 250, 0, 0) 100%);
 }
@@ -6350,228 +6280,24 @@ body {
 
 .mb10a {
     display: grid;
-    align-items: center;
-    justify-content: space-around;
-    grid-template-columns: repeat(10, 6.15%);
-    grid-template-rows: repeat(17, 5.88%);
-}
-
-.mb-windows-10-1-a-1,
-.mb-windows-10-1-b-1,
-.mb-windows-10-1-c-1,
-.mb-windows-10-1-d-1,
-.mb-windows-10-1-e-1,
-.mb-windows-10-1-f-1,
-.mb-windows-10-1-g-1,
-.mb-windows-10-1-h-1,
-.mb-windows-10-1-i-1,
-.mb-windows-10-1-j-1,
-.mb-windows-10-1-a-2,
-.mb-windows-10-1-b-2,
-.mb-windows-10-1-c-2,
-.mb-windows-10-1-d-2,
-.mb-windows-10-1-e-2,
-.mb-windows-10-1-f-2,
-.mb-windows-10-1-g-2,
-.mb-windows-10-1-h-2,
-.mb-windows-10-1-i-2,
-.mb-windows-10-1-j-2,
-.mb-windows-10-1-a-3,
-.mb-windows-10-1-b-3,
-.mb-windows-10-1-c-3,
-.mb-windows-10-1-d-3,
-.mb-windows-10-1-e-3,
-.mb-windows-10-1-f-3,
-.mb-windows-10-1-g-3,
-.mb-windows-10-1-h-3,
-.mb-windows-10-1-i-3,
-.mb-windows-10-1-j-3,
-.mb-windows-10-1-a-4,
-.mb-windows-10-1-b-4,
-.mb-windows-10-1-c-4,
-.mb-windows-10-1-d-4,
-.mb-windows-10-1-e-4,
-.mb-windows-10-1-f-4,
-.mb-windows-10-1-g-4,
-.mb-windows-10-1-h-4,
-.mb-windows-10-1-i-4,
-.mb-windows-10-1-j-4,
-.mb-windows-10-1-a-5,
-.mb-windows-10-1-b-5,
-.mb-windows-10-1-c-5,
-.mb-windows-10-1-d-5,
-.mb-windows-10-1-e-5,
-.mb-windows-10-1-f-5,
-.mb-windows-10-1-g-5,
-.mb-windows-10-1-h-5,
-.mb-windows-10-1-i-5,
-.mb-windows-10-1-j-5,
-.mb-windows-10-1-a-6,
-.mb-windows-10-1-b-6,
-.mb-windows-10-1-c-6,
-.mb-windows-10-1-d-6,
-.mb-windows-10-1-e-6,
-.mb-windows-10-1-f-6,
-.mb-windows-10-1-g-6,
-.mb-windows-10-1-h-6,
-.mb-windows-10-1-i-6,
-.mb-windows-10-1-j-6,
-.mb-windows-10-1-a-7,
-.mb-windows-10-1-b-7,
-.mb-windows-10-1-c-7,
-.mb-windows-10-1-d-7,
-.mb-windows-10-1-e-7,
-.mb-windows-10-1-f-7,
-.mb-windows-10-1-g-7,
-.mb-windows-10-1-h-7,
-.mb-windows-10-1-i-7,
-.mb-windows-10-1-j-7,
-.mb-windows-10-1-a-8,
-.mb-windows-10-1-b-8,
-.mb-windows-10-1-c-8,
-.mb-windows-10-1-d-8,
-.mb-windows-10-1-e-8,
-.mb-windows-10-1-f-8,
-.mb-windows-10-1-g-8,
-.mb-windows-10-1-h-8,
-.mb-windows-10-1-i-8,
-.mb-windows-10-1-j-8,
-.mb-windows-10-1-a-9,
-.mb-windows-10-1-b-9,
-.mb-windows-10-1-c-9,
-.mb-windows-10-1-d-9,
-.mb-windows-10-1-e-9,
-.mb-windows-10-1-f-9,
-.mb-windows-10-1-g-9,
-.mb-windows-10-1-h-9,
-.mb-windows-10-1-i-9,
-.mb-windows-10-1-j-9,
-.mb-windows-10-1-a-10,
-.mb-windows-10-1-b-10,
-.mb-windows-10-1-c-10,
-.mb-windows-10-1-d-10,
-.mb-windows-10-1-e-10,
-.mb-windows-10-1-f-10,
-.mb-windows-10-1-g-10,
-.mb-windows-10-1-h-10,
-.mb-windows-10-1-i-10,
-.mb-windows-10-1-j-10 {
-    height: 100%;
-    width: 100%;
 }
 
 /* MB WINDOWS 10-2 */
 
 .mb10d {
     display: grid;
-    align-items: center;
-    justify-content: space-around;
-    grid-template-columns: repeat(9, 6.84%);
-    grid-template-rows: repeat(3, 29.41%);
-}
-
-.mb-windows-10-2-a-1,
-.mb-windows-10-2-b-1,
-.mb-windows-10-2-c-1,
-.mb-windows-10-2-d-1,
-.mb-windows-10-2-e-1,
-.mb-windows-10-2-f-1,
-.mb-windows-10-2-g-1,
-.mb-windows-10-2-h-1,
-.mb-windows-10-2-i-1,
-.mb-windows-10-2-a-2,
-.mb-windows-10-2-b-2,
-.mb-windows-10-2-c-2,
-.mb-windows-10-2-d-2,
-.mb-windows-10-2-e-2,
-.mb-windows-10-2-f-2,
-.mb-windows-10-2-g-2,
-.mb-windows-10-2-h-2,
-.mb-windows-10-2-i-2,
-.mb-windows-10-2-a-3,
-.mb-windows-10-2-b-3,
-.mb-windows-10-2-c-3,
-.mb-windows-10-2-d-3,
-.mb-windows-10-2-e-3,
-.mb-windows-10-2-f-3,
-.mb-windows-10-2-g-3,
-.mb-windows-10-2-h-3,
-.mb-windows-10-2-i-3 {
-    height: 100%;
-    width: 100%;
 }
 
 /* MB WINDOWS 10-3 */
 
 .mb10g {
     display: grid;
-    align-items: center;
-    justify-content: space-around;
-    grid-template-columns: repeat(8, 7.69%);
-    grid-template-rows: repeat(3, 29.41%);
-}
-
-.mb-windows-10-3-a-1,
-.mb-windows-10-3-b-1,
-.mb-windows-10-3-c-1,
-.mb-windows-10-3-d-1,
-.mb-windows-10-3-e-1,
-.mb-windows-10-3-f-1,
-.mb-windows-10-3-g-1,
-.mb-windows-10-3-h-1,
-.mb-windows-10-3-a-2,
-.mb-windows-10-3-b-2,
-.mb-windows-10-3-c-2,
-.mb-windows-10-3-d-2,
-.mb-windows-10-3-e-2,
-.mb-windows-10-3-f-2,
-.mb-windows-10-3-g-2,
-.mb-windows-10-3-h-2,
-.mb-windows-10-3-a-3,
-.mb-windows-10-3-b-3,
-.mb-windows-10-3-c-3,
-.mb-windows-10-3-d-3,
-.mb-windows-10-3-e-3,
-.mb-windows-10-3-f-3,
-.mb-windows-10-3-g-3,
-.mb-windows-10-3-h-3 {
-    height: 100%;
-    width: 100%;
 }
 
 /* MB WINDOWS 10-4 */
 
 .mb10j {
     display: grid;
-    align-items: center;
-    justify-content: space-around;
-    grid-template-columns: repeat(7, 8.78%);
-    grid-template-rows: repeat(3, 29.41%);
-}
-
-.mb-windows-10-4-a-1,
-.mb-windows-10-4-b-1,
-.mb-windows-10-4-c-1,
-.mb-windows-10-4-d-1,
-.mb-windows-10-4-e-1,
-.mb-windows-10-4-f-1,
-.mb-windows-10-4-g-1,
-.mb-windows-10-4-a-2,
-.mb-windows-10-4-b-2,
-.mb-windows-10-4-c-2,
-.mb-windows-10-4-d-2,
-.mb-windows-10-4-e-2,
-.mb-windows-10-4-f-2,
-.mb-windows-10-4-g-2,
-.mb-windows-10-4-a-3,
-.mb-windows-10-4-b-3,
-.mb-windows-10-4-c-3,
-.mb-windows-10-4-d-3,
-.mb-windows-10-4-e-3,
-.mb-windows-10-4-f-3,
-.mb-windows-10-4-g-3 {
-    height: 100%;
-    width: 100%;
 }
 
 /* MB WINDOWS 11-1 */
