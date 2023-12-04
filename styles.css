@@ -4244,6 +4244,12 @@ body {
     }
 }
 
+/* BLUR */
+
+.city {
+    filter: blur(3px);
+}
+
 /* ABSOLUTE POSITION */
 
 .sky,
