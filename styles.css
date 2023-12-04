@@ -416,7 +416,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    /* animation: scroll 90s linear infinite; */
+    /* animation: scroll 80s linear infinite; */
 }
 
 .space-p,
