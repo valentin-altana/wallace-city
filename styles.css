@@ -51,7 +51,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    /* animation: scroll-1 200s linear infinite; */
 }
 
 /* SMALL BACKGROUND CLOUDS 1 */
@@ -416,7 +415,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    /* animation: scroll-1 80s linear infinite; */
 }
 
 .space-p,
@@ -1061,7 +1059,6 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 80%);
-    /* animation: scroll-1 100s linear infinite; */
 }
 
 .bb1,
@@ -1538,7 +1535,6 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 60%);
-    /* animation: scroll-1 80s linear infinite; */
 }
 
 .mb1,
@@ -2681,7 +2677,6 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    /* animation: scroll-1 75s linear infinite; */
 }
 
 /* FOREGROUND BUILDINGS */
@@ -2693,7 +2688,6 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 40%);
-    /* animation: scroll-1 60s linear infinite; */
 }
 
 .fb1,
@@ -3484,7 +3478,6 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     background: linear-gradient(0deg, rgba(255, 250, 0, 0.1) 0%, rgba(255, 250, 0, 0) 20%);
-    /* animation: scroll-1 55s linear infinite; */
 }
 
 /* SPACES */
@@ -4264,7 +4257,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    animation: scroll-1 45s linear infinite;
 }
 
 .f-to-left-cars-2 {
@@ -4273,7 +4265,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    animation: scroll-1 45s linear infinite;
 }
 
 .f-to-left-cars-3 {
@@ -4282,7 +4273,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    animation: scroll-1 35s linear infinite;
 }
 
 /* TO RIGHT */
@@ -4294,16 +4284,21 @@ body {
     align-items: flex-end;
 }
 
+.cops {
+    height: 1%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
 .f-to-right-cars-1 {
     height: 1%;
     width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    animation: scroll-2 45s linear infinite;
 }
-
-.cops {}
 
 .f-to-right-cars-2 {
     height: 1%;
@@ -4311,7 +4306,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    animation: scroll-2 45s linear infinite;
 }
 
 .f-to-right-cars-3 {
@@ -4320,7 +4314,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    animation: scroll-2 35s linear infinite;
 }
 
 /* CARS */
@@ -4363,6 +4356,82 @@ body {
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 0, 0, 1) 25%, rgba(255, 0, 0, 0) 100%);
 }
 
+.cops-car {
+    height: 100%;
+    width: 0.1705%;
+    border-radius: 50%;
+    position: relative;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.cops-car::before {
+    content: "";
+    height: 75%;
+    width: 75%;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    right: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 0, 0, 1) 25%, rgba(255, 0, 0, 0) 100%);
+}
+
+.cops-car::after {
+    content: "";
+    height: 200%;
+    width: 200%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2%;
+    right: 0%;
+    animation: rotating-lights 0.5s infinite;
+}
+
+@keyframes rotating-lights {
+    0% {
+        background: transparent;
+    }
+
+    10% {
+        background: transparent;
+    }
+
+    20% {
+        background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(0, 0, 255, 1) 25%, rgba(255, 0, 0, 0) 100%);
+    }
+
+    30% {
+        background: transparent;
+    }
+
+    40% {
+        background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(0, 0, 255, 1) 25%, rgba(255, 0, 0, 0) 100%);
+    }
+
+    50% {
+        background: transparent;
+    }
+
+    60% {
+        background: transparent;
+    }
+
+    70% {
+        background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 0, 0, 1) 25%, rgba(255, 0, 0, 0) 100%);
+    }
+
+    80% {
+        background: transparent;
+    }
+
+    90% {
+        background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 0, 0, 1) 25%, rgba(255, 0, 0, 0) 100%);
+    }
+
+    100% {
+        background: transparent;
+    }
+}
+
 /* BLUR */
 
 .city {
@@ -4385,9 +4454,12 @@ body {
 .foreground-to-left-cars,
 .f-to-left-cars-1,
 .f-to-left-cars-2,
+.f-to-left-cars-3,
 .foreground-to-right-cars,
+.cops,
 .f-to-right-cars-1,
-.f-to-right-cars-2 {
+.f-to-right-cars-2,
+.f-to-right-cars-3 {
     position: absolute;
 }
 
@@ -4411,4 +4483,80 @@ body {
     100% {
         transform: translateX(0vw);
     }
+}
+
+@keyframes scroll-3 {
+    0% {
+        transform: translateX(0vw);
+    }
+
+    100% {
+        transform: translateX(-400vw);
+    }
+}
+
+/* CLOUDS */
+
+.small-b-clouds-1,
+.medium-b-clouds,
+.small-b-clouds-2 {
+    /* animation: scroll-1 200s linear infinite; */
+}
+
+/* PLANE */
+
+.plane {
+    /* animation: scroll-3 70s linear infinite; */
+}
+
+/* BUILDINGS */
+
+.background-buildings {
+    /* animation: scroll-1 100s linear infinite; */
+}
+
+.middle-ground-buildings {
+    /* animation: scroll-1 80s linear infinite; */
+}
+
+.foreground-buildings {
+    /* animation: scroll-1 60s linear infinite; */
+}
+
+/* STREET LIGHTS */
+
+.middle-ground-lights {
+    /* animation: scroll-1 75s linear infinite; */
+}
+
+.foreground-lights {
+    /* animation: scroll-1 55s linear infinite; */
+}
+
+/* CARS */
+
+/* TO LEFT */
+
+.f-to-left-cars-1,
+.f-to-left-cars-2 {
+    /* animation: scroll-1 45s linear infinite; */
+}
+
+.f-to-left-cars-3 {
+    /* animation: scroll-1 35s linear infinite; */
+}
+
+/* TO RIGHT */
+
+.cops {
+    /* animation: scroll-2 35s linear infinite; */
+}
+
+.f-to-right-cars-1 {
+    /* animation: scroll-1 95s linear infinite; */
+}
+
+.f-to-right-cars-2,
+.f-to-right-cars-3 {
+    /* animation: scroll-1 105s linear infinite; */
 }
