@@ -4587,13 +4587,13 @@ body {
 /* TO LEFT */
 
 .mg-to-left-cars {
-    /* animation: scroll-1 65s linear infinite; */
+    /* animation: scroll-1 50s linear infinite; */
 }
 
 /* TO RIGHT */
 
 .mg-to-right-cars {
-    /* animation: scroll-1 130s linear infinite; */
+    /* animation: scroll-1 100s linear infinite; */
 }
 
 /* FOREGROUND CARS */
