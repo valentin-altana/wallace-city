@@ -2679,6 +2679,42 @@ body {
     align-items: center;
 }
 
+/* MIDDLE GROUND CARS */
+
+/* TO LEFT */
+
+.middle-ground-to-left-cars {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.mg-to-left-cars {
+    height: 1%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+/* TO RIGHT */
+
+.middle-ground-to-right-cars {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.mg-to-right-cars {
+    height: 1%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
 /* FOREGROUND BUILDINGS */
 
 .foreground-buildings {
@@ -4455,6 +4491,11 @@ body {
 .city,
 .background-buildings,
 .middle-ground-buildings,
+.middle-ground-lights,
+.middle-ground-to-left-cars,
+.mg-to-left-cars,
+.middle-ground-to-right-cars,
+.mg-to-right-cars,
 .foreground-buildings,
 .foreground-lights,
 .foreground-to-left-cars,
@@ -4541,6 +4582,22 @@ body {
 
 /* CARS */
 
+/* MIDDLE GROUND CARS */
+
+/* TO LEFT */
+
+.mg-to-left-cars {
+    /* animation: scroll-1 65s linear infinite; */
+}
+
+/* TO RIGHT */
+
+.mg-to-right-cars {
+    /* animation: scroll-1 130s linear infinite; */
+}
+
+/* FOREGROUND CARS */
+
 /* TO LEFT */
 
 .f-to-left-cars-1,
@@ -4555,14 +4612,14 @@ body {
 /* TO RIGHT */
 
 .cops {
-    /* animation: scroll-2 35s linear infinite; */
+    /* animation: scroll-2 70s linear infinite; */
 }
 
 .f-to-right-cars-1 {
-    /* animation: scroll-1 95s linear infinite; */
+    /* animation: scroll-1 210s linear infinite; */
 }
 
 .f-to-right-cars-2,
 .f-to-right-cars-3 {
-    /* animation: scroll-1 105s linear infinite; */
+    /* animation: scroll-1 90s linear infinite; */
 }
