@@ -4324,6 +4324,7 @@ body {
     border-radius: 50%;
     position: relative;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%);
+    opacity: 80%;
 }
 
 .to-left-cars::before {
@@ -4335,6 +4336,7 @@ body {
     top: 25%;
     left: 100%;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 0, 0, 1) 25%, rgba(255, 0, 0, 0) 100%);
+    opacity: 80%;
 }
 
 .to-right-cars {
@@ -4343,6 +4345,7 @@ body {
     border-radius: 50%;
     position: relative;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%);
+    opacity: 80%;
 }
 
 .to-right-cars::before {
@@ -4354,6 +4357,7 @@ body {
     top: 25%;
     right: 100%;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 0, 0, 1) 25%, rgba(255, 0, 0, 0) 100%);
+    opacity: 80%;
 }
 
 .cops-car {
@@ -4362,6 +4366,7 @@ body {
     border-radius: 50%;
     position: relative;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%);
+    opacity: 80%;
 }
 
 .cops-car::before {
@@ -4373,6 +4378,7 @@ body {
     top: 25%;
     right: 100%;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 0, 0, 1) 25%, rgba(255, 0, 0, 0) 100%);
+    opacity: 80%;
 }
 
 .cops-car::after {
