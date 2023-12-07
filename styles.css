@@ -3760,6 +3760,93 @@ body {
     }
 }
 
+/* WINDOWS */
+
+/* BACKGROUND BUILDINGS */
+
+.windows-color-1 {
+    background:
+        linear-gradient(180deg, transparent 0%, rgba(10, 10, 10, 0.9) 100%),
+        linear-gradient(180deg,
+            transparent 0%,
+            rgba(10, 10, 10, 1) 5%,
+            transparent 20%,
+            rgba(10, 10, 10, 1) 30%,
+            transparent 40%,
+            rgba(10, 10, 10, 1) 45%,
+            transparent 60%,
+            rgba(10, 10, 10, 1) 70%,
+            transparent 80%,
+            rgba(10, 10, 10, 1) 85%,
+            transparent 100%),
+        linear-gradient(90deg,
+            rgba(10, 10, 10, 1) 0%,
+            transparent 15%,
+            rgba(10, 10, 10, 1) 20%,
+            transparent 35%,
+            rgba(10, 10, 10, 1) 40%,
+            transparent 55%,
+            rgba(10, 10, 10, 1) 60%,
+            transparent 75%,
+            rgba(10, 10, 10, 1) 80%,
+            transparent 95%,
+            rgba(10, 10, 10, 1) 100%),
+        radial-gradient(circle, rgba(255, 250, 0, 1) 5%, rgba(255, 150, 0, 1) 25%, rgba(10, 10, 10, 1) 40%);
+    background-size: 100% 100%, 100% 25%, 5% 100%, 5% 2.5%;
+}
+
+.windows-color-2 {
+    background:
+        linear-gradient(180deg, transparent 0%, rgba(10, 10, 10, 0.9) 100%),
+        linear-gradient(135deg, rgba(0, 0, 20, 0.5) 20%, rgba(0, 255, 250, 0.5) 100%),
+        rgba(10, 10, 10, 1);
+    background-size: 100% 100%, 10% 2.5%, 100% 100%;
+}
+
+.windows-color-3 {
+    background:
+        linear-gradient(180deg, transparent 0%, rgba(10, 10, 10, 0.9) 100%),
+        linear-gradient(135deg, rgba(0, 0, 20, 0.25) 20%, rgba(0, 255, 250, 0.25) 100%),
+        rgba(10, 10, 10, 1);
+    background-size: 100% 100%, 10% 2.5%, 100% 100%;
+}
+
+.windows-color-4 {
+    background:
+        linear-gradient(180deg, transparent 0%, rgba(10, 10, 10, 0.9) 100%),
+        linear-gradient(180deg,
+            transparent 0%,
+            rgba(10, 10, 10, 1) 10%,
+            transparent 20%,
+            rgba(10, 10, 10, 1) 30%,
+            transparent 40%,
+            rgba(10, 10, 10, 1) 50%,
+            transparent 60%,
+            rgba(10, 10, 10, 1) 70%,
+            transparent 80%,
+            rgba(10, 10, 10, 1) 90%,
+            transparent 100%),
+        linear-gradient(90deg,
+            rgba(10, 10, 10, 1) 0%,
+            transparent 10%,
+            rgba(10, 10, 10, 1) 20%,
+            transparent 30%,
+            rgba(10, 10, 10, 1) 40%,
+            transparent 50%,
+            rgba(10, 10, 10, 1) 60%,
+            transparent 70%,
+            rgba(10, 10, 10, 1) 80%,
+            transparent 90%,
+            rgba(10, 10, 10, 1) 100%),
+        linear-gradient(135deg, rgba(0, 0, 20, 0.5) 0%, rgba(0, 255, 250, 0.5) 100%),
+        rgba(10, 10, 10, 1);
+    background-size: 100% 100%, 100% 5%, 5% 100%, 10% 2.5%, 100% 100%;
+}
+
+/* MIDDLE GROUND BUILDINGS */
+
+/* FOREGROUND BUILDINGS */
+
 /* BUILDINGS LIGHTS */
 
 .bb1a,
@@ -4587,13 +4674,13 @@ body {
 /* TO LEFT */
 
 .mg-to-left-cars {
-    /* animation: scroll-1 50s linear infinite; */
+    /* animation: scroll-1 75s linear infinite; */
 }
 
 /* TO RIGHT */
 
 .mg-to-right-cars {
-    /* animation: scroll-1 120s linear infinite; */
+    /* animation: scroll-1 75s linear infinite; */
 }
 
 /* FOREGROUND CARS */
