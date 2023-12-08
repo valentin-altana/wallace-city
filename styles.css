@@ -3800,7 +3800,7 @@ body {
         linear-gradient(180deg, transparent 0%, rgba(10, 10, 10, 0.9) 100%),
         linear-gradient(135deg, rgba(0, 0, 20, 0.25) 20%, rgba(0, 255, 250, 0.25) 100%),
         rgba(10, 10, 10, 1);
-    background-size: 100% 100%, 10% 2.5%, 100% 100%;
+    background-size: 100% 100%, 5% 2.5%, 100% 100%;
 }
 
 .bb-windows-color-3 {
@@ -3839,7 +3839,7 @@ body {
         linear-gradient(180deg, transparent 0%, rgba(10, 10, 10, 0.9) 100%),
         linear-gradient(135deg, rgba(0, 0, 20, 0.15) 20%, rgba(0, 255, 250, 0.15) 100%),
         rgba(10, 10, 10, 1);
-    background-size: 100% 100%, 10% 2.5%, 100% 100%;
+    background-size: 100% 100%, 5% 2.5%, 100% 100%;
 }
 
 .bb-windows-color-5 {
@@ -3892,7 +3892,7 @@ body {
             rgba(15, 15, 15, 1) 90%,
             transparent 100%),
         linear-gradient(90deg,
-            rgba(15, 15, 15, 1)0%,
+            rgba(15, 15, 15, 1) 0%,
             transparent 10%,
             rgba(15, 15, 15, 1) 20%,
             transparent 30%,
@@ -3931,7 +3931,7 @@ body {
             rgba(15, 15, 15, 1) 90%,
             transparent 100%),
         linear-gradient(90deg,
-            rgba(15, 15, 15, 1)0%,
+            rgba(15, 15, 15, 1) 0%,
             transparent 10%,
             rgba(15, 15, 15, 1) 20%,
             transparent 30%,
@@ -3962,7 +3962,7 @@ body {
             rgba(15, 15, 15, 1) 90%,
             transparent 100%),
         linear-gradient(90deg,
-            rgba(15, 15, 15, 1)0%,
+            rgba(15, 15, 15, 1) 0%,
             transparent 10%,
             rgba(15, 15, 15, 1) 20%,
             transparent 30%,
@@ -3994,7 +3994,7 @@ body {
             rgba(15, 15, 15, 1) 90%,
             transparent 100%),
         linear-gradient(90deg,
-            rgba(15, 15, 15, 1)0%,
+            rgba(15, 15, 15, 1) 0%,
             transparent 10%,
             rgba(15, 15, 15, 1) 20%,
             transparent 30%,
@@ -4025,7 +4025,7 @@ body {
             rgba(15, 15, 15, 1) 90%,
             transparent 100%),
         linear-gradient(90deg,
-            rgba(15, 15, 15, 1)0%,
+            rgba(15, 15, 15, 1) 0%,
             transparent 10%,
             rgba(15, 15, 15, 1) 20%,
             transparent 30%,
@@ -4072,7 +4072,7 @@ body {
             rgba(15, 15, 15, 1) 90%,
             transparent 100%),
         linear-gradient(90deg,
-            rgba(15, 15, 15, 1)0%,
+            rgba(15, 15, 15, 1) 0%,
             transparent 10%,
             rgba(15, 15, 15, 1) 20%,
             transparent 30%,
@@ -4088,6 +4088,223 @@ body {
 }
 
 /* FOREGROUND BUILDINGS */
+
+.fb-windows-color-1 {
+    background:
+        linear-gradient(180deg, transparent 0%, black 100%),
+        linear-gradient(180deg,
+            transparent 0%,
+            black 10%,
+            transparent 20%,
+            black 30%,
+            transparent 40%,
+            black 50%,
+            transparent 60%,
+            black 70%,
+            transparent 80%,
+            black 90%,
+            transparent 100%),
+        linear-gradient(90deg,
+            black 0%,
+            transparent 10%,
+            black 20%,
+            transparent 30%,
+            black 40%,
+            transparent 50%,
+            black 60%,
+            transparent 70%,
+            black 80%,
+            transparent 90%,
+            black 100%),
+        radial-gradient(circle, rgba(255, 250, 0, 0.5) 5%, rgba(255, 150, 0, 0.5) 25%, black 40%);
+    background-size: 100% 100%, 100% 75%, 45% 100%, 15% 5%;
+}
+
+.fb-windows-color-2 {
+    background:
+        linear-gradient(180deg, transparent 0%, black 100%),
+        linear-gradient(180deg,
+            transparent 0%,
+            black 10%,
+            transparent 20%,
+            black 30%,
+            transparent 40%,
+            black 50%,
+            transparent 60%,
+            black 70%,
+            transparent 80%,
+            black 90%,
+            transparent 100%),
+        linear-gradient(90deg,
+            black 0%,
+            transparent 10%,
+            black 20%,
+            transparent 30%,
+            black 40%,
+            transparent 50%,
+            black 60%,
+            transparent 70%,
+            black 80%,
+            transparent 90%,
+            black 100%),
+        radial-gradient(circle, rgba(255, 250, 0, 0.5) 5%, rgba(255, 150, 0, 0.5) 25%, black 40%);
+    background-size: 100% 100%, 100% 55%, 85% 100%, 5% 5%;
+}
+
+.fb-windows-color-3 {
+    background:
+        linear-gradient(180deg, transparent 0%, black 100%),
+        linear-gradient(180deg,
+            transparent 0%,
+            black 10%,
+            transparent 20%,
+            black 30%,
+            transparent 40%,
+            black 50%,
+            transparent 60%,
+            black 70%,
+            transparent 80%,
+            black 90%,
+            transparent 100%),
+        linear-gradient(90deg,
+            black 0%,
+            transparent 10%,
+            black 20%,
+            transparent 30%,
+            black 40%,
+            transparent 50%,
+            black 60%,
+            transparent 70%,
+            black 80%,
+            transparent 90%,
+            black 100%),
+        radial-gradient(circle, rgba(255, 250, 0, 0.5) 5%, rgba(255, 150, 0, 0.5) 25%, black 40%);
+    background-size: 100% 100%, 100% 65%, 65% 100%, 10% 5%;
+}
+
+.fb-windows-color-4 {
+    background:
+        linear-gradient(180deg, transparent 0%, black 100%),
+        linear-gradient(180deg,
+            transparent 0%,
+            black 10%,
+            transparent 20%,
+            black 30%,
+            transparent 40%,
+            black 50%,
+            transparent 60%,
+            black 70%,
+            transparent 80%,
+            black 90%,
+            transparent 100%),
+        linear-gradient(90deg,
+            black 0%,
+            transparent 10%,
+            black 20%,
+            transparent 30%,
+            black 40%,
+            transparent 50%,
+            black 60%,
+            transparent 70%,
+            black 80%,
+            transparent 90%,
+            black 100%),
+        radial-gradient(circle, rgba(255, 250, 0, 0.5) 5%, rgba(255, 150, 0, 0.5) 25%, black 40%);
+    background-size: 100% 100%, 100% 15%, 85% 100%, 10% 5%;
+}
+
+.fb-windows-color-5 {
+    background:
+        linear-gradient(180deg, transparent 0%, black 100%),
+        linear-gradient(180deg,
+            transparent 0%,
+            black 10%,
+            transparent 20%,
+            black 30%,
+            transparent 40%,
+            black 50%,
+            transparent 60%,
+            black 70%,
+            transparent 80%,
+            black 90%,
+            transparent 100%),
+        linear-gradient(90deg,
+            black 0%,
+            transparent 10%,
+            black 20%,
+            transparent 30%,
+            black 40%,
+            transparent 50%,
+            black 60%,
+            transparent 70%,
+            black 80%,
+            transparent 90%,
+            black 100%),
+        radial-gradient(circle, rgba(255, 250, 0, 0.5) 5%, rgba(255, 150, 0, 0.5) 25%, black 40%);
+    background-size: 100% 100%, 100% 85%, 85% 100%, 10% 5%;
+}
+
+.fb-windows-color-6 {
+    background:
+        linear-gradient(180deg, transparent 0%, black 100%),
+        linear-gradient(180deg,
+            transparent 0%,
+            black 10%,
+            transparent 20%,
+            black 30%,
+            transparent 40%,
+            black 50%,
+            transparent 60%,
+            black 70%,
+            transparent 80%,
+            black 90%,
+            transparent 100%),
+        linear-gradient(90deg,
+            black 0%,
+            transparent 10%,
+            black 20%,
+            transparent 30%,
+            black 40%,
+            transparent 50%,
+            black 60%,
+            transparent 70%,
+            black 80%,
+            transparent 90%,
+            black 100%),
+        radial-gradient(circle, rgba(255, 250, 0, 0.5) 5%, rgba(255, 150, 0, 0.5) 25%, black 40%);
+    background-size: 100% 100%, 100% 65%, 75% 100%, 5% 5%;
+}
+
+.fb-windows-color-7 {
+    background:
+        linear-gradient(180deg, transparent 0%, black 100%),
+        linear-gradient(180deg,
+            transparent 0%,
+            black 10%,
+            transparent 20%,
+            black 30%,
+            transparent 40%,
+            black 50%,
+            transparent 60%,
+            black 70%,
+            transparent 80%,
+            black 90%,
+            transparent 100%),
+        linear-gradient(90deg,
+            black 0%,
+            transparent 10%,
+            black 20%,
+            transparent 30%,
+            black 40%,
+            transparent 50%,
+            black 60%,
+            transparent 70%,
+            black 80%,
+            transparent 90%,
+            black 100%),
+        radial-gradient(circle, rgba(255, 250, 0, 0.5) 5%, rgba(255, 150, 0, 0.5) 25%, black 40%);
+    background-size: 100% 100%, 100% 55%, 55% 100%, 15% 5%;
+}
 
 /* BUILDINGS LIGHTS */
 
