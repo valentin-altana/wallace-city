@@ -4306,6 +4306,47 @@ body {
     background-size: 100% 100%, 100% 55%, 55% 100%, 15% 5%;
 }
 
+/* OTHER WINDOWS */
+
+/* BB1 and BB9 */
+
+.bb1c,
+.bb9c {
+    display: grid;
+    align-items: flex-end;
+    justify-content: space-around;
+    grid-template-columns: repeat(5, 15%);
+}
+
+.other-windows-1a,
+.other-windows-1b,
+.other-windows-1c,
+.other-windows-1d,
+.other-windows-1e {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    opacity: 80%;
+    background: linear-gradient(180deg, rgba(255, 250, 0, 0.5) 0%, rgba(255, 150, 0, 0.5) 60%);
+    filter: drop-shadow(0 0 2px rgb(255, 250, 0));
+}
+
+.other-windows-1a,
+.other-windows-1e {
+    height: 40%;
+    width: 100%;
+}
+
+.other-windows-1b,
+.other-windows-1d {
+    height: 60%;
+    width: 100%;
+}
+
+.other-windows-1c {
+    height: 80%;
+    width: 100%;
+}
+
 /* BUILDINGS LIGHTS */
 
 .bb1a,
