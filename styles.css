@@ -1957,6 +1957,28 @@ body {
     background: linear-gradient(0deg, rgba(20, 20, 20, 1) 0%, rgba(50, 50, 50, 1) 50%, rgba(20, 20, 20, 1) 100%);
 }
 
+.mb7c,
+.mb23c {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    margin-left: 55%;
+    clip-path: circle(50% at 50% 50%);
+    /* RED LIGHT */
+}
+
+.mb7d,
+.mb23d {
+    /* RED LIGHT */
+    height: 2%;
+    width: 8.28%;
+    margin-right: 55%;
+    position: relative;
+    top: 5%;
+    clip-path: circle(50% at 50% 50%);
+    /* RED LIGHT */
+}
+
 /* MB8 and MB24 */
 
 .mb8,
@@ -4355,7 +4377,7 @@ body {
 }
 
 .other-windows-2 {
-    height: 20%;
+    height: 30%;
     width: 90%;
     margin: auto;
     background: linear-gradient(180deg, rgba(255, 250, 0, 0.5) 0%, rgba(255, 150, 0, 0.5) 40%);
@@ -4385,16 +4407,16 @@ body {
 
 .mb12l {
     display: grid;
-    align-items: flex-end;
     justify-content: space-around;
     grid-template-columns: repeat(10, 5%);
 }
 
 .other-windows-4 {
-    height: 60%;
+    height: 40%;
     width: 100%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+    margin: auto;
     background: linear-gradient(180deg, rgba(255, 250, 0, 0.5) 0%, rgba(255, 150, 0, 0.5) 60%);
     filter: drop-shadow(0 0 2px rgb(255, 250, 0));
     opacity: 60%;
