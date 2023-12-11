@@ -5790,12 +5790,6 @@ body {
     box-shadow: 0 0 10px 2.5px rgb(255, 250, 180);
 }
 
-/* BLUR */
-
-.city {
-    /* filter: blur(1px); */
-}
-
 /* ABSOLUTE POSITION */
 
 .sky,
@@ -5947,5 +5941,5 @@ body {
 /* BRIDGE LIGHT */
 
 .bridge {
-    /* animation: scroll-1 1s linear infinite; */
+    /* animation: scroll-1 1.5s linear infinite; */
 }
