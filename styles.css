@@ -5163,12 +5163,64 @@ body {
     width: 100%;
     display: flex;
     align-items: flex-end;
+}
+
+/* BRIDGE LIGHT 1 */
+
+.bridge-light-1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
     justify-content: space-around;
 }
 
-/* BRIDGE LIGHT */
+.bl-1 {
+    height: 65%;
+    width: 0.5%;
+    background:
+        linear-gradient(90deg, rgba(150, 150, 150, 0.25) 0%, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5) 90%, rgba(150, 150, 150, 0.25) 100%),
+        linear-gradient(90deg, rgba(0, 0, 20, 0.75) 0%, rgba(0, 0, 20, 0.75) 100%),
+        rgb(50, 50, 50);
+    background-size: 100% 100%, 100% 100%, 100% 100%;
+}
 
-.bridge-light {
+.bl-1::before {
+    content: "";
+    height: 2%;
+    width: 0.5%;
+    position: absolute;
+    bottom: 65%;
+    background:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0.25) 100%),
+        linear-gradient(90deg, rgba(0, 0, 20, 0.75) 0%, rgba(0, 0, 20, 0.75) 100%),
+        rgb(50, 50, 50);
+    background-size: 100% 100%, 100% 100%, 100% 100%;
+}
+
+.bl-1::after {
+    content: "";
+    height: 2%;
+    width: 0.5%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    position: absolute;
+    bottom: 67%;
+    background: radial-gradient(closest-corner circle at 50% 75%, rgba(255, 255, 255, 1) 10%, rgba(0, 180, 255, 1) 25%, rgba(0, 180, 255, 1) 50%, rgba(0, 0, 20, 1) 100%);
+    box-shadow: 0 0 20px 10px rgb(0, 180, 255);
+}
+
+/* BRIDGE LIGHT 2 */
+
+.bridge-light-2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.bl-2 {
     height: 10%;
     width: 0.75%;
     background:
@@ -5178,7 +5230,7 @@ body {
     background-size: 100% 100%, 100% 100%, 100% 100%;
 }
 
-.bridge-light::before {
+.bl-2::before {
     content: "";
     height: 2%;
     width: 0.75%;
@@ -5191,7 +5243,7 @@ body {
     background-size: 100% 100%, 100% 100%, 100% 100%;
 }
 
-.bridge-light::after {
+.bl-2::after {
     content: "";
     height: 3%;
     width: 0.75%;
@@ -5818,6 +5870,8 @@ body {
 .f-to-right-cars-2,
 .f-to-right-cars-3,
 .bridge,
+.bridge-light-1,
+.bridge-light-2,
 .train {
     position: absolute;
 }
@@ -5940,6 +5994,10 @@ body {
 
 /* BRIDGE LIGHT */
 
-.bridge {
+.bridge-light-1 {
+    /* animation: scroll-1 5s linear infinite; */
+}
+
+.bridge-light-2 {
     /* animation: scroll-1 2.5s linear infinite; */
 }
