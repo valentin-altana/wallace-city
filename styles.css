@@ -5177,7 +5177,7 @@ body {
 
 .bl-1 {
     height: 65%;
-    width: 0.5%;
+    width: 0.75%;
     background:
         linear-gradient(90deg, rgba(150, 150, 150, 0.25) 0%, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5) 90%, rgba(150, 150, 150, 0.25) 100%),
         linear-gradient(90deg, rgba(0, 0, 20, 0.75) 0%, rgba(0, 0, 20, 0.75) 100%),
@@ -5188,7 +5188,7 @@ body {
 .bl-1::before {
     content: "";
     height: 2%;
-    width: 0.5%;
+    width: 0.75%;
     position: absolute;
     bottom: 65%;
     background:
@@ -5201,20 +5201,20 @@ body {
 .bl-1::after {
     content: "";
     height: 2%;
-    width: 0.5%;
+    width: 0.75%;
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     position: absolute;
     bottom: 67%;
     background: radial-gradient(closest-corner circle at 50% 75%, rgba(255, 255, 255, 1) 10%, rgba(0, 180, 255, 1) 25%, rgba(0, 180, 255, 1) 50%, rgba(0, 0, 20, 1) 100%);
-    box-shadow: 0 0 20px 10px rgb(0, 180, 255);
+    box-shadow: 0 0 30px 15px rgb(0, 180, 255);
 }
 
 /* BRIDGE LIGHT 2 */
 
 .bridge-light-2 {
     height: 100%;
-    width: 100%;
+    width: 200%;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -5222,7 +5222,7 @@ body {
 
 .bl-2 {
     height: 10%;
-    width: 0.75%;
+    width: 0.5%;
     background:
         linear-gradient(90deg, rgba(150, 150, 150, 0.25) 0%, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5) 90%, rgba(150, 150, 150, 0.25) 100%),
         linear-gradient(90deg, rgba(0, 0, 20, 0.75) 0%, rgba(0, 0, 20, 0.75) 100%),
@@ -5233,7 +5233,7 @@ body {
 .bl-2::before {
     content: "";
     height: 2%;
-    width: 0.75%;
+    width: 0.5%;
     position: absolute;
     bottom: 10%;
     background:
@@ -5246,7 +5246,7 @@ body {
 .bl-2::after {
     content: "";
     height: 3%;
-    width: 0.75%;
+    width: 0.5%;
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     position: absolute;
@@ -5994,10 +5994,7 @@ body {
 
 /* BRIDGE LIGHTS */
 
-.bridge-light-1 {
-    /* animation: scroll-1 3s linear infinite; */
-}
-
+.bridge-light-1,
 .bridge-light-2 {
-    /* animation: scroll-1 2s linear infinite; */
+    /* animation: scroll-1 3s linear infinite; */
 }
