@@ -5275,13 +5275,14 @@ body {
 
 /* INTERIOR */
 
+/* SEATS */
+
 .seats {
     height: 100%;
     width: 57.5%;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    /* z-index: 2; */
 }
 
 .seat-1,
@@ -5295,6 +5296,272 @@ body {
     margin-bottom: 5%;
     background: radial-gradient(closest-corner circle at 50% 75%, rgba(0, 50, 80, 1) 0%, rgba(0, 160, 255, 1) 100%);
     box-shadow: inset 0 0 5px 2.5px rgb(100, 198, 255);
+}
+
+/* INTERIOR LIGHT */
+
+.interior-light {
+    height: 100%;
+    width: 100%;
+}
+
+.interior-light::before {
+    content: "";
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    background: rgb(255, 250, 180);
+    opacity: 25%;
+}
+
+/* WALLACE */
+
+.wallace {
+    height: 100%;
+    width: 57.5%;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* BODY */
+
+.body {
+    height: 55%;
+    width: 30%;
+    margin-bottom: 15%;
+    margin-left: 47.5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+/* CHEST */
+
+.chest {
+    height: 30%;
+    width: 25%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    background: black;
+}
+
+/* HEAD */
+
+.head {
+    height: 20%;
+    width: 15%;
+    border-radius: 50% 50% 50% 50% / 80% 80% 20% 20%;
+    margin-bottom: 20%;
+    background: black;
+    box-shadow: inset 0 0 2px 1px rgb(0, 0, 155);
+    animation: head-movement 1.25s linear infinite;
+}
+
+.head::before {
+    content: "";
+    height: 90%;
+    width: 90%;
+    clip-path: polygon(50% 0, 80% 15%, 90% 40%, 85% 80%, 60% 100%, 40% 100%, 15% 80%, 10% 40%, 20% 15%);
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 5%;
+    box-shadow: inset 0 0 30px 0 black;
+}
+
+.head::after {
+    content: "";
+    height: 70%;
+    width: 75%;
+    border-radius: 50% 50% 50% 50% / 55% 55% 45% 45%;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 12.5%;
+    background: black;
+    box-shadow: inset 0 -5px 2px 0 rgb(0, 0, 155);
+}
+
+@keyframes head-movement {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(5%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+/* ARMS */
+
+.arms {
+    height: 25%;
+    width: 10%;
+    border-radius: 90% 10% 90% 10% / 90% 10% 90% 10%;
+    margin-bottom: 1%;
+    margin-right: 25%;
+    background: black;
+    box-shadow: inset 2px 0 2px 1px rgb(0, 0, 155);
+}
+
+.arms::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 10% 90% 10% 90% / 10% 90% 10% 90%;
+    position: absolute;
+    margin-left: 250%;
+    background: black;
+    box-shadow: inset -2px 0 2px 1px rgb(0, 0, 155);
+}
+
+/* PHONE */
+
+.phone {
+    height: 10%;
+    width: 5%;
+    border-top-left-radius: 20% 10%;
+    border-top-right-radius: 20% 10%;
+    border-bottom-left-radius: 20% 10%;
+    border-bottom-right-radius: 20% 10%;
+    margin-bottom: 8%;
+    animation: phone-light 10s linear infinite;
+}
+
+.phone::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20% 10%;
+    border-top-right-radius: 20% 10%;
+    border-bottom-left-radius: 20% 10%;
+    border-bottom-right-radius: 20% 10%;
+    position: absolute;
+    background: black;
+    box-shadow: inset 0 0 2px 0 white;
+}
+
+@keyframes phone-light {
+    0% {
+        box-shadow: 0 0 50px 25px purple;
+    }
+
+    25% {
+        box-shadow: 0 0 50px 25px green;
+    }
+
+    50% {
+        box-shadow: 0 0 50px 25px violet;
+    }
+
+    75% {
+        box-shadow: 0 0 50px 25px blue;
+    }
+
+    100% {
+        box-shadow: 0 0 50px 25px purple;
+    }
+}
+
+/* FOREARMS */
+
+.forearms {
+    height: 10%;
+    width: 15%;
+    border-radius: 90% 10% 90% 10% / 50% 50% 90% 10%;
+    margin-bottom: 1%;
+    margin-right: 19.5%;
+    background: black;
+    box-shadow: inset 0 0 2px 1px rgb(0, 0, 155);
+}
+
+.forearms::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 10% 90% 10% 90% / 50% 50% 10% 90%;
+    position: absolute;
+    margin-left: 131%;
+    background: black;
+    box-shadow: inset 0 0 2px 1px rgb(0, 0, 155);
+}
+
+/* HANDS */
+
+.hands {
+    height: 6%;
+    width: 6%;
+    border-radius: 50%;
+    margin-bottom: 8%;
+    margin-right: 4%;
+    box-shadow: inset 0 -2px 10px 0 black;
+}
+
+.hands::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 60%;
+    box-shadow: inset 0 -2px 5px 0 black;
+}
+
+/* SKIN COLORS */
+
+.head::before,
+.hands,
+.hands::before {
+    animation: skin-colors 10s linear infinite;
+}
+
+@keyframes skin-colors {
+    0% {
+        background: rgb(255, 219, 172);
+    }
+
+    10% {
+        background: rgb(241, 194, 125);
+    }
+
+    20% {
+        background: rgb(224, 172, 105);
+    }
+
+    30% {
+        background: rgb(198, 134, 66);
+    }
+
+    40% {
+        background: rgb(141, 85, 36);
+    }
+
+    50% {
+        background: rgb(89, 59, 43);
+    }
+
+    60% {
+        background: rgb(141, 85, 36);
+    }
+
+    70% {
+        background: rgb(198, 134, 66);
+    }
+
+    80% {
+        background: rgb(224, 172, 105);
+    }
+
+    90% {
+        background: rgb(241, 194, 125);
+    }
+
+    100% {
+        background: rgb(255, 219, 172);
+    }
 }
 
 /* EXTERIOR */
@@ -5900,7 +6167,15 @@ body {
 .bridge-light-1,
 .bridge-light-2,
 .train,
-.seats {
+.seats,
+.interior-light,
+.wallace,
+.chest,
+.head,
+.arms,
+.forearms,
+.phone,
+.hands {
     position: absolute;
 }
 
