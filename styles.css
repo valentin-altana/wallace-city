@@ -5218,6 +5218,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    z-index: 1;
 }
 
 .bl-2 {
