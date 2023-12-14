@@ -5207,7 +5207,7 @@ body {
     position: absolute;
     bottom: 67%;
     background: radial-gradient(closest-corner circle at 50% 75%, rgba(255, 255, 255, 1) 10%, rgba(0, 180, 255, 1) 25%, rgba(0, 180, 255, 1) 50%, rgba(0, 0, 20, 1) 100%);
-    box-shadow: 0 0 500px 50px rgb(0, 180, 255);
+    box-shadow: 0 0 150px 50px rgb(0, 180, 255);
 }
 
 /* BRIDGE LIGHT 2 */
