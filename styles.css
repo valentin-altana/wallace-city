@@ -5273,6 +5273,32 @@ body {
     position: fixed;
 }
 
+/* INTERIOR */
+
+.seats {
+    height: 100%;
+    width: 57.5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    /* z-index: 2; */
+}
+
+.seat-1,
+.seat-2,
+.seat-3,
+.seat-4 {
+    height: 30%;
+    width: 25%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    margin-bottom: 5%;
+    background: radial-gradient(closest-corner circle at 50% 75%, rgba(0, 50, 80, 1) 0%, rgba(0, 160, 255, 1) 100%);
+    box-shadow: inset 0 0 5px 2.5px rgb(100, 198, 255);
+}
+
+/* EXTERIOR */
+
 /* EXTERIOR BLOCKS */
 
 .exterior-block-1 {
@@ -5873,7 +5899,8 @@ body {
 .bridge,
 .bridge-light-1,
 .bridge-light-2,
-.train {
+.train,
+.seats {
     position: absolute;
 }
 
