@@ -5238,7 +5238,7 @@ body {
     border-bottom-left-radius: 5% 10%;
     border-bottom-right-radius: 5% 10%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-around;
     bottom: 16%;
     background:
@@ -6555,7 +6555,6 @@ h2 {
     font-size: 275%;
     color: white;
     text-shadow: 0 0 30px blue;
-    bottom: 7.5%;
     opacity: 85%;
 }
 
