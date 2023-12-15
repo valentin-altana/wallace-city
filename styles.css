@@ -5226,25 +5226,32 @@ body {
     border-bottom-left-radius: 10% 20%;
     border-bottom-right-radius: 10% 20%;
     bottom: 16%;
-    animation: billboard-light 0.5s linear infinite;
+    background: black;
+    animation: billboard-light-1 0.075s linear infinite;
 }
 
-.billboard-1-e::before {
-    content: "";
-    height: 100%;
-    width: 100%;
+.billboard-1-f {
+    height: 25%;
+    width: 3.5%;
     border-top-left-radius: 5% 10%;
     border-top-right-radius: 5% 10%;
     border-bottom-left-radius: 5% 10%;
     border-bottom-right-radius: 5% 10%;
-    position: absolute;
-    background: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    bottom: 16%;
+    background:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(128, 0, 128, 0.5) 50%, rgba(0, 0, 0, 0.75) 100%),
+        linear-gradient(0deg, black 0%, purple 50%, black 100%);
+    background-size: 100% 100%, 100% 2.5%;
     box-shadow: inset 0 0 5px 0 purple;
+    animation: billboard-light-2 0.075s linear infinite;
 }
 
-@keyframes billboard-light {
+@keyframes billboard-light-1 {
     0% {
-        box-shadow: 0 0 40px 0 purple;
+        box-shadow: 0 0 25px 0 purple;
     }
 
     50% {
@@ -5252,7 +5259,21 @@ body {
     }
 
     100% {
-        box-shadow: 0 0 40px 0 purple;
+        box-shadow: 0 0 25px 0 purple;
+    }
+}
+
+@keyframes billboard-light-2 {
+    0% {
+        opacity: 85%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 85%;
     }
 }
 
@@ -5525,7 +5546,7 @@ body {
     border-bottom-left-radius: 20% 10%;
     border-bottom-right-radius: 20% 10%;
     margin-bottom: 8%;
-    animation: phone-light 20s linear infinite;
+    animation: phone-light 15s linear infinite;
 }
 
 .phone::before {
@@ -5546,7 +5567,15 @@ body {
         box-shadow: 0 0 50px 25px purple;
     }
 
+    25% {
+        box-shadow: 0 0 50px 25px blue;
+    }
+
     50% {
+        box-shadow: 0 0 50px 25px green;
+    }
+
+    75% {
         box-shadow: 0 0 50px 25px blue;
     }
 
@@ -6501,6 +6530,7 @@ body {
 .billboard-1-c,
 .billboard-1-d,
 .billboard-1-e,
+.billboard-1-f,
 .bridge,
 .bridge-light-1,
 .bridge-light-2,
@@ -6513,8 +6543,19 @@ body {
 .arms,
 .forearms,
 .phone,
-.hands {
+.hands,
+h2 {
     position: absolute;
+}
+
+/* TEXTS */
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 275%;
+    color: rgba(255, 255, 255, 0.75);
+    text-shadow: 0 0 20px blue;
+    bottom: 7.5%;
 }
 
 /* SCROLLS */
