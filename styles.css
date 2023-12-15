@@ -6280,12 +6280,28 @@ body {
 /* INTERIOR LIGHT */
 
 .interior-light::before {
-    animation: interior-light 5s linear infinite;
+    animation: interior-light 60s linear infinite;
 }
 
 @keyframes interior-light {
     0% {
         background: rgb(255, 250, 180);
+    }
+
+    49.5% {
+        background: rgb(255, 250, 180);
+    }
+
+    49.6% {
+        background: transparent;
+    }
+
+    49.7% {
+        background: rgb(255, 250, 180);
+    }
+
+    49.8% {
+        background: transparent;
     }
 
     49.9% {
@@ -6296,7 +6312,7 @@ body {
         background: transparent;
     }
 
-    99.9% {
+    99.8% {
         background: transparent;
     }
 
@@ -6311,13 +6327,33 @@ body {
 .seat-2,
 .seat-3,
 .seat-4 {
-    animation: seats 5s linear infinite;
+    animation: seats 60s linear infinite;
 }
 
 @keyframes seats {
     0% {
         background: radial-gradient(closest-corner circle at 50% 75%, rgba(0, 50, 80, 1) 0%, rgba(0, 160, 255, 1) 100%);
         box-shadow: inset 0 0 5px 2.5px rgb(100, 198, 255);
+    }
+
+    49.5% {
+        background: radial-gradient(closest-corner circle at 50% 75%, rgba(0, 50, 80, 1) 0%, rgba(0, 160, 255, 1) 100%);
+        box-shadow: inset 0 0 5px 2.5px rgb(100, 198, 255);
+    }
+
+    49.6% {
+        background: rgb(0, 0, 20);
+        box-shadow: inset 0 0 5px 2.5px rgb(0, 0, 80);
+    }
+
+    49.7% {
+        background: radial-gradient(closest-corner circle at 50% 75%, rgba(0, 50, 80, 1) 0%, rgba(0, 160, 255, 1) 100%);
+        box-shadow: inset 0 0 5px 2.5px rgb(100, 198, 255);
+    }
+
+    49.8% {
+        background: rgb(0, 0, 20);
+        box-shadow: inset 0 0 5px 2.5px rgb(0, 0, 80);
     }
 
     49.9% {
@@ -6330,7 +6366,7 @@ body {
         box-shadow: inset 0 0 5px 2.5px rgb(0, 0, 80);
     }
 
-    99.9% {
+    99.8% {
         background: rgb(0, 0, 20);
         box-shadow: inset 0 0 5px 2.5px rgb(0, 0, 80);
     }
@@ -6344,12 +6380,28 @@ body {
 /* EXTERIOR DOOR */
 
 .exterior-door-5 {
-    animation: exterior-door 5s linear infinite;
+    animation: exterior-door 60s linear infinite;
 }
 
 @keyframes exterior-door {
     0% {
         background: rgba(255, 250, 180, 0.25);
+    }
+
+    49.5% {
+        background: rgba(255, 250, 180, 0.25);
+    }
+
+    49.6% {
+        background: transparent;
+    }
+
+    49.7% {
+        background: rgba(255, 250, 180, 0.25);
+    }
+
+    49.8% {
+        background: transparent;
     }
 
     49.9% {
@@ -6360,7 +6412,7 @@ body {
         background: transparent;
     }
 
-    99.9% {
+    99.8% {
         background: transparent;
     }
 
@@ -6375,12 +6427,28 @@ body {
 .exterior-window-2::before,
 .exterior-window-3::before,
 .exterior-window-4::before {
-    animation: exterior-windows 5s linear infinite;
+    animation: exterior-windows 60s linear infinite;
 }
 
 @keyframes exterior-windows {
     0% {
         box-shadow: 0 0 50px 0 rgb(255, 250, 180);
+    }
+
+    49.5% {
+        box-shadow: 0 0 50px 0 rgb(255, 250, 180);
+    }
+
+    49.6% {
+        box-shadow: 0 0 0 0 rgb(255, 250, 180);
+    }
+
+    49.7% {
+        box-shadow: 0 0 50px 0 rgb(255, 250, 180);
+    }
+
+    49.8% {
+        box-shadow: 0 0 0 0 rgb(255, 250, 180);
     }
 
     49.9% {
@@ -6391,7 +6459,7 @@ body {
         box-shadow: 0 0 0 0 rgb(255, 250, 180);
     }
 
-    99.9% {
+    99.8% {
         box-shadow: 0 0 0 0 rgb(255, 250, 180);
     }
 
