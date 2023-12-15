@@ -6,7 +6,7 @@ body {
     flex-direction: column-reverse;
     align-items: flex-end;
     position: absolute;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 /* WALLACE CITY */
@@ -6456,37 +6456,37 @@ body {
 .small-b-clouds-1,
 .medium-b-clouds,
 .small-b-clouds-2 {
-    /* animation: scroll-1 200s linear infinite; */
+    animation: scroll-1 200s linear infinite;
 }
 
 /* PLANE */
 
 .plane {
-    /* animation: scroll-3 80s linear infinite; */
+    animation: scroll-3 80s linear infinite;
 }
 
 /* BUILDINGS */
 
 .background-buildings {
-    /* animation: scroll-1 100s linear infinite; */
+    animation: scroll-1 100s linear infinite;
 }
 
 .middle-ground-buildings {
-    /* animation: scroll-1 80s linear infinite; */
+    animation: scroll-1 80s linear infinite;
 }
 
 .foreground-buildings {
-    /* animation: scroll-1 60s linear infinite; */
+    animation: scroll-1 60s linear infinite;
 }
 
 /* STREET LIGHTS */
 
 .middle-ground-lights {
-    /* animation: scroll-1 75s linear infinite; */
+    animation: scroll-1 75s linear infinite;
 }
 
 .foreground-lights {
-    /* animation: scroll-1 55s linear infinite; */
+    animation: scroll-1 55s linear infinite;
 }
 
 /* CARS */
@@ -6496,13 +6496,13 @@ body {
 /* TO LEFT */
 
 .mg-to-left-cars {
-    /* animation: scroll-1 75s linear infinite; */
+    animation: scroll-1 75s linear infinite;
 }
 
 /* TO RIGHT */
 
 .mg-to-right-cars {
-    /* animation: scroll-1 75s linear infinite; */
+    animation: scroll-1 75s linear infinite;
 }
 
 /* FOREGROUND CARS */
@@ -6511,26 +6511,26 @@ body {
 
 .f-to-left-cars-1,
 .f-to-left-cars-2 {
-    /* animation: scroll-1 45s linear infinite; */
+    animation: scroll-1 45s linear infinite;
 }
 
 .f-to-left-cars-3 {
-    /* animation: scroll-1 35s linear infinite; */
+    animation: scroll-1 35s linear infinite;
 }
 
 /* TO RIGHT */
 
 .cops {
-    /* animation: scroll-2 70s linear infinite; */
+    animation: scroll-2 70s linear infinite;
 }
 
 .f-to-right-cars-1 {
-    /* animation: scroll-1 210s linear infinite; */
+    animation: scroll-1 210s linear infinite;
 }
 
 .f-to-right-cars-2,
 .f-to-right-cars-3 {
-    /* animation: scroll-1 90s linear infinite; */
+    animation: scroll-1 90s linear infinite;
 }
 
 /* BRIDGE */
@@ -6539,5 +6539,5 @@ body {
 
 .bridge-light-1,
 .bridge-light-2 {
-    /* animation: scroll-1 3s linear infinite; */
+    animation: scroll-1 3s linear infinite;
 }
