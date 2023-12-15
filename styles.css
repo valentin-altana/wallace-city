@@ -5156,127 +5156,6 @@ body {
     }
 }
 
-/* BILLBOARD */
-
-.billboard {
-    height: 100%;
-    width: 300%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.billboard-1 {
-    height: 100%;
-    width: 11.11%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.billboard-1-a {
-    height: 15%;
-    width: 0.1%;
-    margin-left: 2.5%;
-    background:
-        linear-gradient(90deg, rgba(150, 150, 150, 0.25) 0%, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5) 90%, rgba(150, 150, 150, 0.25) 100%),
-        linear-gradient(90deg, rgba(0, 0, 20, 0.75) 0%, rgba(0, 0, 20, 0.75) 100%),
-        rgb(50, 50, 50);
-    background-size: 100% 100%, 100% 100%, 100% 100%;
-}
-
-.billboard-1-b {
-    height: 15%;
-    width: 0.1%;
-    margin-right: 2.5%;
-    background:
-        linear-gradient(90deg, rgba(150, 150, 150, 0.25) 0%, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5) 90%, rgba(150, 150, 150, 0.25) 100%),
-        linear-gradient(90deg, rgba(0, 0, 20, 0.75) 0%, rgba(0, 0, 20, 0.75) 100%),
-        rgb(50, 50, 50);
-    background-size: 100% 100%, 100% 100%, 100% 100%;
-}
-
-.billboard-1-c {
-    height: 1%;
-    width: 3%;
-    bottom: 12.5%;
-    background:
-        linear-gradient(0deg, rgba(150, 150, 150, 0.25) 0%, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5) 90%, rgba(150, 150, 150, 0.25) 100%),
-        linear-gradient(0deg, rgba(0, 0, 20, 0.75) 0%, rgba(0, 0, 20, 0.75) 100%),
-        rgb(50, 50, 50);
-    background-size: 100% 100%, 100% 100%, 100% 100%;
-}
-
-.billboard-1-d {
-    height: 1%;
-    width: 3%;
-    bottom: 15%;
-    background:
-        linear-gradient(0deg, rgba(150, 150, 150, 0.25) 0%, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5) 90%, rgba(150, 150, 150, 0.25) 100%),
-        linear-gradient(0deg, rgba(0, 0, 20, 0.75) 0%, rgba(0, 0, 20, 0.75) 100%),
-        rgb(50, 50, 50);
-    background-size: 100% 100%, 100% 100%, 100% 100%;
-}
-
-.billboard-1-e {
-    height: 25%;
-    width: 3.5%;
-    border-top-left-radius: 10% 20%;
-    border-top-right-radius: 10% 20%;
-    border-bottom-left-radius: 10% 20%;
-    border-bottom-right-radius: 10% 20%;
-    bottom: 16%;
-    background: black;
-    animation: billboard-light-1 0.075s linear infinite;
-}
-
-.billboard-1-f {
-    height: 25%;
-    width: 3.5%;
-    border-top-left-radius: 5% 10%;
-    border-top-right-radius: 5% 10%;
-    border-bottom-left-radius: 5% 10%;
-    border-bottom-right-radius: 5% 10%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    bottom: 16%;
-    background:
-        linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(128, 0, 128, 0.5) 50%, rgba(0, 0, 0, 0.75) 100%),
-        linear-gradient(0deg, black 0%, purple 50%, black 100%);
-    background-size: 100% 100%, 100% 2.5%;
-    box-shadow: inset 0 0 5px 0 purple;
-    animation: billboard-light-2 0.075s linear infinite;
-}
-
-@keyframes billboard-light-1 {
-    0% {
-        box-shadow: 0 0 25px 0 purple;
-    }
-
-    50% {
-        box-shadow: 0 0 50px 0 purple;
-    }
-
-    100% {
-        box-shadow: 0 0 25px 0 purple;
-    }
-}
-
-@keyframes billboard-light-2 {
-    0% {
-        opacity: 85%;
-    }
-
-    50% {
-        opacity: 100%;
-    }
-
-    100% {
-        opacity: 85%;
-    }
-}
-
 /* BRIDGE */
 
 .bridge {
@@ -6524,13 +6403,6 @@ body {
 .f-to-right-cars-1,
 .f-to-right-cars-2,
 .f-to-right-cars-3,
-.billboard,
-.billboard-1-a,
-.billboard-1-b,
-.billboard-1-c,
-.billboard-1-d,
-.billboard-1-e,
-.billboard-1-f,
 .bridge,
 .bridge-light-1,
 .bridge-light-2,
@@ -6543,19 +6415,8 @@ body {
 .arms,
 .forearms,
 .phone,
-.hands,
-h2 {
+.hands {
     position: absolute;
-}
-
-/* TEXTS */
-
-h2 {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 275%;
-    color: white;
-    text-shadow: 0 0 30px blue;
-    opacity: 85%;
 }
 
 /* SCROLLS */
@@ -6670,12 +6531,6 @@ h2 {
 .f-to-right-cars-2,
 .f-to-right-cars-3 {
     /* animation: scroll-1 90s linear infinite; */
-}
-
-/* BILLBOARD */
-
-.billboard {
-    /* animation: scroll-1 50s linear infinite; */
 }
 
 /* BRIDGE */
