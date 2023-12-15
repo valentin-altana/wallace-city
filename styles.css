@@ -5226,7 +5226,7 @@ body {
     border-bottom-left-radius: 10% 20%;
     border-bottom-right-radius: 10% 20%;
     bottom: 16%;
-    box-shadow: 0 0 50px 0 purple;
+    animation: billboard-light 0.5s linear infinite;
 }
 
 .billboard-1-e::before {
@@ -5240,6 +5240,20 @@ body {
     position: absolute;
     background: black;
     box-shadow: inset 0 0 5px 0 purple;
+}
+
+@keyframes billboard-light {
+    0% {
+        box-shadow: 0 0 40px 0 purple;
+    }
+
+    50% {
+        box-shadow: 0 0 50px 0 purple;
+    }
+
+    100% {
+        box-shadow: 0 0 40px 0 purple;
+    }
 }
 
 /* BRIDGE */
@@ -5415,7 +5429,7 @@ body {
 .body {
     height: 55%;
     width: 30%;
-    margin-bottom: 15%;
+    margin-bottom: 12.5%;
     margin-left: 47.5%;
     display: flex;
     align-items: flex-end;
@@ -5514,7 +5528,7 @@ body {
     border-bottom-left-radius: 20% 10%;
     border-bottom-right-radius: 20% 10%;
     margin-bottom: 8%;
-    animation: phone-light 10s linear infinite;
+    animation: phone-light 20s linear infinite;
 }
 
 .phone::before {
@@ -5535,15 +5549,7 @@ body {
         box-shadow: 0 0 50px 25px purple;
     }
 
-    25% {
-        box-shadow: 0 0 50px 25px green;
-    }
-
     50% {
-        box-shadow: 0 0 50px 25px violet;
-    }
-
-    75% {
         box-shadow: 0 0 50px 25px blue;
     }
 
