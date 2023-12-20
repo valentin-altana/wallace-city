@@ -1,3 +1,5 @@
+/* Once upon a time in Wallace City... */
+
 body {
     height: 100vh;
     width: 300vw;
@@ -3822,7 +3824,7 @@ body {
         linear-gradient(180deg, transparent 0%, rgba(10, 10, 10, 0.9) 100%),
         linear-gradient(135deg, rgba(0, 0, 20, 0.25) 20%, rgba(0, 255, 250, 0.25) 100%),
         rgba(10, 10, 10, 1);
-    background-size: 100% 100%, 5% 2.5%, 100% 100%;
+    background-size: 100% 100%, 2% 1%, 100% 100%;
 }
 
 .bb-windows-color-3 {
@@ -3861,7 +3863,7 @@ body {
         linear-gradient(180deg, transparent 0%, rgba(10, 10, 10, 0.9) 100%),
         linear-gradient(135deg, rgba(0, 0, 20, 0.15) 20%, rgba(0, 255, 250, 0.15) 100%),
         rgba(10, 10, 10, 1);
-    background-size: 100% 100%, 5% 2.5%, 100% 100%;
+    background-size: 100% 100%, 2% 1%, 100% 100%;
 }
 
 .bb-windows-color-5 {
@@ -3893,7 +3895,7 @@ body {
             rgba(10, 10, 10, 1) 100%),
         linear-gradient(135deg, rgba(0, 0, 20, 0.25) 0%, rgba(0, 255, 250, 0.25) 100%),
         rgba(10, 10, 10, 1);
-    background-size: 100% 100%, 100% 5%, 5% 100%, 10% 2.5%, 100% 100%;
+    background-size: 100% 100%, 100% 5%, 5% 100%, 2% 1%, 100% 100%;
 }
 
 /* MIDDLE GROUND BUILDINGS */
@@ -3934,7 +3936,7 @@ body {
         linear-gradient(180deg, transparent 0%, rgba(15, 15, 15, 0.9) 100%),
         linear-gradient(135deg, rgba(0, 0, 20, 0.25) 20%, rgba(0, 255, 250, 0.25) 100%),
         rgba(15, 15, 15, 1);
-    background-size: 100% 100%, 10% 2.5%, 100% 100%;
+    background-size: 100% 100%, 5% 2%, 100% 100%;
 }
 
 .mb-windows-color-3 {
@@ -3997,7 +3999,7 @@ body {
             rgba(15, 15, 15, 1) 100%),
         linear-gradient(135deg, rgba(0, 0, 20, 0.25) 0%, rgba(0, 255, 250, 0.25) 100%),
         rgba(15, 15, 15, 1);
-    background-size: 100% 100%, 100% 5%, 5% 100%, 10% 2.5%, 100% 100%;
+    background-size: 100% 100%, 100% 5%, 5% 100%, 5% 2%, 100% 100%;
 }
 
 .mb-windows-color-5 {
@@ -6541,3 +6543,5 @@ body {
 .bridge-light-2 {
     animation: scroll-1 3s linear infinite;
 }
+
+/* The End */
