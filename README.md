@@ -4,7 +4,7 @@
 
 ## Introduction
 
-C'est avec enthousiasme que je vous présente mon tout premier projet web : un projet d’animation entièrement conçu en HTML/CSS.
+C'est avec enthousiasme que je vous présente mon tout premier projet web : un projet d’animation entièrement conçu en HTML - CSS.
 
 L'objectif principal de ce projet est, à l'avenir, de ne pas dépendre des plateformes de streaming pour partager mes projets musicaux. Mon idée est d'héberger mes projets musicaux et les accompagner d'un arrière-plan animé, similaire à ce que l'on peut trouver dans de nombreuses playlists musicales sur YouTube.
 
@@ -14,7 +14,7 @@ Mes sources d'inspiration comprennent non seulement ces playlists, mais égaleme
 
 ## Problématiques
 
-Je tenais à développer intégralement ce projet en HTML/CSS afin de pousser mes connaissances au maximum dans ces langages, d'explorer leur potentiel, et de prendre conscience de leurs contraintes.
+Je tenais à développer intégralement ce projet en HTML - CSS afin de pousser mes connaissances au maximum dans ces langages, d'explorer leur potentiel, et de prendre conscience de leurs contraintes.
 
 Le processus de développement n'a pas été sans difficultés, allant de la surcharge de balises HTML et de propriétés CSS (notamment lors de la création de fenêtres des bâtiments), entraînant des problèmes de performances, aux défis liés à l'utilisation d’un système de gestion de versions. En effet, j'ai veillé à suivre les meilleures méthodes de développement en intégrant Git, GitHub, ainsi que la convention de dénomination « [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) ». Tout au long du développement, j'ai dû identifier et résoudre mes erreurs, tout en adaptant mon travail aux contraintes qui se présentaient, mais aussi respecter les bonnes pratiques.
 
