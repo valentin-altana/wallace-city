@@ -1,6 +1,6 @@
 # Wallace Beats
 
-<img width="1312" alt="Capture d'écran du site Wallace Beats" src="https://github.com/valentin-altana/Wallace-Beats/assets/144157026/5d5cc520-6b8a-479a-a1d6-c41157ebba2e">
+[<img width="1312" alt="Capture d'écran du site Wallace Beats" src="https://github.com/valentin-altana/Wallace-Beats/assets/144157026/5d5cc520-6b8a-479a-a1d6-c41157ebba2e">](https://valentin-altana.github.io/Wallace-Beats/)
 
 ## Introduction
 
