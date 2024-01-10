@@ -1,6 +1,6 @@
 # Wallace Beats
 
-[<img width="1312" alt="Capture d'écran du site Wallace Beats" src="https://github.com/valentin-altana/Wallace-Beats/assets/144157026/5d5cc520-6b8a-479a-a1d6-c41157ebba2e">](https://valentin-altana.github.io/Wallace-Beats/)
+[<img width="1312" alt="Capture d’écran 2023-12-21 à 03 28 23" src="https://github.com/valentin-altana/wallace-beats/assets/144157026/8a94c7db-016a-4e93-9505-05f0267d0cf5">](https://valentin-altana.github.io/wallace-beats/)
 
 ## Introduction
 
@@ -32,4 +32,4 @@ Je tiens à remercier [@danymat](https://github.com/danymat) et [@luckless-quasa
 
 ## Lien
 
-**https://valentin-altana.github.io/Wallace-Beats/**
+**https://valentin-altana.github.io/wallace-beats/**
