@@ -19,8 +19,6 @@ body {
 .wallace-city {
     height: 100%;
     width: 100%;
-    min-height: 634px;
-    min-width: 3600px;
     display: flex;
 }
 
