@@ -11,6 +11,7 @@ body {
     align-items: flex-end;
     position: absolute;
     overflow: hidden;
+    background: rgba(0, 0, 20, 1);
 }
 
 /* WALLACE CITY */
@@ -19,7 +20,6 @@ body {
     height: 100%;
     width: 100%;
     display: flex;
-    background: rgba(0, 0, 20, 1);
 }
 
 /* SKY */
