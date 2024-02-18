@@ -5262,7 +5262,7 @@ body {
 
 .train {
     height: 100%;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: flex-end;
 }
@@ -5270,8 +5270,8 @@ body {
 /* WAGON */
 
 .wagon {
-    height: 50%;
-    width: 50%;
+    height: 317px;
+    width: 600px;
     position: fixed;
 }
 
