@@ -5181,8 +5181,8 @@ body {
 }
 
 .bl-1 {
-    height: 65%;
-    width: 0.75%;
+    height: 500px;
+    width: 25px;
     background:
         linear-gradient(90deg, rgba(150, 150, 150, 0.25) 0%, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5) 90%, rgba(150, 150, 150, 0.25) 100%),
         linear-gradient(90deg, rgba(0, 0, 20, 0.75) 0%, rgba(0, 0, 20, 0.75) 100%),
@@ -5192,10 +5192,10 @@ body {
 
 .bl-1::before {
     content: "";
-    height: 2%;
-    width: 0.75%;
+    height: 10px;
+    width: 25px;
     position: absolute;
-    bottom: 65%;
+    bottom: 500px;
     background:
         linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0.25) 100%),
         linear-gradient(90deg, rgba(0, 0, 20, 0.75) 0%, rgba(0, 0, 20, 0.75) 100%),
@@ -5205,12 +5205,12 @@ body {
 
 .bl-1::after {
     content: "";
-    height: 2%;
-    width: 0.75%;
+    height: 15px;
+    width: 25px;
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     position: absolute;
-    bottom: 67%;
+    bottom: 510px;
     background: radial-gradient(closest-corner circle at 50% 75%, rgba(255, 255, 255, 1) 10%, rgba(0, 180, 255, 1) 25%, rgba(0, 180, 255, 1) 50%, rgba(0, 0, 20, 1) 100%);
     box-shadow: 0 0 150px 50px rgb(0, 180, 255);
 }
@@ -5227,8 +5227,8 @@ body {
 }
 
 .bl-2 {
-    height: 10%;
-    width: 0.5%;
+    height: 65px;
+    width: 35px;
     background:
         linear-gradient(90deg, rgba(150, 150, 150, 0.25) 0%, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5) 90%, rgba(150, 150, 150, 0.25) 100%),
         linear-gradient(90deg, rgba(0, 0, 20, 0.75) 0%, rgba(0, 0, 20, 0.75) 100%),
@@ -5238,10 +5238,10 @@ body {
 
 .bl-2::before {
     content: "";
-    height: 2%;
-    width: 0.5%;
+    height: 15px;
+    width: 35px;
     position: absolute;
-    bottom: 10%;
+    bottom: 65px;
     background:
         linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0.25) 100%),
         linear-gradient(90deg, rgba(0, 0, 20, 0.75) 0%, rgba(0, 0, 20, 0.75) 100%),
@@ -5251,12 +5251,12 @@ body {
 
 .bl-2::after {
     content: "";
-    height: 3%;
-    width: 0.5%;
+    height: 20px;
+    width: 35px;
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     position: absolute;
-    bottom: 12%;
+    bottom: 80px;
     background: radial-gradient(closest-corner circle at 50% 75%, rgba(255, 255, 255, 1) 10%, rgba(255, 0, 0, 1) 25%, rgba(255, 0, 0, 1) 50%, rgba(0, 0, 20, 1) 100%);
     box-shadow: 0 0 50px 15px rgb(255, 0, 0);
 }
